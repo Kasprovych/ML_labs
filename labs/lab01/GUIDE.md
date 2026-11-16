@@ -898,7 +898,7 @@ comprehension, f-рядки, `with`), тут не повторюється.
 | `final` метод | `@final` з `typing`: перевіряє лінтер, не JVM | `core/lab.py:64` |
 | імпорт лише для компілятора | `if TYPE_CHECKING:` — імпорт бачать IDE і перевірка типів, але не запуск | `core/artifacts.py:17-19` |
 | `Collections.unmodifiableMap(...)` | `MappingProxyType({...})` | `features.py:91-93` |
-| AOP-перехоплювач / анотація над методом | декоратор `@_styled`: функція, що обгортає іншу функцію | `plots.py:69-85` |
+| AOP-перехоплювач / анотація над методом | декоратор `@styled`: функція, що обгортає іншу функцію (після ЛР1 винесено у спільний пакет) | `src/mllabs/plotting/style.py:64-80` |
 | тимчасово вимкнути логування попереджень у try-finally | `with warnings.catch_warnings(): ...` | `scaling.py:112-114` |
 | `list.get(list.size() - 1)`, обхід задом наперед | `pipeline[-1]` — останній елемент; `.iloc[::-1]` — розвернути | `outliers.py:304`, `plots.py:540` |
 | `HashMap<Options, Scores>` як кеш, де ключ — `record` | `cache: dict[PreprocessingOptions, CvScores]`: frozen-датаклас має `__hash__`/`__eq__` за полями, як `record`, тому годиться в ключі | `feature_engineering.py:211-219` |
