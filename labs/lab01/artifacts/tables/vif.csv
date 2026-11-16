@@ -1,0 +1,14 @@
+Ознака,VIF до,VIF після,"VIF, якщо вилучити ще"
+VehYear,68.27,,
+VehicleAge,63.92,2.42,2.38
+VehOdo,1.49,1.45,1.42
+AcqAucAvg,227.69,21.27,14.70
+AcqAucClean,212.19,,
+AcqRetAvg,168.85,12.38,
+AcqRetClean,151.97,,
+CurAucAvg,206.48,18.04,11.94
+CurAucClean,202.47,,
+CurRetAvg,140.36,13.75,
+CurRetClean,137.26,,
+VehBCost,4.20,4.16,4.01
+WarrantyCost,1.26,1.24,1.23

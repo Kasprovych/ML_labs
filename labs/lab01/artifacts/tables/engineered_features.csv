@@ -1,0 +1,19 @@
+Ознака,Група,Формула,MI
+wheel_type_missing,індикатор пропуску,"1, якщо WheelType порожній",0.0431
+warranty_share,нелінійна комбінація,WarrantyCost / VehBCost,0.0139
+VehicleAge^2,поліноміальна,VehicleAge^2 (стандартизовані),0.0123
+VehBCost_dev_by_Make,агрегація за категорією,VehBCost − середнє VehBCost у групі Make,0.0117
+mmr_trend,нелінійна комбінація,CurAucAvg / AcqAucAvg,0.0117
+VehBCost^2,поліноміальна,VehBCost^2 (стандартизовані),0.0087
+VehicleAge×VehBCost,поліноміальна,VehicleAge × VehBCost (стандартизовані),0.0080
+cost_to_mmr,нелінійна комбінація,VehBCost / AcqAucAvg,0.0076
+miles_per_year,нелінійна комбінація,VehOdo / (VehicleAge + 1),0.0071
+VehBCost_dev_by_Model,агрегація за категорією,VehBCost − середнє VehBCost у групі Model,0.0068
+VehicleAge×VehOdo,поліноміальна,VehicleAge × VehOdo (стандартизовані),0.0057
+VehOdo×VehBCost,поліноміальна,VehOdo × VehBCost (стандартизовані),0.0017
+purchase_month,частина дати,місяць із PurchDate,0.0014
+VehOdo^2,поліноміальна,VehOdo^2 (стандартизовані),0.0013
+purchase_weekday,частина дати,день тижня з PurchDate,0.0010
+purchase_year,частина дати,рік із PurchDate,0.0003
+mmr_missing,індикатор пропуску,"1, якщо AcqAucAvg або CurAucAvg порожня",0.0000
+VehOdo_dev_by_VehicleAge,агрегація за категорією,VehOdo − медіана VehOdo у групі VehicleAge,0.0000

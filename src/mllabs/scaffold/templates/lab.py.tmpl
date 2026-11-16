@@ -1,0 +1,39 @@
+"""Лабораторна робота №${number}: ${short_title}.
+
+Цей модуль лише ОРКЕСТРУЄ кроки: що і в якому порядку виконується.
+Самі обчислення живуть в окремих модулях цього пакета (по одному на
+відповідальність), а параметри — у ``config.py``.
+"""
+
+from __future__ import annotations
+
+from collections.abc import Sequence
+
+from mllabs.core import Lab, LabContext, Step
+from mllabs.labs.${slug}.config import Lab${number}Config
+
+
+class Lab${number}(Lab):
+    """${short_title}.
+
+    Args:
+        context: Контекст виконання (шляхи, артефакти, логер).
+        config: Параметри експерименту; за замовчуванням — стандартні.
+    """
+
+    NUMBER = ${number}
+    TITLE = "${short_title}"
+
+    def __init__(self, context: LabContext, config: Lab${number}Config | None = None) -> None:
+        super().__init__(context)
+        self._config = config or Lab${number}Config()
+
+    def steps(self) -> Sequence[Step]:
+        """Кроки відповідають пунктам завдання з ASSIGNMENT.md."""
+        return [
+            Step("0. Каркас", self._placeholder),
+        ]
+
+    def _placeholder(self) -> None:
+        """Тимчасовий крок: замініть його реальними кроками лабораторної."""
+        self._log.info("Каркас створено. Реалізуйте кроки згідно з labs/${slug}/PLAN.md")

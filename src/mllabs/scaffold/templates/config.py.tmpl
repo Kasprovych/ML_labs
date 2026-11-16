@@ -1,0 +1,21 @@
+"""Параметри лабораторної роботи №${number}.
+
+Усі «магічні числа» (розмір тестової вибірки, пороги, гіперпараметри)
+оголошуються тут, а не розкидаються по коду. Аналог у Java — клас
+``@ConfigurationProperties`` або ``record`` із налаштуваннями.
+"""
+
+from __future__ import annotations
+
+from dataclasses import dataclass
+
+
+@dataclass(frozen=True)
+class Lab${number}Config:
+    """Незмінні параметри експерименту.
+
+    Attributes:
+        test_size: Частка даних, відкладена для тестування.
+    """
+
+    test_size: float = 0.2

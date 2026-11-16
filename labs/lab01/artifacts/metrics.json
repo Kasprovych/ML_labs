@@ -1,0 +1,437 @@
+{
+  "dataset": {
+    "name": "kick",
+    "openml_id": 41162,
+    "n_raw_features": 32,
+    "hidden_missing_cells": 5423,
+    "n_rows": 72983,
+    "n_features": 29,
+    "n_numeric": 13,
+    "n_categorical": 15,
+    "n_high_cardinality": 7,
+    "max_cardinality": 1063,
+    "minority_share": 0.12298754504473644,
+    "imbalance_ratio": 7.130904634581105,
+    "missing_cells_share": 0.00585729222724045,
+    "rows_with_missing_share": 0.09107600400093173
+  },
+  "split": {
+    "train_rows": 58386,
+    "test_rows": 14597,
+    "train_minority_share": 0.12299181310588155,
+    "test_minority_share": 0.12297047338494212
+  },
+  "correlation": {
+    "vif_threshold": 10.0,
+    "n_pairs_above_threshold": 20,
+    "max_abs_pearson": 0.9900238361886713,
+    "max_abs_spearman": 0.9906071295063602,
+    "max_vif_before": 227.6914317244754,
+    "max_vif_after": 21.26505761059683,
+    "n_vif_above_threshold_before": 10,
+    "n_vif_above_threshold_after": 4,
+    "max_vif_extra_drop": 14.703424605405473,
+    "n_vif_above_threshold_extra_drop": 2,
+    "extra_drop_columns": [
+      "AcqRetAvg",
+      "CurRetAvg"
+    ],
+    "pr_auc_full": 0.43776457843295213,
+    "pr_auc_std_full": 0.005863408775968105,
+    "pr_auc_full_extra_drop": 0.4347032526706511,
+    "pr_auc_folds_full": [
+      0.4461111496213931,
+      0.44003907992605834,
+      0.4375482811482932,
+      0.43050025205872866,
+      0.4346241294102876
+    ],
+    "pr_auc_folds_extra_drop": [
+      0.4410594361990601,
+      0.4379406522395051,
+      0.43294333351686254,
+      0.4266976834025979,
+      0.4348751579952296
+    ],
+    "n_features_full": 92,
+    "n_features_extra_drop": 90
+  },
+  "normality": {
+    "n_features_tested": 13,
+    "n_normal_features": 0,
+    "max_abs_skew": 2.0982996708604316,
+    "most_skewed_feature": "WarrantyCost"
+  },
+  "outliers": {
+    "iqr_share": 0.04131127325043675,
+    "zscore_share": 0.02164902545130682,
+    "isolation_forest_share": 0.030007193505292365,
+    "lof_share": 0.030007193505292365,
+    "all_methods_share": 0.0008221148905559552,
+    "positive_rate_in_outliers": {
+      "iqr": 0.17537313432835824,
+      "zscore": 0.1574367088607595,
+      "isolation_forest": 0.17180365296803654,
+      "lof": 0.10901826484018265
+    }
+  },
+  "imputation": {
+    "rmse_median": 1.0048178631851157,
+    "rmse_knn": 0.4226884909717198,
+    "rmse_mice": 0.3956868264298014,
+    "best_method": "mice",
+    "pr_auc": {
+      "median": 0.43776457843295213,
+      "knn": 0.43783912196080016,
+      "mice": 0.4378849689772638
+    },
+    "pr_auc_std": {
+      "median": 0.005863408775968105,
+      "knn": 0.005840623389472056,
+      "mice": 0.0062092663625725195
+    },
+    "pr_auc_folds": {
+      "median": [
+        0.4461111496213931,
+        0.44003907992605834,
+        0.4375482811482932,
+        0.43050025205872866,
+        0.4346241294102876
+      ],
+      "knn": [
+        0.4466718922628123,
+        0.4395640606894008,
+        0.43572271478184366,
+        0.4308479734566901,
+        0.4363889686132538
+      ],
+      "mice": [
+        0.44650024737033006,
+        0.4392931821471759,
+        0.43927550682050037,
+        0.4298391255302006,
+        0.43451678301811203
+      ]
+    },
+    "n_features": {
+      "median": 92,
+      "knn": 92,
+      "mice": 92
+    },
+    "n_features_categorical": {
+      "mode": 88,
+      "missing_category": 92
+    },
+    "pr_auc_folds_categorical": {
+      "mode": [
+        0.44621517418806445,
+        0.4397159919778454,
+        0.4370019834464164,
+        0.4307049388133699,
+        0.43433814196179665
+      ],
+      "missing_category": [
+        0.4461111496213931,
+        0.44003907992605834,
+        0.4375482811482932,
+        0.43050025205872866,
+        0.4346241294102876
+      ]
+    },
+    "pr_auc_categorical": {
+      "mode": 0.4375952460774986,
+      "missing_category": 0.43776457843295213
+    },
+    "wheel_type_missing_positive_rate": 0.7044740973312402,
+    "wheel_type_present_positive_rate": 0.09645760951323472
+  },
+  "encoding": {
+    "pr_auc": {
+      "target": 0.43776457843295213,
+      "frequency": 0.42635770286902197,
+      "onehot": 0.4459883418886722,
+      "ordinal": 0.4276387540213836
+    },
+    "pr_auc_std": {
+      "target": 0.005863408775968105,
+      "frequency": 0.0058515162144185656,
+      "onehot": 0.005982490523899364,
+      "ordinal": 0.007967020704806387
+    },
+    "pr_auc_folds": {
+      "target": [
+        0.4461111496213931,
+        0.44003907992605834,
+        0.4375482811482932,
+        0.43050025205872866,
+        0.4346241294102876
+      ],
+      "frequency": [
+        0.4327959940530213,
+        0.421882434090543,
+        0.426518126495232,
+        0.41924614114637554,
+        0.4313458185599382
+      ],
+      "onehot": [
+        0.4508151554114304,
+        0.4503416508828495,
+        0.4476471401819443,
+        0.43612936408022496,
+        0.44500839888691207
+      ],
+      "ordinal": [
+        0.4367144944501213,
+        0.4269252046168168,
+        0.4250744519921773,
+        0.4161481840879109,
+        0.4333314349598918
+      ]
+    },
+    "n_output_features": {
+      "target": 92,
+      "frequency": 92,
+      "onehot": 680,
+      "ordinal": 92
+    },
+    "best_method": "onehot",
+    "best_required_method": "target",
+    "max_onehot_cardinality": 15
+  },
+  "scaling": {
+    "mean_abs_skew_raw": 0.6098685749277521,
+    "mean_abs_skew_robust": 0.6098685749277523,
+    "mean_abs_skew_power": 0.03910947730490935,
+    "mean_abs_skew_box_cox": 0.019420474630508503,
+    "n_box_cox_features": 11,
+    "chosen_method": "power"
+  },
+  "augmentation": {
+    "none": {
+      "train_rows": 58386,
+      "minority_share": 0.12299181310588155,
+      "pr_auc": 0.43242257117799954,
+      "roc_auc": 0.7570331696942502,
+      "f1": 0.3528632323827077,
+      "recall": 0.23297540333757846,
+      "precision": 0.7276947486375656
+    },
+    "smote": {
+      "train_rows": 76807,
+      "minority_share": 0.3333289934511177,
+      "pr_auc": 0.4252825788157807,
+      "roc_auc": 0.7570379468750462,
+      "f1": 0.4072422780760464,
+      "recall": 0.36401587181589623,
+      "precision": 0.4622016932262659
+    },
+    "adasyn": {
+      "train_rows": 76782,
+      "minority_share": 0.33311192727462163,
+      "pr_auc": 0.42449918302655776,
+      "roc_auc": 0.7563638113517845,
+      "f1": 0.4067273324042252,
+      "recall": 0.3668015809786328,
+      "precision": 0.45649710976834373
+    },
+    "gaussian_noise": {
+      "train_rows": 76807,
+      "minority_share": 0.3333289934511177,
+      "pr_auc": 0.42944035115948703,
+      "roc_auc": 0.758433648371188,
+      "f1": 0.4102178602870719,
+      "recall": 0.3613705045523888,
+      "precision": 0.47441785858797214
+    }
+  },
+  "feature_engineering": {
+    "n_features_full": 92,
+    "pr_auc_full": 0.43776457843295213,
+    "pr_auc_std_full": 0.005863408775968105,
+    "full_numeric_n_features": 15,
+    "full_numeric_max_vif": 141.38590560906067,
+    "full_numeric_max_vif_feature": "AcqAucAvg",
+    "full_numeric_n_vif_above_threshold": 12,
+    "n_new_features": 18,
+    "pr_auc_before": 0.43242257117799954,
+    "pr_auc_after": 0.43914232899752503,
+    "pr_auc_row_features": 0.4370915311729571,
+    "pr_auc_group_aggregates": 0.43302346141857273,
+    "pr_auc_polynomial": 0.4333691077355068,
+    "pr_auc_row_and_aggregates": 0.43776457843295213,
+    "pr_auc_std_before": 0.007316798720698445,
+    "decisions": {
+      "row_features": {
+        "in_full": true,
+        "pr_auc_toggled": 0.43302346141857273,
+        "n_features_toggled": 66,
+        "pr_auc_folds_full": [
+          0.4461111496213931,
+          0.44003907992605834,
+          0.4375482811482932,
+          0.43050025205872866,
+          0.4346241294102876
+        ],
+        "pr_auc_folds_toggled": [
+          0.4439562264008919,
+          0.4346875663464677,
+          0.4303450469552615,
+          0.42446358978130544,
+          0.4316648776089373
+        ]
+      },
+      "group_aggregates": {
+        "in_full": true,
+        "pr_auc_toggled": 0.4370915311729571,
+        "n_features_toggled": 89,
+        "pr_auc_folds_full": [
+          0.4461111496213931,
+          0.44003907992605834,
+          0.4375482811482932,
+          0.43050025205872866,
+          0.4346241294102876
+        ],
+        "pr_auc_folds_toggled": [
+          0.4465099868200722,
+          0.4388494432743115,
+          0.436628569203496,
+          0.4296837229397485,
+          0.4337859336271575
+        ]
+      },
+      "polynomial": {
+        "in_full": false,
+        "pr_auc_toggled": 0.43914232899752503,
+        "n_features_toggled": 98,
+        "pr_auc_folds_full": [
+          0.4461111496213931,
+          0.44003907992605834,
+          0.4375482811482932,
+          0.43050025205872866,
+          0.4346241294102876
+        ],
+        "pr_auc_folds_toggled": [
+          0.44497761159769533,
+          0.4427361885572616,
+          0.4386926531600778,
+          0.4306202555122376,
+          0.4386849361603531
+        ]
+      }
+    },
+    "top_feature_by_mi": "wheel_type_missing",
+    "top_feature_mi": 0.0430841805096591
+  },
+  "selection": {
+    "extra_collinear_drop": {
+      "simpler": "без AcqRetAvg, CurRetAvg",
+      "more_complex": "з AcqRetAvg, CurRetAvg",
+      "delta": 0.003061325762301137,
+      "spread": 0.002167528348470578,
+      "n_features_simple": 90,
+      "n_features_complex": 92,
+      "chosen": "з AcqRetAvg, CurRetAvg",
+      "rule_verdict": "з AcqRetAvg, CurRetAvg",
+      "exception": false
+    },
+    "imputer_knn": {
+      "simpler": "медіана",
+      "more_complex": "KNNImputer",
+      "delta": 7.454352784795893e-05,
+      "spread": 0.0013304653357584031,
+      "n_features_simple": 92,
+      "n_features_complex": 92,
+      "chosen": "медіана",
+      "rule_verdict": "медіана",
+      "exception": false
+    },
+    "imputer_mice": {
+      "simpler": "медіана",
+      "more_complex": "IterativeImputer (MICE)",
+      "delta": 0.00012039054431161045,
+      "spread": 0.0010083664012078633,
+      "n_features_simple": 92,
+      "n_features_complex": 92,
+      "chosen": "медіана",
+      "rule_verdict": "медіана",
+      "exception": false
+    },
+    "categorical_imputation": {
+      "simpler": "мода + індикатор",
+      "more_complex": "окрема категорія MISSING",
+      "delta": 0.0001693323554536219,
+      "spread": 0.0003138337007995135,
+      "n_features_simple": 88,
+      "n_features_complex": 92,
+      "chosen": "окрема категорія MISSING",
+      "rule_verdict": "мода + індикатор",
+      "exception": true
+    },
+    "encoding_frequency": {
+      "simpler": "Frequency Encoding",
+      "more_complex": "Target Encoding",
+      "delta": 0.011406875563930163,
+      "spread": 0.005372144620187882,
+      "n_features_simple": 92,
+      "n_features_complex": 92,
+      "chosen": "Target Encoding",
+      "rule_verdict": "Target Encoding",
+      "exception": false
+    },
+    "encoding_onehot": {
+      "simpler": "Target Encoding",
+      "more_complex": "One-Hot з об'єднанням рідкісних",
+      "delta": 0.008223763455720068,
+      "spread": 0.002811855277637079,
+      "n_features_simple": 92,
+      "n_features_complex": 680,
+      "chosen": "Target Encoding",
+      "rule_verdict": "One-Hot з об'єднанням рідкісних",
+      "exception": true
+    },
+    "encoding_ordinal": {
+      "simpler": "Ordinal",
+      "more_complex": "Target Encoding",
+      "delta": 0.010125824411568562,
+      "spread": 0.005264470100626441,
+      "n_features_simple": 92,
+      "n_features_complex": 92,
+      "chosen": "Target Encoding",
+      "rule_verdict": "Target Encoding",
+      "exception": false
+    },
+    "feature_group_row_features": {
+      "simpler": "без групи",
+      "more_complex": "з групою",
+      "delta": 0.004741117014379415,
+      "spread": 0.0021199342250249782,
+      "n_features_simple": 66,
+      "n_features_complex": 92,
+      "chosen": "з групою",
+      "rule_verdict": "з групою",
+      "exception": false
+    },
+    "feature_group_group_aggregates": {
+      "simpler": "без групи",
+      "more_complex": "з групою",
+      "delta": 0.0006730472599950299,
+      "spread": 0.0006173543224311529,
+      "n_features_simple": 89,
+      "n_features_complex": 92,
+      "chosen": "з групою",
+      "rule_verdict": "з групою",
+      "exception": false
+    },
+    "feature_group_polynomial": {
+      "simpler": "без групи",
+      "more_complex": "з групою",
+      "delta": 0.0013777505645728993,
+      "spread": 0.0020544135367765153,
+      "n_features_simple": 92,
+      "n_features_complex": 98,
+      "chosen": "без групи",
+      "rule_verdict": "без групи",
+      "exception": false
+    }
+  }
+}

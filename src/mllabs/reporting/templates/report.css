@@ -1,0 +1,190 @@
+/*
+ * Оформлення звіту. Числа взято зі стилів Шаблон_бакалаврської_роботи.dotm
+ * та Шаблон_звіту_ПР.docx (у Word розміри задано в «твіпах»: 567 твіпів = 1 см):
+ *
+ *   сторінка   A4; поля: верх/низ/право 1,5 см (850), ліво 2,5 см (1417)
+ *   Main_Text  Times New Roman 14 пт, інтервал 1,5, абзац 1,27 см (720), по ширині
+ *   заголовок  HeaderLevel2: жирний, відступ зліва 1,27 см, 6 пт до і після
+ *   рисунок    FigureTitle: по центру, жирний курсив, 6 пт після
+ *   таблиця    TableTitle: праворуч над таблицею
+ *   номер      сторінки — праворуч унизу, на титульній не друкується
+ */
+
+@page {
+  size: A4;
+  margin: 15mm 15mm 15mm 25mm;
+
+  @bottom-right {
+    content: counter(page);
+    font: 14pt "Times New Roman", serif;
+    vertical-align: bottom;
+    padding-bottom: 6mm;
+  }
+}
+
+@page :first {
+  @bottom-right { content: none; }
+}
+
+html { font-size: 14pt; }
+
+body {
+  margin: 0;
+  font-family: "Times New Roman", Times, serif;
+  font-size: 14pt;
+  line-height: 1.5;
+  color: #000;
+}
+
+/* ------------------------- Основний текст ------------------------- */
+
+p {
+  margin: 0;
+  text-indent: 1.27cm;
+  text-align: justify;
+  orphans: 2;
+  widows: 2;
+}
+
+h1, h2, h3 {
+  font-size: 14pt;
+  line-height: 1.5;
+  break-after: avoid;
+}
+
+h1 {                       /* HeaderLevel1 */
+  margin: 0 0 6pt;
+  font-size: 16pt;
+  text-align: center;
+}
+
+h2 {                       /* HeaderLevel2 */
+  margin: 6pt 0 6pt 1.27cm;
+  font-weight: bold;
+}
+
+h3 {                       /* HeaderLevel3 */
+  margin: 6pt 0;
+  text-indent: 1.27cm;
+  font-weight: bold;
+  font-style: italic;
+}
+
+ul, ol {                   /* Marked_List / Numbered_List */
+  margin: 0;
+  padding-left: 2.49cm;
+}
+
+li {
+  text-align: justify;
+  padding-left: 0.2cm;
+}
+
+li > p { text-indent: 0; }
+
+a { color: inherit; text-decoration: none; }
+
+/* ------------------------ Рисунки й таблиці ------------------------ */
+
+figure.figure {
+  margin: 6pt 0 6pt;
+  text-align: center;
+  break-inside: avoid;
+}
+
+figure.figure img {
+  max-width: 100%;
+  max-height: 200mm;
+  object-fit: contain;
+}
+
+figure.figure figcaption {   /* FigureTitle */
+  font-weight: bold;
+  font-style: italic;
+  text-align: center;
+}
+
+p.table-title {              /* TableTitle */
+  text-indent: 0;
+  text-align: right;
+  break-after: avoid;
+}
+
+table {
+  width: 100%;
+  margin: 0 0 6pt;
+  border-collapse: collapse;
+  font-size: 12pt;
+  line-height: 1.2;
+  break-inside: avoid;         /* коротку таблицю не розривати між сторінками */
+}
+
+th, td {
+  border: 0.75pt solid #000;
+  padding: 3pt 5pt;
+  text-align: center;
+  vertical-align: middle;
+}
+
+th { font-weight: bold; }
+
+thead { display: table-header-group; }   /* повтор заголовка на новій сторінці */
+tr { break-inside: avoid; }
+
+/* -------------------------- Формули та код ------------------------- */
+
+div.formula {
+  margin: 6pt 0;
+  text-align: center;
+}
+
+math { font-size: 14pt; }
+
+code {
+  font-family: "Courier New", Menlo, monospace;
+  font-size: 11pt;
+}
+
+pre {
+  margin: 6pt 0;
+  padding: 4pt 6pt;
+  border: 0.5pt solid #999;
+  line-height: 1.2;
+  white-space: pre-wrap;
+  overflow-wrap: anywhere;
+}
+
+pre code { font-size: 10pt; }
+
+/* ------------------------ Титульна сторінка ------------------------ */
+
+.title-page {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 262mm;               /* висота області друку A4 мінус запас */
+  break-after: page;
+}
+
+.title-page p { text-indent: 0; }
+
+.title-line { text-align: center; }
+.title-line.tight { line-height: 1.2; }
+.title-line.right { text-align: right; }
+
+.title-logo {
+  width: 7.11cm;               /* розмір логотипа з шаблону */
+  height: 6.75cm;
+}
+
+.title-heading {
+  margin-bottom: 10pt;
+  text-align: center;
+  font-weight: bold;
+}
+
+.title-signatures {
+  margin-left: 11.25cm;        /* відступ 6379 твіпів із шаблону */
+}
+
+.title-signatures p { text-align: left; }

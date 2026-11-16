@@ -1,0 +1,30 @@
+Ознака,Скорочення,Група,Унікальних,"Пропуски, %"
+VehYear,VehYear,числова,10,0.00
+VehicleAge,VehicleAge,числова,10,0.00
+VehOdo,VehOdo,числова,39947,0.00
+MMRAcquisitionAuctionAveragePrice,AcqAucAvg,числова,10341,1.16
+MMRAcquisitionAuctionCleanPrice,AcqAucClean,числова,11377,1.16
+MMRAcquisitionRetailAveragePrice,AcqRetAvg,числова,12724,1.16
+MMRAcquisitonRetailCleanPrice,AcqRetClean,числова,13455,1.16
+MMRCurrentAuctionAveragePrice,CurAucAvg,числова,10314,1.12
+MMRCurrentAuctionCleanPrice,CurAucClean,числова,11263,1.12
+MMRCurrentRetailAveragePrice,CurRetAvg,числова,12492,1.12
+MMRCurrentRetailCleanPrice,CurRetClean,числова,13191,1.12
+VehBCost,VehBCost,числова,2009,0.09
+WarrantyCost,WarrantyCost,числова,281,0.00
+Auction,Auction,номінальна,3,0.00
+Color,Color,номінальна,15,0.14
+WheelType,WheelType,номінальна,3,4.35
+Nationality,Nationality,номінальна,4,0.01
+Size,Size,номінальна,12,0.01
+TopThreeAmericanName,TopThreeName,номінальна,4,0.01
+Make,Make,високої кардинальності,33,0.00
+Model,Model,високої кардинальності,1063,0.00
+Trim,Trim,високої кардинальності,134,3.23
+SubModel,SubModel,високої кардинальності,863,0.01
+BYRNO,BYRNO,високої кардинальності,74,0.00
+VNZIP1,VNZIP1,високої кардинальності,153,0.00
+VNST,VNST,високої кардинальності,37,0.00
+Transmission,Transmission,бінарна,2,0.01
+IsOnlineSale,IsOnlineSale,бінарна,2,0.00
+PurchDate,PurchDate,дата,517,0.00

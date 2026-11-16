@@ -1,0 +1,14 @@
+Ознака,"IQR, %","Z-score, %"
+VehYear,0.00,0.00
+VehicleAge,0.86,0.00
+VehOdo,0.42,0.24
+AcqAucAvg,0.76,0.56
+AcqAucClean,1.20,0.60
+AcqRetAvg,0.47,0.31
+AcqRetClean,0.62,0.38
+CurAucAvg,0.81,0.56
+CurAucClean,1.17,0.62
+CurRetAvg,0.42,0.30
+CurRetClean,0.60,0.38
+VehBCost,0.25,0.06
+WarrantyCost,1.19,0.96

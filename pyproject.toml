@@ -1,0 +1,78 @@
+[project]
+name = "mllabs"
+version = "0.1.0"
+description = "Інфраструктура для лабораторних робіт з курсу моделювання ШІ (Python + TensorFlow)"
+readme = "README.md"
+requires-python = ">=3.12,<3.13"
+dependencies = [
+    # --- Машинне навчання ---
+    "tensorflow>=2.16",
+    "scikit-learn>=1.5",
+    "imbalanced-learn>=0.12",
+    "optuna>=3.6",
+    # --- Дані та обчислення ---
+    "numpy>=1.26",
+    "pandas>=2.2",
+    "scipy>=1.13",
+    # --- Візуалізація ---
+    "matplotlib>=3.9",
+    "seaborn>=0.13",
+    # --- Генерація звітів (Markdown -> HTML -> PDF) ---
+    "markdown>=3.6",
+    "jinja2>=3.1",
+    "pyyaml>=6.0",
+    "latex2mathml>=3.77",
+]
+
+[project.scripts]
+# Єдина точка входу: `uv run mllabs <команда>`
+mllabs = "mllabs.cli:main"
+
+[dependency-groups]
+dev = [
+    "ruff>=0.6",
+    "pytest>=8.0",
+]
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[tool.hatch.build.targets.wheel]
+packages = ["src/mllabs"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+addopts = "-q"
+
+[tool.ruff]
+line-length = 100
+target-version = "py312"
+src = ["src", "tests"]
+
+[tool.ruff.lint]
+select = [
+    "E", "W",  # pycodestyle: базовий стиль
+    "F",       # pyflakes: невикористані імпорти, змінні тощо
+    "I",       # isort: порядок імпортів
+    "N",       # pep8-naming: snake_case / PascalCase
+    "D",       # pydocstyle: наявність і формат docstring
+    "ANN",     # анотації типів обов'язкові (як у Java)
+    "UP",      # сучасний синтаксис Python
+    "B",       # bugbear: типові помилки
+    "SIM",     # спрощення коду
+    "PTH",     # pathlib замість os.path
+    "RUF",
+]
+ignore = [
+    "RUF001", "RUF002", "RUF003",  # кирилиця в рядках/коментарях — це нормально
+    "D203", "D213",                # конфліктують з D211/D212 (стиль Google)
+    "D105", "D107",                # __init__ документуємо в docstring класу
+]
+
+[tool.ruff.lint.pydocstyle]
+convention = "google"
+
+[tool.ruff.lint.per-file-ignores]
+"tests/*" = ["D", "ANN"]
+"**/__init__.py" = ["D104"]

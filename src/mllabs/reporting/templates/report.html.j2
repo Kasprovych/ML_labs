@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+<meta charset="utf-8">
+<title>Звіт про виконання {{ title.work_kind }} № {{ lab_number }}</title>
+<style>
+{{ stylesheet | safe }}
+</style>
+</head>
+<body>
+
+{# ------------------------- Титульна сторінка ------------------------- #}
+<section class="title-page">
+  <div class="title-top">
+    <p class="title-line tight">{{ title.ministry }}</p>
+    <p class="title-line tight">{{ title.university }}</p>
+    <p class="title-line">{{ title.institute }}</p>
+    <p class="title-line right">{{ title.department }}</p>
+    <p class="title-line">&nbsp;</p>
+    <p class="title-line"><img class="title-logo" src="{{ logo_uri }}" alt=""></p>
+    <p class="title-heading">ЗВІТ</p>
+    <p class="title-line">про виконання {{ title.work_kind }} № {{ lab_number }}</p>
+    <p class="title-line">з курсу <b><i>«{{ title.course }}»</i></b></p>
+  </div>
+
+  <div class="title-signatures">
+    <p>Виконав:</p>
+    <p><i>ст. групи {{ title.student_group }}</i></p>
+    <p><i>{{ title.student_name }}</i></p>
+    <p>Перевірив:</p>
+    <p><i>{{ title.teacher_position }}</i></p>
+    <p><i>{{ title.teacher_name }}</i></p>
+  </div>
+
+  <p class="title-line title-city">{{ title.city | upper }} – {{ year }}</p>
+</section>
+
+{# --------------------------- Основний текст -------------------------- #}
+<main>
+  <p><b>Тема:</b> {{ topic }}</p>
+  <p><b>Мета:</b> {{ purpose }}</p>
+  {{ body_html | safe }}
+</main>
+
+</body>
+</html>

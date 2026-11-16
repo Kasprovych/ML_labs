@@ -1,0 +1,21 @@
+# Python
+.venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.ruff_cache/
+
+# Дані: сирі датасети не комітимо (великі; завантажуються кодом)
+data/raw/*
+data/processed/*
+!data/**/.gitkeep
+
+# Проміжні файли звітів та важкі артефакти
+labs/*/report/build/
+labs/*/artifacts/models/
+
+# macOS / IDE
+.DS_Store
+.idea/
+.vscode/
+~$*
