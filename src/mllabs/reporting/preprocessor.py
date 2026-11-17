@@ -100,10 +100,29 @@ class ReportPreprocessor:
 
     def _replace_extensions(self, part: str) -> str:
         part = _METRIC.sub(self._metric, part)
-        part = _EMBED.sub(self._embed, part)
-        part = _TABLE_CAPTION.sub(self._table_caption, part)
+        part = self._replace_numbered(part)
         part = _MATH_BLOCK.sub(self._math_block, part)
         return _MATH_INLINE.sub(self._math_inline, part)
+
+    def _replace_numbered(self, part: str) -> str:
+        """Замінює вставки й підписи таблиць за один прохід у порядку появи в тексті.
+
+        Два окремі проходи нумерували б спершу всі CSV-таблиці, а потім усі
+        ручні — і номери таблиць ішли б не за порядком.
+        """
+        handlers = ((_EMBED, self._embed), (_TABLE_CAPTION, self._table_caption))
+        matches = sorted(
+            ((match, handler) for pattern, handler in handlers for match in pattern.finditer(part)),
+            key=lambda pair: pair[0].start(),
+        )
+        chunks: list[str] = []
+        position = 0
+        for match, handler in matches:
+            chunks.append(part[position : match.start()])
+            chunks.append(handler(match))
+            position = match.end()
+        chunks.append(part[position:])
+        return "".join(chunks)
 
     def _stashed(self, html_fragment: str, *, block: bool) -> str:
         """Ховає HTML і повертає токен; блочний токен обрамляється порожніми рядками."""

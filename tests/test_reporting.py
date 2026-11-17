@@ -42,6 +42,16 @@ def test_figures_and_tables_are_numbered_and_referenced(tmp_path: Path):
     assert "<td>0.9</td>" in result
 
 
+def test_manual_and_csv_tables_are_numbered_in_document_order(tmp_path: Path):
+    (tmp_path / "t.csv").write_text("model,f1\nRF,0.9\n", encoding="utf-8")
+    text = "Таблиця: Ручна {#manual}\n\n| a |\n|---|\n| 1 |\n\n![З файлу](t.csv){#csv}\n"
+
+    result = _process(text, tmp_path)
+
+    assert "Таблиця 1. Ручна" in result
+    assert "Таблиця 2. З файлу" in result
+
+
 def test_metrics_are_substituted_with_format(tmp_path: Path):
     result = _process("F1 = {{metrics.rf.f1:.2f}}", tmp_path, {"rf": {"f1": 0.87654}})
 
