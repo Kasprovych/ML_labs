@@ -121,6 +121,19 @@ class VisaWorkspace:
         self._splits_repository.save(self._splits)
         return self._splits
 
+    def load_splits(self) -> pd.DataFrame:
+        """Читає вже збережене розбиття (ЛР5): без розпакування архіву й перерозбиття.
+
+        Raises:
+            FileNotFoundError: Якщо ``splits.csv`` ще немає (спершу ``mllabs run 4``).
+        """
+        if not self._splits_repository.path.is_file():
+            raise FileNotFoundError(
+                f"Немає {self._splits_repository.path}: спершу виконайте `uv run mllabs run 4`"
+            )
+        self._splits = self._splits_repository.load()
+        return self._splits
+
     @property
     def splits(self) -> pd.DataFrame:
         """Розбиття (після :meth:`prepare`)."""

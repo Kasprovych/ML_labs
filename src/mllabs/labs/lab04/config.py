@@ -14,6 +14,7 @@ from dataclasses import dataclass, field
 
 from mllabs.anomaly.backbones import BackboneKind
 from mllabs.anomaly.fae import FaeSettings
+from mllabs.anomaly.visa import VISA_ARCHIVE, VISA_SHA256, VISA_URL
 from mllabs.anomaly.workspace import WorkspaceSettings
 
 
@@ -139,9 +140,9 @@ class Lab4Config:
         published_results: Довідкові числа з літератури.
     """
 
-    visa_url: str = "https://amazon-visual-anomaly.s3.us-west-2.amazonaws.com/VisA_20220922.tar"
-    visa_sha256: str = "2eb8690c803ab37de0324772964100169ec8ba1fa3f7e94291c9ca673f40f362"
-    visa_archive: str = "VisA_20220922.tar"
+    visa_url: str = VISA_URL
+    visa_sha256: str = VISA_SHA256
+    visa_archive: str = VISA_ARCHIVE
     visa_license: str = "CC BY 4.0 (LICENSE-DATASET в архіві; Anomalib вказує CC BY-NC-SA 4.0)"
     categories: tuple[str, ...] = ("macaroni2", "capsules", "pcb4")
     study_category: str = "macaroni2"

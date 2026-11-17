@@ -1,0 +1,4 @@
+Backbone,GFLOPs (backbone + FAE),"Latency Keras, 1 потік, мс","Latency Keras, усі потоки, мс","Pixel AUROC (val, macaroni2)"
+MobileNetV2,1.203,43.8,16.6,0.9640
+EfficientNetB0,1.322,56.3,20.6,0.9729
+ResNet50,8.819,149.0,38.0,0.9637

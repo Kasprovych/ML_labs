@@ -25,6 +25,11 @@ from mllabs.data import DatasetDownloadError
 
 _logger = logging.getLogger(__name__)
 
+#: Офіційне посилання на архів VisA, його SHA-256 та ім'я файлу (ЛР5 бере дані з кешу ЛР4,
+#: але джерелу потрібні ці параметри на випадок, якщо архів доведеться перевірити).
+VISA_URL = "https://amazon-visual-anomaly.s3.us-west-2.amazonaws.com/VisA_20220922.tar"
+VISA_SHA256 = "2eb8690c803ab37de0324772964100169ec8ba1fa3f7e94291c9ca673f40f362"
+VISA_ARCHIVE = "VisA_20220922.tar"
 #: Файл офіційного розбиття «1 клас» (train — лише норма, test — норма й аномалії).
 SPLIT_MEMBER = "split_csv/1cls.csv"
 #: Розмір шматка під час читання/запису архіву (8 МБ).

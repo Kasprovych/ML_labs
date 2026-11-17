@@ -1,0 +1,20 @@
+Категорія,Тип дефекту,n,FN,Медіана площі,Медіана контрасту
+capsules,bubble,50,8,0.0016,25.6270
+capsules,discolor,34,4,0.0067,25.8351
+capsules,leak,22,0,0.0131,18.4721
+capsules,misshape,14,0,0.0160,25.8351
+capsules,scratch,27,2,0.0091,21.3164
+macaroni2,breakage down the middle,11,0,0.0005,11.4501
+macaroni2,color spot similar to the object,15,0,0.0004,39.7045
+macaroni2,different color spot,12,0,0.0002,55.5266
+macaroni2,other,1,0,0.0010,22.3847
+macaroni2,small chip around edge,12,3,0.0006,24.3224
+macaroni2,small cracks,5,0,0.0005,15.3199
+macaroni2,small scratches,22,1,0.0006,19.7383
+pcb4,burnt,7,0,0.0204,20.7567
+pcb4,damage,8,0,0.0055,34.6340
+pcb4,dirt,24,0,0.0203,41.5229
+pcb4,extra,18,2,0.0057,40.3022
+pcb4,missing,12,1,0.0158,8.8456
+pcb4,scratch,9,0,0.0061,27.9695
+pcb4,wrong place,5,1,0.0157,24.9263

@@ -1,0 +1,13 @@
+Зміна,Метод,Категорія,n,Spearman ρ,SSIM (ранги)
+шум σ = 2,Integrated Gradients,macaroni2,5,0.9905,0.9444
+шум σ = 2,Grad-CAM,macaroni2,5,0.8725,0.7419
+шум σ = 2,HiResCAM,macaroni2,5,0.8633,0.7483
+шум σ = 2,Integrated Gradients,capsules,5,0.9847,0.9699
+шум σ = 2,Grad-CAM,capsules,5,0.4499,0.4517
+шум σ = 2,HiResCAM,capsules,5,0.5868,0.5622
+шум σ = 2,Integrated Gradients,pcb4,5,0.9851,0.9341
+шум σ = 2,Grad-CAM,pcb4,5,0.5380,0.4186
+шум σ = 2,HiResCAM,pcb4,5,0.7194,0.6043
+шум σ = 2,Integrated Gradients,усі,15,0.9867,0.9495
+шум σ = 2,Grad-CAM,усі,15,0.6201,0.5374
+шум σ = 2,HiResCAM,усі,15,0.7232,0.6382

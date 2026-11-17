@@ -1,0 +1,13 @@
+Категорія,Шар,Форма,σ_max,σ_min,Ефективний ранг,Макс. ранг
+macaroni2,encoder_hidden,512×256,5.1571,0.3117,172.0739,256
+macaroni2,latent,256×64,1.6512,0.6595,58.6286,64
+macaroni2,decoder_hidden,64×256,2.1790,0.7874,57.6657,64
+macaroni2,reconstruction,256×512,2.6355,0.0549,173.7170,256
+capsules,encoder_hidden,512×256,6.7681,0.2884,137.5764,256
+capsules,latent,256×64,1.5869,0.6167,58.3469,64
+capsules,decoder_hidden,64×256,2.2495,0.7434,56.6166,64
+capsules,reconstruction,256×512,2.7756,0.0572,173.4678,256
+pcb4,encoder_hidden,512×256,4.8395,0.3398,177.1861,256
+pcb4,latent,256×64,1.6956,0.7037,58.5152,64
+pcb4,decoder_hidden,64×256,2.1785,0.7717,57.4910,64
+pcb4,reconstruction,256×512,2.6504,0.0445,172.0678,256

@@ -1,0 +1,7 @@
+Категорія,Помилка FAE,n FAE,з них і PaDiM,з них і PatchCore,усі три методи
+macaroni2,FP,42,38,16,14
+macaroni2,FN,3,0,3,0
+capsules,FP,17,10,16,9
+capsules,FN,8,3,2,1
+pcb4,FP,4,3,0,0
+pcb4,FN,4,2,1,0
