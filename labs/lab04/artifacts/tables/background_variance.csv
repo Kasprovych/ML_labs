@@ -1,0 +1,13 @@
+Категорія,Ранг,σ між кадрами,σ яскравості в кадрі,Обрана
+macaroni2,1,23.99,32.75,True
+capsules,2,23.82,25.68,True
+pcb1,3,22.65,27.07,False
+pcb4,4,19.61,34.19,True
+chewinggum,5,19.50,69.50,False
+cashew,6,18.94,46.71,False
+pcb2,7,18.82,23.02,False
+fryum,8,17.30,31.37,False
+pcb3,9,13.07,18.81,False
+macaroni1,10,10.77,32.07,False
+candle,11,9.18,78.90,False
+pipe_fryum,12,5.98,37.58,False

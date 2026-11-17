@@ -1,0 +1,1091 @@
+{
+  "data": {
+    "source": {
+      "url": "https://amazon-visual-anomaly.s3.us-west-2.amazonaws.com/VisA_20220922.tar",
+      "sha256": "2eb8690c803ab37de0324772964100169ec8ba1fa3f7e94291c9ca673f40f362",
+      "license": "CC BY 4.0 (LICENSE-DATASET в архіві; Anomalib вказує CC BY-NC-SA 4.0)"
+    },
+    "splits_csv": "data/processed/visa/splits.csv",
+    "macaroni2": {
+      "n_train": 765,
+      "n_val_normal": 135,
+      "n_val_labelled_normal": 50,
+      "n_val_labelled_anomalous": 50,
+      "n_test_normal": 50,
+      "n_test_anomalous": 50,
+      "anomalous_pixel_share": 0.000288848876953125,
+      "defect_area_median": 0.0004730224609375,
+      "background_std": 23.987518310546875,
+      "brightness_std": 32.75346755981445,
+      "background_rank": 1,
+      "masks_empty_after_resize": 0
+    },
+    "capsules": {
+      "n_train": 460,
+      "n_val_normal": 82,
+      "n_val_labelled_normal": 30,
+      "n_val_labelled_anomalous": 50,
+      "n_test_normal": 30,
+      "n_test_anomalous": 50,
+      "anomalous_pixel_share": 0.0034027099609375,
+      "defect_area_median": 0.00152587890625,
+      "background_std": 23.822689056396484,
+      "brightness_std": 25.68438148498535,
+      "background_rank": 2,
+      "masks_empty_after_resize": 0
+    },
+    "pcb4": {
+      "n_train": 768,
+      "n_val_normal": 136,
+      "n_val_labelled_normal": 50,
+      "n_val_labelled_anomalous": 50,
+      "n_test_normal": 51,
+      "n_test_anomalous": 50,
+      "anomalous_pixel_share": 0.006574640226601368,
+      "defect_area_median": 0.0092926025390625,
+      "background_std": 19.611438751220703,
+      "brightness_std": 34.19181442260742,
+      "background_rank": 4,
+      "masks_empty_after_resize": 0
+    }
+  },
+  "features": {
+    "mobilenet_v2": {
+      "layers": "block_6_expand_relu + block_13_expand_relu",
+      "channels_raw": 768,
+      "feature_dim": 512,
+      "grid": 32,
+      "gflops": 0.595167872,
+      "params": 616256
+    },
+    "efficientnet_b0": {
+      "layers": "block4a_expand_activation + block6a_expand_activation",
+      "channels_raw": 912,
+      "feature_dim": 512,
+      "grid": 32,
+      "gflops": 0.714046307,
+      "params": 945927
+    },
+    "resnet50": {
+      "layers": "conv3_block4_out + conv4_block6_out",
+      "channels_raw": 1536,
+      "feature_dim": 512,
+      "grid": 32,
+      "gflops": 8.211424896,
+      "params": 8589184
+    }
+  },
+  "patches": {
+    "image_size": 256,
+    "grid": 32,
+    "stride_px": 8,
+    "patch_sizes": [
+      1,
+      3,
+      5
+    ],
+    "tile_grids": [
+      1,
+      2
+    ]
+  },
+  "studies": {
+    "backbones": {
+      "mobilenet_v2": {
+        "pixel_auroc": 0.9640059943736342,
+        "pixel_ap": 0.011220695393239647,
+        "image_auroc": 0.794,
+        "loss_gap": 0.00019260025024413902,
+        "epochs": 60,
+        "best_epoch": 60,
+        "train_seconds": 75.54520620801486
+      },
+      "efficientnet_b0": {
+        "pixel_auroc": 0.9729160710467736,
+        "pixel_ap": 0.016989818388447195,
+        "image_auroc": 0.7372,
+        "loss_gap": -0.00026884613037109206,
+        "epochs": 60,
+        "best_epoch": 58,
+        "train_seconds": 74.63198404197465
+      },
+      "resnet50": {
+        "pixel_auroc": 0.9637447060698532,
+        "pixel_ap": 0.016578363115443237,
+        "image_auroc": 0.6856,
+        "loss_gap": 0.0009069717407226563,
+        "epochs": 60,
+        "best_epoch": 60,
+        "train_seconds": 74.62268937498447
+      }
+    },
+    "patch_size": {
+      "p = 1": {
+        "pixel_auroc": 0.9813729830103897,
+        "pixel_ap": 0.02760374325089201,
+        "image_auroc": 0.7544,
+        "loss_gap": -0.0004452835083007811,
+        "epochs": 60,
+        "best_epoch": 60,
+        "train_seconds": 74.38132533300086
+      },
+      "p = 3": {
+        "pixel_auroc": 0.9729160710467736,
+        "pixel_ap": 0.016989818388447195,
+        "image_auroc": 0.7372,
+        "loss_gap": -0.00026884613037109206,
+        "epochs": 60,
+        "best_epoch": 58,
+        "train_seconds": 74.63198404197465
+      },
+      "p = 5": {
+        "pixel_auroc": 0.9597913731807903,
+        "pixel_ap": 0.012428401640602126,
+        "image_auroc": 0.6936,
+        "loss_gap": 0.00016926422119140083,
+        "epochs": 60,
+        "best_epoch": 60,
+        "train_seconds": 73.45981916700839
+      },
+      "p = 1, тайли 2×2": {
+        "pixel_auroc": 0.9797072433301498,
+        "pixel_ap": 0.015163298549690082,
+        "image_auroc": 0.632,
+        "loss_gap": -0.002275851440429688,
+        "epochs": 60,
+        "best_epoch": 60,
+        "train_seconds": 123.23268587500206
+      }
+    },
+    "regularization": {
+      "база (k = 64)": {
+        "pixel_auroc": 0.9813729830103897,
+        "pixel_ap": 0.02760374325089201,
+        "image_auroc": 0.7544,
+        "loss_gap": -0.0004452835083007811,
+        "epochs": 60,
+        "best_epoch": 60,
+        "train_seconds": 74.38132533300086
+      },
+      "латент k = 16": {
+        "pixel_auroc": 0.9799430609381377,
+        "pixel_ap": 0.023960438044651096,
+        "image_auroc": 0.7388,
+        "loss_gap": -0.0017809722900390401,
+        "epochs": 60,
+        "best_epoch": 60,
+        "train_seconds": 73.79939104197547
+      },
+      "латент k = 256": {
+        "pixel_auroc": 0.9819858222568254,
+        "pixel_ap": 0.028430092942833034,
+        "image_auroc": 0.7944,
+        "loss_gap": -0.00019473075866698747,
+        "epochs": 60,
+        "best_epoch": 60,
+        "train_seconds": 80.08497304198681
+      },
+      "Dropout 0,2": {
+        "pixel_auroc": 0.9793497989384005,
+        "pixel_ap": 0.02588830530908477,
+        "image_auroc": 0.7784,
+        "loss_gap": -0.0005919586181640513,
+        "epochs": 60,
+        "best_epoch": 60,
+        "train_seconds": 76.20435350001208
+      },
+      "L2 = 0,0001": {
+        "pixel_auroc": 0.9796747378154956,
+        "pixel_ap": 0.024578353333930953,
+        "image_auroc": 0.754,
+        "loss_gap": -0.0005574447631835899,
+        "epochs": 60,
+        "best_epoch": 60,
+        "train_seconds": 75.1342135410232
+      },
+      "шум σ = 0,2": {
+        "pixel_auroc": 0.9802686859749673,
+        "pixel_ap": 0.02530723738749049,
+        "image_auroc": 0.7707999999999999,
+        "loss_gap": -0.00047999725341797694,
+        "epochs": 60,
+        "best_epoch": 60,
+        "train_seconds": 76.53974862501491
+      }
+    },
+    "selected": {
+      "backbone": "efficientnet_b0",
+      "patch_size": 1,
+      "tile_grid": 1,
+      "latent": 64,
+      "dropout": 0.0,
+      "l2": 0.0,
+      "input_noise": 0.0,
+      "val_pixel_auroc": 0.9813729830103897,
+      "n_trainings": 11
+    }
+  },
+  "training": {
+    "macaroni2": {
+      "epochs": 60,
+      "best_epoch": 60,
+      "early_stopped": false,
+      "train_mse": 0.0905067626953125,
+      "val_mse": 0.09006147918701173,
+      "val_pixel_auroc": 0.9813729830103897,
+      "val_image_auroc": 0.7544,
+      "seconds": 74.38132533300086
+    },
+    "capsules": {
+      "epochs": 60,
+      "best_epoch": 60,
+      "early_stopped": false,
+      "train_mse": 0.14186908569335938,
+      "val_mse": 0.14211642150878906,
+      "val_pixel_auroc": 0.9447713291955551,
+      "val_image_auroc": 0.7933333333333333,
+      "seconds": 64.98640004202025
+    },
+    "pcb4": {
+      "epochs": 60,
+      "best_epoch": 60,
+      "early_stopped": false,
+      "train_mse": 0.08750416717529297,
+      "val_mse": 0.08946525268554688,
+      "val_pixel_auroc": 0.9588533400433907,
+      "val_image_auroc": 0.9139999999999999,
+      "seconds": 74.6401132089959
+    }
+  },
+  "model": {
+    "head_params": 296000,
+    "feature_dim": 512,
+    "hidden": 256,
+    "latent": 64,
+    "dropout": 0.0,
+    "l2": 0.0,
+    "input_noise": 0.0,
+    "learning_rate": 0.001,
+    "batch_size": 512,
+    "vectors_per_epoch": 25000,
+    "validation_vectors": 20000,
+    "max_epochs": 60,
+    "patience": 5
+  },
+  "sota_fit": {
+    "PaDiM.macaroni2": {
+      "fit_seconds": 3.0539881250006147,
+      "memory_mb": 39.453125,
+      "head_gflops": 0.0206848
+    },
+    "PatchCore.macaroni2": {
+      "fit_seconds": 36.143334332999075,
+      "memory_mb": 15.30078125,
+      "head_gflops": 8.214544384
+    },
+    "PaDiM.capsules": {
+      "fit_seconds": 1.698129666998284,
+      "memory_mb": 39.453125,
+      "head_gflops": 0.0206848
+    },
+    "PatchCore.capsules": {
+      "fit_seconds": 14.15012766700238,
+      "memory_mb": 9.201171875,
+      "head_gflops": 4.939841536
+    },
+    "PaDiM.pcb4": {
+      "fit_seconds": 2.911193583975546,
+      "memory_mb": 39.453125,
+      "head_gflops": 0.0206848
+    },
+    "PatchCore.pcb4": {
+      "fit_seconds": 35.896162999997614,
+      "memory_mb": 15.361328125,
+      "head_gflops": 8.24705024
+    }
+  },
+  "cost_quality": {
+    "FAE.mobilenet_v2": 0.9752614182014395,
+    "PaDiM.mobilenet_v2": 0.9505538102727052,
+    "PatchCore.mobilenet_v2": 0.9809813814569684,
+    "FAE.efficientnet_b0": 0.9813729830103897,
+    "PaDiM.efficientnet_b0": 0.9374475714931941,
+    "PatchCore.efficientnet_b0": 0.9790511202879832,
+    "FAE.resnet50": 0.9782941202340008,
+    "PaDiM.resnet50": 0.9445483740034966,
+    "PatchCore.resnet50": 0.9643453091213264
+  },
+  "test": {
+    "FAE": {
+      "macaroni2": {
+        "pixel_auroc": 0.9811944604887665,
+        "pixel_auroc_ci": [
+          0.9730152488753462,
+          0.9885536345165311
+        ],
+        "pixel_ap": 0.03595568947525755,
+        "pixel_ap_ci": [
+          0.02327572583203202,
+          0.05400675213537248
+        ],
+        "pixel_f1": 0.07852062588904694,
+        "image_auroc": 0.7627999999999999,
+        "image_auroc_ci": [
+          0.6605040164576802,
+          0.8522544283413849
+        ],
+        "image_f1": 0.6762589928057554,
+        "threshold_pixel": 0.6888148188591003,
+        "threshold_image": 0.46013426780700684,
+        "oracle_pixel_f1": 0.11217587373167981
+      },
+      "capsules": {
+        "pixel_auroc": 0.9659273275370508,
+        "pixel_auroc_ci": [
+          0.9526206532690044,
+          0.9774158472188111
+        ],
+        "pixel_ap": 0.3686055203324438,
+        "pixel_ap_ci": [
+          0.24439345150943642,
+          0.48707782827992063
+        ],
+        "pixel_f1": 0.46049836694607493,
+        "image_auroc": 0.7986666666666667,
+        "image_auroc_ci": [
+          0.6997868347090698,
+          0.8956820132747985
+        ],
+        "image_f1": 0.7706422018348624,
+        "threshold_pixel": 0.4946264922618866,
+        "threshold_image": 0.421296626329422,
+        "oracle_pixel_f1": 0.4685214545082596
+      },
+      "pcb4": {
+        "pixel_auroc": 0.9705188428978587,
+        "pixel_auroc_ci": [
+          0.963669673906306,
+          0.9768301156470196
+        ],
+        "pixel_ap": 0.20161330922302667,
+        "pixel_ap_ci": [
+          0.16333638761397515,
+          0.24121603403716538
+        ],
+        "pixel_f1": 0.2890671048636291,
+        "image_auroc": 0.9596078431372548,
+        "image_auroc_ci": [
+          0.916056631692225,
+          0.9949108346896071
+        ],
+        "image_f1": 0.92,
+        "threshold_pixel": 0.490646094083786,
+        "threshold_image": 0.573544979095459,
+        "oracle_pixel_f1": 0.29000099525594664
+      },
+      "mean": {
+        "pixel_auroc": 0.9725468769745587,
+        "pixel_ap": 0.20205817301024268,
+        "pixel_f1": 0.276028699232917,
+        "image_auroc": 0.8403581699346404,
+        "image_f1": 0.788967064880206,
+        "oracle_pixel_f1": 0.29023277449862867
+      }
+    },
+    "PaDiM": {
+      "macaroni2": {
+        "pixel_auroc": 0.9497992758110323,
+        "pixel_auroc_ci": [
+          0.9374183740599368,
+          0.96241205666549
+        ],
+        "pixel_ap": 0.003900059513730224,
+        "pixel_ap_ci": [
+          0.0026808347422345377,
+          0.006024581575067129
+        ],
+        "pixel_f1": 0.010640890260742426,
+        "image_auroc": 0.5532,
+        "image_auroc_ci": [
+          0.4292765582847106,
+          0.6652066546618647
+        ],
+        "image_f1": 0.6896551724137931,
+        "threshold_pixel": 11.146808624267578,
+        "threshold_image": 11.272099494934082,
+        "oracle_pixel_f1": 0.012242142374915612
+      },
+      "capsules": {
+        "pixel_auroc": 0.9247247119851036,
+        "pixel_auroc_ci": [
+          0.9041174440084074,
+          0.9415633370553527
+        ],
+        "pixel_ap": 0.0539491505326108,
+        "pixel_ap_ci": [
+          0.029485041491438043,
+          0.08720095182192548
+        ],
+        "pixel_f1": 0.1287671601977717,
+        "image_auroc": 0.5833333333333333,
+        "image_auroc_ci": [
+          0.45521824619346185,
+          0.7054031583807526
+        ],
+        "image_f1": 0.7090909090909091,
+        "threshold_pixel": 11.064127922058105,
+        "threshold_image": 11.490062713623047,
+        "oracle_pixel_f1": 0.13117491844709916
+      },
+      "pcb4": {
+        "pixel_auroc": 0.9718130641948209,
+        "pixel_auroc_ci": [
+          0.9637135186764625,
+          0.9800197550032568
+        ],
+        "pixel_ap": 0.20690174716005305,
+        "pixel_ap_ci": [
+          0.13689408633105282,
+          0.30146350409153005
+        ],
+        "pixel_f1": 0.24095403977975052,
+        "image_auroc": 0.9529411764705883,
+        "image_auroc_ci": [
+          0.8995890741914635,
+          0.9944838455476753
+        ],
+        "image_f1": 0.8888888888888888,
+        "threshold_pixel": 11.796432495117188,
+        "threshold_image": 10.066810607910156,
+        "oracle_pixel_f1": 0.27395752557720693
+      },
+      "mean": {
+        "pixel_auroc": 0.948779017330319,
+        "pixel_ap": 0.08825031906879803,
+        "pixel_f1": 0.12678736341275487,
+        "image_auroc": 0.6964915032679739,
+        "image_f1": 0.762544990131197,
+        "oracle_pixel_f1": 0.1391248621330739
+      }
+    },
+    "PatchCore": {
+      "macaroni2": {
+        "pixel_auroc": 0.984521101261747,
+        "pixel_auroc_ci": [
+          0.9772805832757631,
+          0.9910018933352103
+        ],
+        "pixel_ap": 0.07124807008952222,
+        "pixel_ap_ci": [
+          0.04584682772608901,
+          0.12918290459272874
+        ],
+        "pixel_f1": 0.11009669925989952,
+        "image_auroc": 0.8263999999999999,
+        "image_auroc_ci": [
+          0.7382102272727273,
+          0.9086330961852305
+        ],
+        "image_f1": 0.7747747747747747,
+        "threshold_pixel": 4.775069236755371,
+        "threshold_image": 4.707427024841309,
+        "oracle_pixel_f1": 0.16983240223463686
+      },
+      "capsules": {
+        "pixel_auroc": 0.9839087999035396,
+        "pixel_auroc_ci": [
+          0.9771593118972369,
+          0.9896116852567635
+        ],
+        "pixel_ap": 0.588540477250461,
+        "pixel_ap_ci": [
+          0.49791543031916735,
+          0.6619297422517693
+        ],
+        "pixel_f1": 0.5948164715169056,
+        "image_auroc": 0.8213333333333334,
+        "image_auroc_ci": [
+          0.7186939824205545,
+          0.9010957526584301
+        ],
+        "image_f1": 0.7704918032786885,
+        "threshold_pixel": 5.840280055999756,
+        "threshold_image": 5.573695182800293,
+        "oracle_pixel_f1": 0.5957411458477557
+      },
+      "pcb4": {
+        "pixel_auroc": 0.9830909270791505,
+        "pixel_auroc_ci": [
+          0.9774915729416452,
+          0.9885153913399477
+        ],
+        "pixel_ap": 0.3172702094543578,
+        "pixel_ap_ci": [
+          0.2672210621806044,
+          0.3739988641623412
+        ],
+        "pixel_f1": 0.3840143036884974,
+        "image_auroc": 0.9984313725490197,
+        "image_auroc_ci": [
+          0.9934296705845963,
+          1.0
+        ],
+        "image_f1": 0.9690721649484536,
+        "threshold_pixel": 4.817034721374512,
+        "threshold_image": 4.940568923950195,
+        "oracle_pixel_f1": 0.39277281782631146
+      },
+      "mean": {
+        "pixel_auroc": 0.983840276081479,
+        "pixel_ap": 0.3256862522647803,
+        "pixel_f1": 0.36297582482176755,
+        "image_auroc": 0.8820549019607844,
+        "image_f1": 0.8381129143339723,
+        "oracle_pixel_f1": 0.38611545530290137
+      }
+    }
+  },
+  "sota": {
+    "delta": {
+      "macaroni2": {
+        "fae_minus_padim": {
+          "pixel_auroc": {
+            "delta": 0.03139518467773417,
+            "low": 0.020529262493053486,
+            "high": 0.04082679358568155,
+            "confidence_level": 0.95,
+            "n_repeats": 1000,
+            "excludes_zero": true
+          },
+          "image_auroc": {
+            "delta": 0.2095999999999999,
+            "low": 0.08239538603903099,
+            "high": 0.33498912292189603,
+            "confidence_level": 0.95,
+            "n_repeats": 1000,
+            "excludes_zero": true
+          },
+          "pixel_ap": {
+            "delta": 0.032055629961527325,
+            "low": 0.02047547411095847,
+            "high": 0.048702584035983085,
+            "confidence_level": 0.95,
+            "n_repeats": 1000,
+            "excludes_zero": true
+          }
+        },
+        "fae_minus_patchcore": {
+          "pixel_auroc": {
+            "delta": -0.0033266407729805048,
+            "low": -0.008726379535073651,
+            "high": 0.002096732250259191,
+            "confidence_level": 0.95,
+            "n_repeats": 1000,
+            "excludes_zero": false
+          },
+          "image_auroc": {
+            "delta": -0.06359999999999999,
+            "low": -0.14691620527218352,
+            "high": 0.009262375900992614,
+            "confidence_level": 0.95,
+            "n_repeats": 1000,
+            "excludes_zero": false
+          },
+          "pixel_ap": {
+            "delta": -0.03529238061426467,
+            "low": -0.08026480216869121,
+            "high": -0.01898715260269673,
+            "confidence_level": 0.95,
+            "n_repeats": 1000,
+            "excludes_zero": true
+          }
+        }
+      },
+      "capsules": {
+        "fae_minus_padim": {
+          "pixel_auroc": {
+            "delta": 0.04120261555194715,
+            "low": 0.024184674701692496,
+            "high": 0.060038416309783016,
+            "confidence_level": 0.95,
+            "n_repeats": 1000,
+            "excludes_zero": true
+          },
+          "image_auroc": {
+            "delta": 0.2153333333333335,
+            "low": 0.08181000351068819,
+            "high": 0.365253515625,
+            "confidence_level": 0.95,
+            "n_repeats": 1000,
+            "excludes_zero": true
+          },
+          "pixel_ap": {
+            "delta": 0.314656369799833,
+            "low": 0.20752985769596086,
+            "high": 0.413486997015564,
+            "confidence_level": 0.95,
+            "n_repeats": 1000,
+            "excludes_zero": true
+          }
+        },
+        "fae_minus_patchcore": {
+          "pixel_auroc": {
+            "delta": -0.017981472366488838,
+            "low": -0.02792634646719519,
+            "high": -0.009844462741007342,
+            "confidence_level": 0.95,
+            "n_repeats": 1000,
+            "excludes_zero": true
+          },
+          "image_auroc": {
+            "delta": -0.022666666666666613,
+            "low": -0.10762086032691795,
+            "high": 0.07937239411893794,
+            "confidence_level": 0.95,
+            "n_repeats": 1000,
+            "excludes_zero": false
+          },
+          "pixel_ap": {
+            "delta": -0.21993495691801718,
+            "low": -0.2802814857379909,
+            "high": -0.14948586832140898,
+            "confidence_level": 0.95,
+            "n_repeats": 1000,
+            "excludes_zero": true
+          }
+        }
+      },
+      "pcb4": {
+        "fae_minus_padim": {
+          "pixel_auroc": {
+            "delta": -0.0012942212969622169,
+            "low": -0.010905528025925612,
+            "high": 0.007144787845369571,
+            "confidence_level": 0.95,
+            "n_repeats": 1000,
+            "excludes_zero": false
+          },
+          "image_auroc": {
+            "delta": 0.0066666666666664876,
+            "low": -0.018972332015810278,
+            "high": 0.03253991596638655,
+            "confidence_level": 0.95,
+            "n_repeats": 1000,
+            "excludes_zero": false
+          },
+          "pixel_ap": {
+            "delta": -0.00528843793702638,
+            "low": -0.10233359749738644,
+            "high": 0.07083557183568152,
+            "confidence_level": 0.95,
+            "n_repeats": 1000,
+            "excludes_zero": false
+          }
+        },
+        "fae_minus_patchcore": {
+          "pixel_auroc": {
+            "delta": -0.012572084181291743,
+            "low": -0.021828362845872515,
+            "high": -0.005160087189724424,
+            "confidence_level": 0.95,
+            "n_repeats": 1000,
+            "excludes_zero": true
+          },
+          "image_auroc": {
+            "delta": -0.03882352941176492,
+            "low": -0.08294172523490344,
+            "high": -0.004727668481467881,
+            "confidence_level": 0.95,
+            "n_repeats": 1000,
+            "excludes_zero": true
+          },
+          "pixel_ap": {
+            "delta": -0.11565690023133113,
+            "low": -0.18104419426189466,
+            "high": -0.06211209537102596,
+            "confidence_level": 0.95,
+            "n_repeats": 1000,
+            "excludes_zero": true
+          }
+        }
+      }
+    },
+    "published": [
+      {
+        "method": "PaDiM",
+        "category": "macaroni2",
+        "metric": "image_auroc",
+        "value": 0.698,
+        "source": "Zou et al., ECCV 2022 (arXiv 2207.14315), Table 7",
+        "protocol": "1-class, ImageNet-supervised ResNet, повний офіційний test, колонка «Supervised»"
+      },
+      {
+        "method": "PaDiM",
+        "category": "capsules",
+        "metric": "image_auroc",
+        "value": 0.658,
+        "source": "Zou et al., ECCV 2022 (arXiv 2207.14315), Table 7",
+        "protocol": "1-class, ImageNet-supervised ResNet, повний офіційний test, колонка «Supervised»"
+      },
+      {
+        "method": "PaDiM",
+        "category": "pcb4",
+        "metric": "image_auroc",
+        "value": 0.985,
+        "source": "Zou et al., ECCV 2022 (arXiv 2207.14315), Table 7",
+        "protocol": "1-class, ImageNet-supervised ResNet, повний офіційний test, колонка «Supervised»"
+      },
+      {
+        "method": "PaDiM",
+        "category": "macaroni2",
+        "metric": "pixel_auroc",
+        "value": 0.956,
+        "source": "Zou et al., ECCV 2022 (arXiv 2207.14315), Table 8",
+        "protocol": "1-class, ImageNet-supervised ResNet, повний офіційний test, колонка «Supervised»"
+      },
+      {
+        "method": "PaDiM",
+        "category": "capsules",
+        "metric": "pixel_auroc",
+        "value": 0.838,
+        "source": "Zou et al., ECCV 2022 (arXiv 2207.14315), Table 8",
+        "protocol": "1-class, ImageNet-supervised ResNet, повний офіційний test, колонка «Supervised»"
+      },
+      {
+        "method": "PaDiM",
+        "category": "pcb4",
+        "metric": "pixel_auroc",
+        "value": 0.884,
+        "source": "Zou et al., ECCV 2022 (arXiv 2207.14315), Table 8",
+        "protocol": "1-class, ImageNet-supervised ResNet, повний офіційний test, колонка «Supervised»"
+      },
+      {
+        "method": "PaDiM",
+        "category": "macaroni2",
+        "metric": "pixel_ap",
+        "value": 0.008,
+        "source": "Zou et al., ECCV 2022 (arXiv 2207.14315), Table 8",
+        "protocol": "1-class, ImageNet-supervised ResNet, повний офіційний test, колонка «Supervised»"
+      },
+      {
+        "method": "PaDiM",
+        "category": "capsules",
+        "metric": "pixel_ap",
+        "value": 0.028,
+        "source": "Zou et al., ECCV 2022 (arXiv 2207.14315), Table 8",
+        "protocol": "1-class, ImageNet-supervised ResNet, повний офіційний test, колонка «Supervised»"
+      },
+      {
+        "method": "PaDiM",
+        "category": "pcb4",
+        "metric": "pixel_ap",
+        "value": 0.12,
+        "source": "Zou et al., ECCV 2022 (arXiv 2207.14315), Table 8",
+        "protocol": "1-class, ImageNet-supervised ResNet, повний офіційний test, колонка «Supervised»"
+      },
+      {
+        "method": "PatchCore",
+        "category": "mean",
+        "metric": "image_auroc",
+        "value": 0.924,
+        "source": "Zou et al., ECCV 2022 (arXiv 2207.14315), Table 6",
+        "protocol": "1-class, WRN50, середнє VisA"
+      },
+      {
+        "method": "PatchCore",
+        "category": "mean",
+        "metric": "pixel_auroc",
+        "value": 0.984,
+        "source": "Zou et al., ECCV 2022 (arXiv 2207.14315), Table 6",
+        "protocol": "1-class, WRN50, середнє VisA"
+      },
+      {
+        "method": "PatchCore",
+        "category": "mean",
+        "metric": "pixel_ap",
+        "value": 0.384,
+        "source": "Zou et al., ECCV 2022 (arXiv 2207.14315), Table 6",
+        "protocol": "1-class, WRN50, середнє VisA"
+      },
+      {
+        "method": "PatchCore",
+        "category": "macaroni2",
+        "metric": "image_auroc",
+        "value": 0.472,
+        "source": "CCAD (arXiv 2512.21459), Table 8, група «Single class based»",
+        "protocol": "1-class, перезапуск авторами CCAD (WRN50), повний офіційний test"
+      },
+      {
+        "method": "PatchCore",
+        "category": "capsules",
+        "metric": "image_auroc",
+        "value": 0.688,
+        "source": "CCAD (arXiv 2512.21459), Table 8, група «Single class based»",
+        "protocol": "1-class, перезапуск авторами CCAD (WRN50), повний офіційний test"
+      },
+      {
+        "method": "PatchCore",
+        "category": "pcb4",
+        "metric": "image_auroc",
+        "value": 0.697,
+        "source": "CCAD (arXiv 2512.21459), Table 8, група «Single class based»",
+        "protocol": "1-class, перезапуск авторами CCAD (WRN50), повний офіційний test"
+      },
+      {
+        "method": "PatchCore",
+        "category": "macaroni2",
+        "metric": "pixel_auroc",
+        "value": 0.936,
+        "source": "CCAD (arXiv 2512.21459), Table 8, група «Single class based»",
+        "protocol": "1-class, перезапуск авторами CCAD (WRN50), повний офіційний test"
+      },
+      {
+        "method": "PatchCore",
+        "category": "capsules",
+        "metric": "pixel_auroc",
+        "value": 0.974,
+        "source": "CCAD (arXiv 2512.21459), Table 8, група «Single class based»",
+        "protocol": "1-class, перезапуск авторами CCAD (WRN50), повний офіційний test"
+      },
+      {
+        "method": "PatchCore",
+        "category": "pcb4",
+        "metric": "pixel_auroc",
+        "value": 0.934,
+        "source": "CCAD (arXiv 2512.21459), Table 8, група «Single class based»",
+        "protocol": "1-class, перезапуск авторами CCAD (WRN50), повний офіційний test"
+      }
+    ]
+  },
+  "profiling": {
+    "device": {
+      "cpu": "Apple M1 Pro",
+      "logical_cores": 10,
+      "tf_version": "2.21.0",
+      "keras_version": "3.15.1",
+      "gpu_available": false,
+      "intra_op_threads": 0,
+      "inter_op_threads": 2,
+      "load_average": [
+        20.90966796875,
+        18.80908203125,
+        14.724609375
+      ],
+      "load_average_before_latency": [
+        10.60693359375,
+        18.5625,
+        13.91650390625
+      ]
+    },
+    "patch_size": 1,
+    "tile_grid": 1,
+    "patchcore_bank": 7834,
+    "postprocess_gflops": 0.009191424,
+    "decode_resize_ms": 7.065750498441048,
+    "fae_gflops_profiler": 0.60771584,
+    "fae_gflops_analytic": 0.603979776,
+    "FAE": {
+      "mobilenet_v2": {
+        "gflops_backbone": 0.595167872,
+        "gflops_head": 0.60771584,
+        "params_head": 296000,
+        "memory_mb": 1.129150390625,
+        "latency_ms_b1_median": 16.592208499787375,
+        "latency_ms_b1_p90": 17.098741003428586,
+        "latency_ms_b16": 7.734104186965851,
+        "latency_ms_b1_1thread": 43.79004151269328
+      },
+      "efficientnet_b0": {
+        "gflops_backbone": 0.714046307,
+        "gflops_head": 0.60771584,
+        "params_head": 296000,
+        "memory_mb": 1.129150390625,
+        "latency_ms_b1_median": 20.643458497943357,
+        "latency_ms_b1_p90": 21.37364551308565,
+        "latency_ms_b16": 10.07775909420161,
+        "latency_ms_b1_1thread": 56.34212501172442
+      },
+      "resnet50": {
+        "gflops_backbone": 8.211424896,
+        "gflops_head": 0.60771584,
+        "params_head": 296000,
+        "memory_mb": 1.129150390625,
+        "latency_ms_b1_median": 37.95862500555813,
+        "latency_ms_b1_p90": 39.17077111254912,
+        "latency_ms_b16": 22.351204406731995,
+        "latency_ms_b1_1thread": 149.0293330134591
+      }
+    },
+    "PaDiM": {
+      "mobilenet_v2": {
+        "gflops_backbone": 0.595167872,
+        "gflops_head": 0.0206848,
+        "params_head": 10342400,
+        "memory_mb": 39.453125,
+        "latency_ms_b1_median": 15.157603993429802,
+        "latency_ms_b1_p90": 15.463604210526682,
+        "latency_ms_b16": 7.318901061807992,
+        "latency_ms_b1_1thread": 38.61389598750975
+      },
+      "efficientnet_b0": {
+        "gflops_backbone": 0.714046307,
+        "gflops_head": 0.0206848,
+        "params_head": 10342400,
+        "memory_mb": 39.453125,
+        "latency_ms_b1_median": 19.258750005974434,
+        "latency_ms_b1_p90": 19.737200302188285,
+        "latency_ms_b16": 9.519751311927394,
+        "latency_ms_b1_1thread": 51.35612499725539
+      },
+      "resnet50": {
+        "gflops_backbone": 8.211424896,
+        "gflops_head": 0.0206848,
+        "params_head": 10342400,
+        "memory_mb": 39.453125,
+        "latency_ms_b1_median": 36.86300000117626,
+        "latency_ms_b1_p90": 37.12507059099153,
+        "latency_ms_b16": 21.252257813102915,
+        "latency_ms_b1_1thread": 144.39872949151322
+      }
+    },
+    "PatchCore": {
+      "mobilenet_v2": {
+        "gflops_backbone": 0.595167872,
+        "gflops_head": 8.214544384,
+        "params_head": 4011008,
+        "memory_mb": 15.30078125,
+        "latency_ms_b1_median": 30.052438014536165,
+        "latency_ms_b1_p90": 32.17120779736433,
+        "latency_ms_b16": 19.539953093953955,
+        "latency_ms_b1_1thread": 141.43793750554323
+      },
+      "efficientnet_b0": {
+        "gflops_backbone": 0.714046307,
+        "gflops_head": 8.214544384,
+        "params_head": 4011008,
+        "memory_mb": 15.30078125,
+        "latency_ms_b1_median": 33.74187499866821,
+        "latency_ms_b1_p90": 34.89506628247909,
+        "latency_ms_b16": 22.773725280785584,
+        "latency_ms_b1_1thread": 154.1219579958124
+      },
+      "resnet50": {
+        "gflops_backbone": 8.211424896,
+        "gflops_head": 8.214544384,
+        "params_head": 4011008,
+        "memory_mb": 15.30078125,
+        "latency_ms_b1_median": 51.839479492628016,
+        "latency_ms_b1_p90": 54.208987794118,
+        "latency_ms_b16": 33.57919921836583,
+        "latency_ms_b1_1thread": 246.54554201697465
+      }
+    }
+  },
+  "config": {
+    "seed": 42,
+    "visa_url": "https://amazon-visual-anomaly.s3.us-west-2.amazonaws.com/VisA_20220922.tar",
+    "visa_sha256": "2eb8690c803ab37de0324772964100169ec8ba1fa3f7e94291c9ca673f40f362",
+    "visa_archive": "VisA_20220922.tar",
+    "visa_license": "CC BY 4.0 (LICENSE-DATASET в архіві; Anomalib вказує CC BY-NC-SA 4.0)",
+    "categories": [
+      "macaroni2",
+      "capsules",
+      "pcb4"
+    ],
+    "study_category": "macaroni2",
+    "background_categories": [
+      "candle",
+      "capsules",
+      "cashew",
+      "chewinggum",
+      "fryum",
+      "macaroni1",
+      "macaroni2",
+      "pcb1",
+      "pcb2",
+      "pcb3",
+      "pcb4",
+      "pipe_fryum"
+    ],
+    "background_sample": 50,
+    "brightness_cells": 16,
+    "train_fraction": 0.85,
+    "val_fraction_of_test": 0.5,
+    "image_size": 256,
+    "eval_size": 256,
+    "blur_sigma": 4.0,
+    "feature_dim": 512,
+    "backbones": [
+      "mobilenet_v2",
+      "efficientnet_b0",
+      "resnet50"
+    ],
+    "patch_sizes": [
+      1,
+      3,
+      5
+    ],
+    "default_patch_size": 3,
+    "study_tile_grid": 2,
+    "extraction_batch_size": 16,
+    "latent_grid": [
+      16,
+      256
+    ],
+    "dropout_grid": [
+      0.2
+    ],
+    "l2_grid": [
+      0.0001
+    ],
+    "noise_grid": [
+      0.2
+    ],
+    "selection_tolerance": 0.002,
+    "padim_channels": 100,
+    "padim_epsilon": 0.01,
+    "patchcore_coreset_ratio": 0.01,
+    "patchcore_projection_dim": 128,
+    "patchcore_max_train_vectors": 800000,
+    "scoring_batch_size": 8,
+    "bootstrap_repeats": 1000,
+    "confidence_level": 0.95,
+    "histogram_bins": 4096,
+    "latency_warmup": 5,
+    "latency_runs": 30,
+    "latency_runs_batch": 10,
+    "latency_batch": 16,
+    "intra_op_threads": null,
+    "inter_op_threads": 2,
+    "decode_latency_images": 20,
+    "fae_base": {
+      "feature_dim": 512,
+      "hidden": 256,
+      "latent": 64,
+      "dropout": 0.0,
+      "l2": 0.0,
+      "input_noise": 0.0,
+      "learning_rate": 0.001,
+      "batch_size": 512,
+      "vectors_per_epoch": 25000,
+      "validation_vectors": 20000,
+      "max_epochs": 60,
+      "patience": 5
+    }
+  },
+  "timing": {
+    "steps_seconds": {
+      "data": 1.7810756670078263,
+      "features": 4.548941457993351,
+      "study_backbones": 244.58046404199558,
+      "study_patch_size": 303.0487352499913,
+      "study_regularization": 413.7980900420225,
+      "final_training": 150.7249117080064,
+      "sota": 418.2907841249835,
+      "evaluation": 46.07722766700317,
+      "profiling": 159.898362500011
+    },
+    "total_seconds": 1742.7497366249736,
+    "n_cpu": 10
+  }
+}

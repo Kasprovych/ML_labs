@@ -1,0 +1,844 @@
+category,method,image,label,defect_types,defect_area_share,brightness_std,score,threshold,decision,outcome
+macaroni2,FAE,macaroni2/Data/Images/Anomaly/000.JPG,1,"breakage down the middle,small scratches",0.00064,33.49609,1.36887,0.46013,1,TP
+macaroni2,FAE,macaroni2/Data/Images/Anomaly/001.JPG,1,"breakage down the middle,small scratches",0.00047,31.77823,2.32015,0.46013,1,TP
+macaroni2,FAE,macaroni2/Data/Images/Anomaly/002.JPG,1,"breakage down the middle,small scratches",0.00082,33.44075,1.82092,0.46013,1,TP
+macaroni2,FAE,macaroni2/Data/Images/Anomaly/003.JPG,1,"breakage down the middle,small scratches",0.00024,33.32856,1.20169,0.46013,1,TP
+macaroni2,FAE,macaroni2/Data/Images/Anomaly/004.JPG,1,breakage down the middle,0.00089,34.02132,1.60034,0.46013,1,TP
+macaroni2,FAE,macaroni2/Data/Images/Anomaly/006.JPG,1,"breakage down the middle,small scratches",0.00056,33.00654,1.70014,0.46013,1,TP
+macaroni2,FAE,macaroni2/Data/Images/Anomaly/007.JPG,1,"breakage down the middle,small scratches",0.00050,32.68636,2.00893,0.46013,1,TP
+macaroni2,FAE,macaroni2/Data/Images/Anomaly/008.JPG,1,"breakage down the middle,small scratches",0.00046,32.14500,1.64200,0.46013,1,TP
+macaroni2,FAE,macaroni2/Data/Images/Anomaly/011.JPG,1,color spot similar to the object,0.00053,34.76257,0.71493,0.46013,1,TP
+macaroni2,FAE,macaroni2/Data/Images/Anomaly/012.JPG,1,color spot similar to the object,0.00027,33.27691,1.02802,0.46013,1,TP
+macaroni2,FAE,macaroni2/Data/Images/Anomaly/013.JPG,1,color spot similar to the object,0.00035,34.66283,0.73159,0.46013,1,TP
+macaroni2,FAE,macaroni2/Data/Images/Anomaly/014.JPG,1,color spot similar to the object,0.00037,33.63866,1.31515,0.46013,1,TP
+macaroni2,FAE,macaroni2/Data/Images/Anomaly/021.JPG,1,color spot similar to the object,0.00034,33.24381,0.68671,0.46013,1,TP
+macaroni2,FAE,macaroni2/Data/Images/Anomaly/022.JPG,1,color spot similar to the object,0.00041,32.55374,1.19188,0.46013,1,TP
+macaroni2,FAE,macaroni2/Data/Images/Anomaly/026.JPG,1,color spot similar to the object,0.00021,33.63223,0.49198,0.46013,1,TP
+macaroni2,FAE,macaroni2/Data/Images/Anomaly/027.JPG,1,color spot similar to the object,0.00021,32.57839,1.15153,0.46013,1,TP
+macaroni2,FAE,macaroni2/Data/Images/Anomaly/028.JPG,1,color spot similar to the object,0.00021,33.79008,0.65646,0.46013,1,TP
+macaroni2,FAE,macaroni2/Data/Images/Anomaly/031.JPG,1,different color spot,0.00021,34.32016,1.91264,0.46013,1,TP
+macaroni2,FAE,macaroni2/Data/Images/Anomaly/032.JPG,1,different color spot,0.00014,32.92982,1.91337,0.46013,1,TP
+macaroni2,FAE,macaroni2/Data/Images/Anomaly/033.JPG,1,different color spot,0.00017,33.18608,1.08920,0.46013,1,TP
+macaroni2,FAE,macaroni2/Data/Images/Anomaly/034.JPG,1,different color spot,0.00011,32.63728,1.69076,0.46013,1,TP
+macaroni2,FAE,macaroni2/Data/Images/Anomaly/035.JPG,1,different color spot,0.00021,33.60297,1.81643,0.46013,1,TP
+macaroni2,FAE,macaroni2/Data/Images/Anomaly/036.JPG,1,different color spot,0.00026,32.97684,1.44181,0.46013,1,TP
+macaroni2,FAE,macaroni2/Data/Images/Anomaly/038.JPG,1,different color spot,0.00020,34.16788,2.36178,0.46013,1,TP
+macaroni2,FAE,macaroni2/Data/Images/Anomaly/040.JPG,1,different color spot,0.00021,33.13920,1.71241,0.46013,1,TP
+macaroni2,FAE,macaroni2/Data/Images/Anomaly/041.JPG,1,color spot similar to the object,0.00034,33.13683,1.03830,0.46013,1,TP
+macaroni2,FAE,macaroni2/Data/Images/Anomaly/042.JPG,1,color spot similar to the object,0.00085,31.45320,1.91106,0.46013,1,TP
+macaroni2,FAE,macaroni2/Data/Images/Anomaly/043.JPG,1,color spot similar to the object,0.00058,33.28986,1.49280,0.46013,1,TP
+macaroni2,FAE,macaroni2/Data/Images/Anomaly/044.JPG,1,different color spot,0.00009,32.93598,1.88284,0.46013,1,TP
+macaroni2,FAE,macaroni2/Data/Images/Anomaly/046.JPG,1,"small chip around edge,small scratches",0.00107,34.42739,0.42433,0.46013,0,FN
+macaroni2,FAE,macaroni2/Data/Images/Anomaly/047.JPG,1,small chip around edge,0.00052,33.40321,0.44385,0.46013,0,FN
+macaroni2,FAE,macaroni2/Data/Images/Anomaly/050.JPG,1,small chip around edge,0.00060,31.31889,0.49162,0.46013,1,TP
+macaroni2,FAE,macaroni2/Data/Images/Anomaly/051.JPG,1,small chip around edge,0.00026,32.90977,0.72310,0.46013,1,TP
+macaroni2,FAE,macaroni2/Data/Images/Anomaly/061.JPG,1,"small chip around edge,small scratches",0.00174,35.16484,0.61527,0.46013,1,TP
+macaroni2,FAE,macaroni2/Data/Images/Anomaly/062.JPG,1,"small chip around edge,small scratches",0.00110,35.00055,0.59939,0.46013,1,TP
+macaroni2,FAE,macaroni2/Data/Images/Anomaly/064.JPG,1,small chip around edge,0.00063,32.90388,0.47484,0.46013,1,TP
+macaroni2,FAE,macaroni2/Data/Images/Anomaly/068.JPG,1,"small chip around edge,small scratches",0.00153,31.12706,0.63634,0.46013,1,TP
+macaroni2,FAE,macaroni2/Data/Images/Anomaly/069.JPG,1,small chip around edge,0.00021,33.48591,0.41648,0.46013,0,FN
+macaroni2,FAE,macaroni2/Data/Images/Anomaly/070.JPG,1,small scratches,0.00085,33.93231,0.56265,0.46013,1,TP
+macaroni2,FAE,macaroni2/Data/Images/Anomaly/071.JPG,1,"breakage down the middle,color spot similar to the object,different color spot,small chip around edge,small cracks,small scratches,other",0.00099,33.25067,0.90883,0.46013,1,TP
+macaroni2,FAE,macaroni2/Data/Images/Anomaly/072.JPG,1,small cracks,0.00006,33.47892,0.68064,0.46013,1,TP
+macaroni2,FAE,macaroni2/Data/Images/Anomaly/077.JPG,1,"small cracks,small scratches",0.00119,34.59689,0.63672,0.46013,1,TP
+macaroni2,FAE,macaroni2/Data/Images/Anomaly/080.JPG,1,"breakage down the middle,color spot similar to the object,different color spot,small chip around edge,small cracks,small scratches",0.00047,32.44977,0.52522,0.46013,1,TP
+macaroni2,FAE,macaroni2/Data/Images/Anomaly/084.JPG,1,"breakage down the middle,color spot similar to the object,different color spot,small chip around edge,small cracks,small scratches",0.00032,34.44141,0.71156,0.46013,1,TP
+macaroni2,FAE,macaroni2/Data/Images/Anomaly/091.JPG,1,small scratches,0.00107,32.83357,0.96356,0.46013,1,TP
+macaroni2,FAE,macaroni2/Data/Images/Anomaly/092.JPG,1,small scratches,0.00037,33.56834,0.53565,0.46013,1,TP
+macaroni2,FAE,macaroni2/Data/Images/Anomaly/094.JPG,1,small scratches,0.00053,32.61772,1.48170,0.46013,1,TP
+macaroni2,FAE,macaroni2/Data/Images/Anomaly/095.JPG,1,small scratches,0.00063,33.37021,1.00234,0.46013,1,TP
+macaroni2,FAE,macaroni2/Data/Images/Anomaly/096.JPG,1,small scratches,0.00047,33.29043,1.03013,0.46013,1,TP
+macaroni2,FAE,macaroni2/Data/Images/Anomaly/097.JPG,1,small scratches,0.00078,33.32011,0.83800,0.46013,1,TP
+macaroni2,FAE,macaroni2/Data/Images/Normal/0013.JPG,0,,0.00000,34.91405,0.60379,0.46013,1,FP
+macaroni2,FAE,macaroni2/Data/Images/Normal/0024.JPG,0,,0.00000,33.34706,0.71216,0.46013,1,FP
+macaroni2,FAE,macaroni2/Data/Images/Normal/0027.JPG,0,,0.00000,32.10498,0.46490,0.46013,1,FP
+macaroni2,FAE,macaroni2/Data/Images/Normal/0046.JPG,0,,0.00000,35.66193,0.42581,0.46013,0,TN
+macaroni2,FAE,macaroni2/Data/Images/Normal/0100.JPG,0,,0.00000,33.14783,0.54560,0.46013,1,FP
+macaroni2,FAE,macaroni2/Data/Images/Normal/0107.JPG,0,,0.00000,32.18398,0.86572,0.46013,1,FP
+macaroni2,FAE,macaroni2/Data/Images/Normal/0159.JPG,0,,0.00000,32.13922,0.57258,0.46013,1,FP
+macaroni2,FAE,macaroni2/Data/Images/Normal/0168.JPG,0,,0.00000,32.70382,0.55042,0.46013,1,FP
+macaroni2,FAE,macaroni2/Data/Images/Normal/0178.JPG,0,,0.00000,33.47604,0.44659,0.46013,0,TN
+macaroni2,FAE,macaroni2/Data/Images/Normal/0187.JPG,0,,0.00000,32.41543,0.62281,0.46013,1,FP
+macaroni2,FAE,macaroni2/Data/Images/Normal/0196.JPG,0,,0.00000,33.29530,0.58466,0.46013,1,FP
+macaroni2,FAE,macaroni2/Data/Images/Normal/0208.JPG,0,,0.00000,32.19011,0.67703,0.46013,1,FP
+macaroni2,FAE,macaroni2/Data/Images/Normal/0261.JPG,0,,0.00000,36.37499,0.96222,0.46013,1,FP
+macaroni2,FAE,macaroni2/Data/Images/Normal/0286.JPG,0,,0.00000,33.79991,0.64923,0.46013,1,FP
+macaroni2,FAE,macaroni2/Data/Images/Normal/0294.JPG,0,,0.00000,32.08838,0.48100,0.46013,1,FP
+macaroni2,FAE,macaroni2/Data/Images/Normal/0394.JPG,0,,0.00000,32.18114,0.59547,0.46013,1,FP
+macaroni2,FAE,macaroni2/Data/Images/Normal/0427.JPG,0,,0.00000,32.69653,0.49622,0.46013,1,FP
+macaroni2,FAE,macaroni2/Data/Images/Normal/0457.JPG,0,,0.00000,34.03550,0.71182,0.46013,1,FP
+macaroni2,FAE,macaroni2/Data/Images/Normal/0469.JPG,0,,0.00000,33.17769,0.43676,0.46013,0,TN
+macaroni2,FAE,macaroni2/Data/Images/Normal/0483.JPG,0,,0.00000,37.41952,0.77191,0.46013,1,FP
+macaroni2,FAE,macaroni2/Data/Images/Normal/0484.JPG,0,,0.00000,36.63329,0.90788,0.46013,1,FP
+macaroni2,FAE,macaroni2/Data/Images/Normal/0490.JPG,0,,0.00000,31.91582,0.56360,0.46013,1,FP
+macaroni2,FAE,macaroni2/Data/Images/Normal/0525.JPG,0,,0.00000,32.22187,0.53879,0.46013,1,FP
+macaroni2,FAE,macaroni2/Data/Images/Normal/0629.JPG,0,,0.00000,34.70672,0.49627,0.46013,1,FP
+macaroni2,FAE,macaroni2/Data/Images/Normal/0631.JPG,0,,0.00000,35.13175,0.63332,0.46013,1,FP
+macaroni2,FAE,macaroni2/Data/Images/Normal/0674.JPG,0,,0.00000,35.32676,0.78530,0.46013,1,FP
+macaroni2,FAE,macaroni2/Data/Images/Normal/0684.JPG,0,,0.00000,33.07118,3.90762,0.46013,1,FP
+macaroni2,FAE,macaroni2/Data/Images/Normal/0685.JPG,0,,0.00000,35.89421,0.59260,0.46013,1,FP
+macaroni2,FAE,macaroni2/Data/Images/Normal/0690.JPG,0,,0.00000,32.50990,0.41895,0.46013,0,TN
+macaroni2,FAE,macaroni2/Data/Images/Normal/0694.JPG,0,,0.00000,36.45289,0.89131,0.46013,1,FP
+macaroni2,FAE,macaroni2/Data/Images/Normal/0725.JPG,0,,0.00000,34.36476,0.40058,0.46013,0,TN
+macaroni2,FAE,macaroni2/Data/Images/Normal/0730.JPG,0,,0.00000,35.25938,0.44109,0.46013,0,TN
+macaroni2,FAE,macaroni2/Data/Images/Normal/0735.JPG,0,,0.00000,33.27834,0.41975,0.46013,0,TN
+macaroni2,FAE,macaroni2/Data/Images/Normal/0739.JPG,0,,0.00000,33.91489,0.52375,0.46013,1,FP
+macaroni2,FAE,macaroni2/Data/Images/Normal/0751.JPG,0,,0.00000,32.51175,0.66109,0.46013,1,FP
+macaroni2,FAE,macaroni2/Data/Images/Normal/0755.JPG,0,,0.00000,32.86575,1.13613,0.46013,1,FP
+macaroni2,FAE,macaroni2/Data/Images/Normal/0768.JPG,0,,0.00000,32.91388,0.44463,0.46013,0,TN
+macaroni2,FAE,macaroni2/Data/Images/Normal/0779.JPG,0,,0.00000,33.91374,0.53622,0.46013,1,FP
+macaroni2,FAE,macaroni2/Data/Images/Normal/0800.JPG,0,,0.00000,32.23230,0.52873,0.46013,1,FP
+macaroni2,FAE,macaroni2/Data/Images/Normal/0804.JPG,0,,0.00000,37.00010,0.53025,0.46013,1,FP
+macaroni2,FAE,macaroni2/Data/Images/Normal/0811.JPG,0,,0.00000,35.43434,0.81780,0.46013,1,FP
+macaroni2,FAE,macaroni2/Data/Images/Normal/0844.JPG,0,,0.00000,33.12903,0.68033,0.46013,1,FP
+macaroni2,FAE,macaroni2/Data/Images/Normal/0871.JPG,0,,0.00000,32.69122,0.78175,0.46013,1,FP
+macaroni2,FAE,macaroni2/Data/Images/Normal/0900.JPG,0,,0.00000,33.47183,1.19521,0.46013,1,FP
+macaroni2,FAE,macaroni2/Data/Images/Normal/0920.JPG,0,,0.00000,32.81504,0.57895,0.46013,1,FP
+macaroni2,FAE,macaroni2/Data/Images/Normal/0923.JPG,0,,0.00000,38.35363,0.62302,0.46013,1,FP
+macaroni2,FAE,macaroni2/Data/Images/Normal/0964.JPG,0,,0.00000,33.67509,0.63568,0.46013,1,FP
+macaroni2,FAE,macaroni2/Data/Images/Normal/0974.JPG,0,,0.00000,33.08875,0.57424,0.46013,1,FP
+macaroni2,FAE,macaroni2/Data/Images/Normal/0985.JPG,0,,0.00000,34.88600,0.89569,0.46013,1,FP
+macaroni2,FAE,macaroni2/Data/Images/Normal/0994.JPG,0,,0.00000,32.28834,0.54743,0.46013,1,FP
+macaroni2,PaDiM,macaroni2/Data/Images/Anomaly/000.JPG,1,"breakage down the middle,small scratches",0.00064,33.49609,14.55315,11.27210,1,TP
+macaroni2,PaDiM,macaroni2/Data/Images/Anomaly/001.JPG,1,"breakage down the middle,small scratches",0.00047,31.77823,13.68602,11.27210,1,TP
+macaroni2,PaDiM,macaroni2/Data/Images/Anomaly/002.JPG,1,"breakage down the middle,small scratches",0.00082,33.44075,18.82130,11.27210,1,TP
+macaroni2,PaDiM,macaroni2/Data/Images/Anomaly/003.JPG,1,"breakage down the middle,small scratches",0.00024,33.32856,21.21453,11.27210,1,TP
+macaroni2,PaDiM,macaroni2/Data/Images/Anomaly/004.JPG,1,breakage down the middle,0.00089,34.02132,16.45630,11.27210,1,TP
+macaroni2,PaDiM,macaroni2/Data/Images/Anomaly/006.JPG,1,"breakage down the middle,small scratches",0.00056,33.00654,12.26151,11.27210,1,TP
+macaroni2,PaDiM,macaroni2/Data/Images/Anomaly/007.JPG,1,"breakage down the middle,small scratches",0.00050,32.68636,13.91849,11.27210,1,TP
+macaroni2,PaDiM,macaroni2/Data/Images/Anomaly/008.JPG,1,"breakage down the middle,small scratches",0.00046,32.14500,15.65302,11.27210,1,TP
+macaroni2,PaDiM,macaroni2/Data/Images/Anomaly/011.JPG,1,color spot similar to the object,0.00053,34.76257,12.47215,11.27210,1,TP
+macaroni2,PaDiM,macaroni2/Data/Images/Anomaly/012.JPG,1,color spot similar to the object,0.00027,33.27691,14.92182,11.27210,1,TP
+macaroni2,PaDiM,macaroni2/Data/Images/Anomaly/013.JPG,1,color spot similar to the object,0.00035,34.66283,15.27037,11.27210,1,TP
+macaroni2,PaDiM,macaroni2/Data/Images/Anomaly/014.JPG,1,color spot similar to the object,0.00037,33.63866,14.75664,11.27210,1,TP
+macaroni2,PaDiM,macaroni2/Data/Images/Anomaly/021.JPG,1,color spot similar to the object,0.00034,33.24381,19.61077,11.27210,1,TP
+macaroni2,PaDiM,macaroni2/Data/Images/Anomaly/022.JPG,1,color spot similar to the object,0.00041,32.55374,17.23108,11.27210,1,TP
+macaroni2,PaDiM,macaroni2/Data/Images/Anomaly/026.JPG,1,color spot similar to the object,0.00021,33.63223,16.35113,11.27210,1,TP
+macaroni2,PaDiM,macaroni2/Data/Images/Anomaly/027.JPG,1,color spot similar to the object,0.00021,32.57839,18.05558,11.27210,1,TP
+macaroni2,PaDiM,macaroni2/Data/Images/Anomaly/028.JPG,1,color spot similar to the object,0.00021,33.79008,13.62360,11.27210,1,TP
+macaroni2,PaDiM,macaroni2/Data/Images/Anomaly/031.JPG,1,different color spot,0.00021,34.32016,12.79835,11.27210,1,TP
+macaroni2,PaDiM,macaroni2/Data/Images/Anomaly/032.JPG,1,different color spot,0.00014,32.92982,14.62574,11.27210,1,TP
+macaroni2,PaDiM,macaroni2/Data/Images/Anomaly/033.JPG,1,different color spot,0.00017,33.18608,16.78239,11.27210,1,TP
+macaroni2,PaDiM,macaroni2/Data/Images/Anomaly/034.JPG,1,different color spot,0.00011,32.63728,11.96614,11.27210,1,TP
+macaroni2,PaDiM,macaroni2/Data/Images/Anomaly/035.JPG,1,different color spot,0.00021,33.60297,15.79148,11.27210,1,TP
+macaroni2,PaDiM,macaroni2/Data/Images/Anomaly/036.JPG,1,different color spot,0.00026,32.97684,13.83919,11.27210,1,TP
+macaroni2,PaDiM,macaroni2/Data/Images/Anomaly/038.JPG,1,different color spot,0.00020,34.16788,15.32461,11.27210,1,TP
+macaroni2,PaDiM,macaroni2/Data/Images/Anomaly/040.JPG,1,different color spot,0.00021,33.13920,13.52585,11.27210,1,TP
+macaroni2,PaDiM,macaroni2/Data/Images/Anomaly/041.JPG,1,color spot similar to the object,0.00034,33.13683,11.31467,11.27210,1,TP
+macaroni2,PaDiM,macaroni2/Data/Images/Anomaly/042.JPG,1,color spot similar to the object,0.00085,31.45320,13.30183,11.27210,1,TP
+macaroni2,PaDiM,macaroni2/Data/Images/Anomaly/043.JPG,1,color spot similar to the object,0.00058,33.28986,14.49296,11.27210,1,TP
+macaroni2,PaDiM,macaroni2/Data/Images/Anomaly/044.JPG,1,different color spot,0.00009,32.93598,14.91734,11.27210,1,TP
+macaroni2,PaDiM,macaroni2/Data/Images/Anomaly/046.JPG,1,"small chip around edge,small scratches",0.00107,34.42739,14.21746,11.27210,1,TP
+macaroni2,PaDiM,macaroni2/Data/Images/Anomaly/047.JPG,1,small chip around edge,0.00052,33.40321,11.41039,11.27210,1,TP
+macaroni2,PaDiM,macaroni2/Data/Images/Anomaly/050.JPG,1,small chip around edge,0.00060,31.31889,12.18314,11.27210,1,TP
+macaroni2,PaDiM,macaroni2/Data/Images/Anomaly/051.JPG,1,small chip around edge,0.00026,32.90977,14.42549,11.27210,1,TP
+macaroni2,PaDiM,macaroni2/Data/Images/Anomaly/061.JPG,1,"small chip around edge,small scratches",0.00174,35.16484,14.73207,11.27210,1,TP
+macaroni2,PaDiM,macaroni2/Data/Images/Anomaly/062.JPG,1,"small chip around edge,small scratches",0.00110,35.00055,15.19186,11.27210,1,TP
+macaroni2,PaDiM,macaroni2/Data/Images/Anomaly/064.JPG,1,small chip around edge,0.00063,32.90388,13.80838,11.27210,1,TP
+macaroni2,PaDiM,macaroni2/Data/Images/Anomaly/068.JPG,1,"small chip around edge,small scratches",0.00153,31.12706,19.96301,11.27210,1,TP
+macaroni2,PaDiM,macaroni2/Data/Images/Anomaly/069.JPG,1,small chip around edge,0.00021,33.48591,15.25825,11.27210,1,TP
+macaroni2,PaDiM,macaroni2/Data/Images/Anomaly/070.JPG,1,small scratches,0.00085,33.93231,13.40939,11.27210,1,TP
+macaroni2,PaDiM,macaroni2/Data/Images/Anomaly/071.JPG,1,"breakage down the middle,color spot similar to the object,different color spot,small chip around edge,small cracks,small scratches,other",0.00099,33.25067,12.23450,11.27210,1,TP
+macaroni2,PaDiM,macaroni2/Data/Images/Anomaly/072.JPG,1,small cracks,0.00006,33.47892,11.77559,11.27210,1,TP
+macaroni2,PaDiM,macaroni2/Data/Images/Anomaly/077.JPG,1,"small cracks,small scratches",0.00119,34.59689,13.40909,11.27210,1,TP
+macaroni2,PaDiM,macaroni2/Data/Images/Anomaly/080.JPG,1,"breakage down the middle,color spot similar to the object,different color spot,small chip around edge,small cracks,small scratches",0.00047,32.44977,13.44450,11.27210,1,TP
+macaroni2,PaDiM,macaroni2/Data/Images/Anomaly/084.JPG,1,"breakage down the middle,color spot similar to the object,different color spot,small chip around edge,small cracks,small scratches",0.00032,34.44141,13.55620,11.27210,1,TP
+macaroni2,PaDiM,macaroni2/Data/Images/Anomaly/091.JPG,1,small scratches,0.00107,32.83357,17.29390,11.27210,1,TP
+macaroni2,PaDiM,macaroni2/Data/Images/Anomaly/092.JPG,1,small scratches,0.00037,33.56834,13.81213,11.27210,1,TP
+macaroni2,PaDiM,macaroni2/Data/Images/Anomaly/094.JPG,1,small scratches,0.00053,32.61772,20.28886,11.27210,1,TP
+macaroni2,PaDiM,macaroni2/Data/Images/Anomaly/095.JPG,1,small scratches,0.00063,33.37021,25.35978,11.27210,1,TP
+macaroni2,PaDiM,macaroni2/Data/Images/Anomaly/096.JPG,1,small scratches,0.00047,33.29043,15.71715,11.27210,1,TP
+macaroni2,PaDiM,macaroni2/Data/Images/Anomaly/097.JPG,1,small scratches,0.00078,33.32011,15.03950,11.27210,1,TP
+macaroni2,PaDiM,macaroni2/Data/Images/Normal/0013.JPG,0,,0.00000,34.91405,16.12983,11.27210,1,FP
+macaroni2,PaDiM,macaroni2/Data/Images/Normal/0024.JPG,0,,0.00000,33.34706,19.15617,11.27210,1,FP
+macaroni2,PaDiM,macaroni2/Data/Images/Normal/0027.JPG,0,,0.00000,32.10498,11.47337,11.27210,1,FP
+macaroni2,PaDiM,macaroni2/Data/Images/Normal/0046.JPG,0,,0.00000,35.66193,12.07978,11.27210,1,FP
+macaroni2,PaDiM,macaroni2/Data/Images/Normal/0100.JPG,0,,0.00000,33.14783,9.82469,11.27210,0,TN
+macaroni2,PaDiM,macaroni2/Data/Images/Normal/0107.JPG,0,,0.00000,32.18398,14.98174,11.27210,1,FP
+macaroni2,PaDiM,macaroni2/Data/Images/Normal/0159.JPG,0,,0.00000,32.13922,15.77796,11.27210,1,FP
+macaroni2,PaDiM,macaroni2/Data/Images/Normal/0168.JPG,0,,0.00000,32.70382,10.15985,11.27210,0,TN
+macaroni2,PaDiM,macaroni2/Data/Images/Normal/0178.JPG,0,,0.00000,33.47604,12.09306,11.27210,1,FP
+macaroni2,PaDiM,macaroni2/Data/Images/Normal/0187.JPG,0,,0.00000,32.41543,12.11730,11.27210,1,FP
+macaroni2,PaDiM,macaroni2/Data/Images/Normal/0196.JPG,0,,0.00000,33.29530,13.49836,11.27210,1,FP
+macaroni2,PaDiM,macaroni2/Data/Images/Normal/0208.JPG,0,,0.00000,32.19011,14.28007,11.27210,1,FP
+macaroni2,PaDiM,macaroni2/Data/Images/Normal/0261.JPG,0,,0.00000,36.37499,17.58618,11.27210,1,FP
+macaroni2,PaDiM,macaroni2/Data/Images/Normal/0286.JPG,0,,0.00000,33.79991,11.56600,11.27210,1,FP
+macaroni2,PaDiM,macaroni2/Data/Images/Normal/0294.JPG,0,,0.00000,32.08838,15.28849,11.27210,1,FP
+macaroni2,PaDiM,macaroni2/Data/Images/Normal/0394.JPG,0,,0.00000,32.18114,20.30636,11.27210,1,FP
+macaroni2,PaDiM,macaroni2/Data/Images/Normal/0427.JPG,0,,0.00000,32.69653,13.20272,11.27210,1,FP
+macaroni2,PaDiM,macaroni2/Data/Images/Normal/0457.JPG,0,,0.00000,34.03550,16.87607,11.27210,1,FP
+macaroni2,PaDiM,macaroni2/Data/Images/Normal/0469.JPG,0,,0.00000,33.17769,13.98950,11.27210,1,FP
+macaroni2,PaDiM,macaroni2/Data/Images/Normal/0483.JPG,0,,0.00000,37.41952,19.54785,11.27210,1,FP
+macaroni2,PaDiM,macaroni2/Data/Images/Normal/0484.JPG,0,,0.00000,36.63329,19.71350,11.27210,1,FP
+macaroni2,PaDiM,macaroni2/Data/Images/Normal/0490.JPG,0,,0.00000,31.91582,12.67255,11.27210,1,FP
+macaroni2,PaDiM,macaroni2/Data/Images/Normal/0525.JPG,0,,0.00000,32.22187,12.75364,11.27210,1,FP
+macaroni2,PaDiM,macaroni2/Data/Images/Normal/0629.JPG,0,,0.00000,34.70672,11.67348,11.27210,1,FP
+macaroni2,PaDiM,macaroni2/Data/Images/Normal/0631.JPG,0,,0.00000,35.13175,13.30153,11.27210,1,FP
+macaroni2,PaDiM,macaroni2/Data/Images/Normal/0674.JPG,0,,0.00000,35.32676,17.39631,11.27210,1,FP
+macaroni2,PaDiM,macaroni2/Data/Images/Normal/0684.JPG,0,,0.00000,33.07118,26.40668,11.27210,1,FP
+macaroni2,PaDiM,macaroni2/Data/Images/Normal/0685.JPG,0,,0.00000,35.89421,10.30472,11.27210,0,TN
+macaroni2,PaDiM,macaroni2/Data/Images/Normal/0690.JPG,0,,0.00000,32.50990,11.73320,11.27210,1,FP
+macaroni2,PaDiM,macaroni2/Data/Images/Normal/0694.JPG,0,,0.00000,36.45289,11.79109,11.27210,1,FP
+macaroni2,PaDiM,macaroni2/Data/Images/Normal/0725.JPG,0,,0.00000,34.36476,10.16996,11.27210,0,TN
+macaroni2,PaDiM,macaroni2/Data/Images/Normal/0730.JPG,0,,0.00000,35.25938,12.26891,11.27210,1,FP
+macaroni2,PaDiM,macaroni2/Data/Images/Normal/0735.JPG,0,,0.00000,33.27834,13.62040,11.27210,1,FP
+macaroni2,PaDiM,macaroni2/Data/Images/Normal/0739.JPG,0,,0.00000,33.91489,12.75016,11.27210,1,FP
+macaroni2,PaDiM,macaroni2/Data/Images/Normal/0751.JPG,0,,0.00000,32.51175,10.91193,11.27210,0,TN
+macaroni2,PaDiM,macaroni2/Data/Images/Normal/0755.JPG,0,,0.00000,32.86575,15.05925,11.27210,1,FP
+macaroni2,PaDiM,macaroni2/Data/Images/Normal/0768.JPG,0,,0.00000,32.91388,13.18319,11.27210,1,FP
+macaroni2,PaDiM,macaroni2/Data/Images/Normal/0779.JPG,0,,0.00000,33.91374,14.55439,11.27210,1,FP
+macaroni2,PaDiM,macaroni2/Data/Images/Normal/0800.JPG,0,,0.00000,32.23230,14.94487,11.27210,1,FP
+macaroni2,PaDiM,macaroni2/Data/Images/Normal/0804.JPG,0,,0.00000,37.00010,12.95070,11.27210,1,FP
+macaroni2,PaDiM,macaroni2/Data/Images/Normal/0811.JPG,0,,0.00000,35.43434,19.20866,11.27210,1,FP
+macaroni2,PaDiM,macaroni2/Data/Images/Normal/0844.JPG,0,,0.00000,33.12903,14.32814,11.27210,1,FP
+macaroni2,PaDiM,macaroni2/Data/Images/Normal/0871.JPG,0,,0.00000,32.69122,15.00976,11.27210,1,FP
+macaroni2,PaDiM,macaroni2/Data/Images/Normal/0900.JPG,0,,0.00000,33.47183,20.58494,11.27210,1,FP
+macaroni2,PaDiM,macaroni2/Data/Images/Normal/0920.JPG,0,,0.00000,32.81504,16.00123,11.27210,1,FP
+macaroni2,PaDiM,macaroni2/Data/Images/Normal/0923.JPG,0,,0.00000,38.35363,20.00484,11.27210,1,FP
+macaroni2,PaDiM,macaroni2/Data/Images/Normal/0964.JPG,0,,0.00000,33.67509,13.06611,11.27210,1,FP
+macaroni2,PaDiM,macaroni2/Data/Images/Normal/0974.JPG,0,,0.00000,33.08875,19.78784,11.27210,1,FP
+macaroni2,PaDiM,macaroni2/Data/Images/Normal/0985.JPG,0,,0.00000,34.88600,16.42309,11.27210,1,FP
+macaroni2,PaDiM,macaroni2/Data/Images/Normal/0994.JPG,0,,0.00000,32.28834,19.74030,11.27210,1,FP
+macaroni2,PatchCore,macaroni2/Data/Images/Anomaly/000.JPG,1,"breakage down the middle,small scratches",0.00064,33.49609,5.52360,4.70743,1,TP
+macaroni2,PatchCore,macaroni2/Data/Images/Anomaly/001.JPG,1,"breakage down the middle,small scratches",0.00047,31.77823,6.21640,4.70743,1,TP
+macaroni2,PatchCore,macaroni2/Data/Images/Anomaly/002.JPG,1,"breakage down the middle,small scratches",0.00082,33.44075,6.31247,4.70743,1,TP
+macaroni2,PatchCore,macaroni2/Data/Images/Anomaly/003.JPG,1,"breakage down the middle,small scratches",0.00024,33.32856,5.28221,4.70743,1,TP
+macaroni2,PatchCore,macaroni2/Data/Images/Anomaly/004.JPG,1,breakage down the middle,0.00089,34.02132,6.65385,4.70743,1,TP
+macaroni2,PatchCore,macaroni2/Data/Images/Anomaly/006.JPG,1,"breakage down the middle,small scratches",0.00056,33.00654,5.72009,4.70743,1,TP
+macaroni2,PatchCore,macaroni2/Data/Images/Anomaly/007.JPG,1,"breakage down the middle,small scratches",0.00050,32.68636,6.29237,4.70743,1,TP
+macaroni2,PatchCore,macaroni2/Data/Images/Anomaly/008.JPG,1,"breakage down the middle,small scratches",0.00046,32.14500,6.08563,4.70743,1,TP
+macaroni2,PatchCore,macaroni2/Data/Images/Anomaly/011.JPG,1,color spot similar to the object,0.00053,34.76257,5.25436,4.70743,1,TP
+macaroni2,PatchCore,macaroni2/Data/Images/Anomaly/012.JPG,1,color spot similar to the object,0.00027,33.27691,4.79353,4.70743,1,TP
+macaroni2,PatchCore,macaroni2/Data/Images/Anomaly/013.JPG,1,color spot similar to the object,0.00035,34.66283,5.17915,4.70743,1,TP
+macaroni2,PatchCore,macaroni2/Data/Images/Anomaly/014.JPG,1,color spot similar to the object,0.00037,33.63866,6.08147,4.70743,1,TP
+macaroni2,PatchCore,macaroni2/Data/Images/Anomaly/021.JPG,1,color spot similar to the object,0.00034,33.24381,4.95802,4.70743,1,TP
+macaroni2,PatchCore,macaroni2/Data/Images/Anomaly/022.JPG,1,color spot similar to the object,0.00041,32.55374,5.64420,4.70743,1,TP
+macaroni2,PatchCore,macaroni2/Data/Images/Anomaly/026.JPG,1,color spot similar to the object,0.00021,33.63223,4.64864,4.70743,0,FN
+macaroni2,PatchCore,macaroni2/Data/Images/Anomaly/027.JPG,1,color spot similar to the object,0.00021,32.57839,5.54510,4.70743,1,TP
+macaroni2,PatchCore,macaroni2/Data/Images/Anomaly/028.JPG,1,color spot similar to the object,0.00021,33.79008,4.48874,4.70743,0,FN
+macaroni2,PatchCore,macaroni2/Data/Images/Anomaly/031.JPG,1,different color spot,0.00021,34.32016,6.10917,4.70743,1,TP
+macaroni2,PatchCore,macaroni2/Data/Images/Anomaly/032.JPG,1,different color spot,0.00014,32.92982,6.68666,4.70743,1,TP
+macaroni2,PatchCore,macaroni2/Data/Images/Anomaly/033.JPG,1,different color spot,0.00017,33.18608,6.00340,4.70743,1,TP
+macaroni2,PatchCore,macaroni2/Data/Images/Anomaly/034.JPG,1,different color spot,0.00011,32.63728,5.68872,4.70743,1,TP
+macaroni2,PatchCore,macaroni2/Data/Images/Anomaly/035.JPG,1,different color spot,0.00021,33.60297,6.63903,4.70743,1,TP
+macaroni2,PatchCore,macaroni2/Data/Images/Anomaly/036.JPG,1,different color spot,0.00026,32.97684,5.48351,4.70743,1,TP
+macaroni2,PatchCore,macaroni2/Data/Images/Anomaly/038.JPG,1,different color spot,0.00020,34.16788,6.56693,4.70743,1,TP
+macaroni2,PatchCore,macaroni2/Data/Images/Anomaly/040.JPG,1,different color spot,0.00021,33.13920,6.36666,4.70743,1,TP
+macaroni2,PatchCore,macaroni2/Data/Images/Anomaly/041.JPG,1,color spot similar to the object,0.00034,33.13683,5.81981,4.70743,1,TP
+macaroni2,PatchCore,macaroni2/Data/Images/Anomaly/042.JPG,1,color spot similar to the object,0.00085,31.45320,6.95019,4.70743,1,TP
+macaroni2,PatchCore,macaroni2/Data/Images/Anomaly/043.JPG,1,color spot similar to the object,0.00058,33.28986,5.83270,4.70743,1,TP
+macaroni2,PatchCore,macaroni2/Data/Images/Anomaly/044.JPG,1,different color spot,0.00009,32.93598,5.86939,4.70743,1,TP
+macaroni2,PatchCore,macaroni2/Data/Images/Anomaly/046.JPG,1,"small chip around edge,small scratches",0.00107,34.42739,4.63110,4.70743,0,FN
+macaroni2,PatchCore,macaroni2/Data/Images/Anomaly/047.JPG,1,small chip around edge,0.00052,33.40321,4.54504,4.70743,0,FN
+macaroni2,PatchCore,macaroni2/Data/Images/Anomaly/050.JPG,1,small chip around edge,0.00060,31.31889,4.94179,4.70743,1,TP
+macaroni2,PatchCore,macaroni2/Data/Images/Anomaly/051.JPG,1,small chip around edge,0.00026,32.90977,4.66023,4.70743,0,FN
+macaroni2,PatchCore,macaroni2/Data/Images/Anomaly/061.JPG,1,"small chip around edge,small scratches",0.00174,35.16484,5.72755,4.70743,1,TP
+macaroni2,PatchCore,macaroni2/Data/Images/Anomaly/062.JPG,1,"small chip around edge,small scratches",0.00110,35.00055,5.35750,4.70743,1,TP
+macaroni2,PatchCore,macaroni2/Data/Images/Anomaly/064.JPG,1,small chip around edge,0.00063,32.90388,4.42743,4.70743,0,FN
+macaroni2,PatchCore,macaroni2/Data/Images/Anomaly/068.JPG,1,"small chip around edge,small scratches",0.00153,31.12706,4.97130,4.70743,1,TP
+macaroni2,PatchCore,macaroni2/Data/Images/Anomaly/069.JPG,1,small chip around edge,0.00021,33.48591,4.47122,4.70743,0,FN
+macaroni2,PatchCore,macaroni2/Data/Images/Anomaly/070.JPG,1,small scratches,0.00085,33.93231,5.88471,4.70743,1,TP
+macaroni2,PatchCore,macaroni2/Data/Images/Anomaly/071.JPG,1,"breakage down the middle,color spot similar to the object,different color spot,small chip around edge,small cracks,small scratches,other",0.00099,33.25067,5.62757,4.70743,1,TP
+macaroni2,PatchCore,macaroni2/Data/Images/Anomaly/072.JPG,1,small cracks,0.00006,33.47892,5.34841,4.70743,1,TP
+macaroni2,PatchCore,macaroni2/Data/Images/Anomaly/077.JPG,1,"small cracks,small scratches",0.00119,34.59689,5.34824,4.70743,1,TP
+macaroni2,PatchCore,macaroni2/Data/Images/Anomaly/080.JPG,1,"breakage down the middle,color spot similar to the object,different color spot,small chip around edge,small cracks,small scratches",0.00047,32.44977,5.09942,4.70743,1,TP
+macaroni2,PatchCore,macaroni2/Data/Images/Anomaly/084.JPG,1,"breakage down the middle,color spot similar to the object,different color spot,small chip around edge,small cracks,small scratches",0.00032,34.44141,4.90809,4.70743,1,TP
+macaroni2,PatchCore,macaroni2/Data/Images/Anomaly/091.JPG,1,small scratches,0.00107,32.83357,6.00253,4.70743,1,TP
+macaroni2,PatchCore,macaroni2/Data/Images/Anomaly/092.JPG,1,small scratches,0.00037,33.56834,5.11724,4.70743,1,TP
+macaroni2,PatchCore,macaroni2/Data/Images/Anomaly/094.JPG,1,small scratches,0.00053,32.61772,5.66798,4.70743,1,TP
+macaroni2,PatchCore,macaroni2/Data/Images/Anomaly/095.JPG,1,small scratches,0.00063,33.37021,5.91527,4.70743,1,TP
+macaroni2,PatchCore,macaroni2/Data/Images/Anomaly/096.JPG,1,small scratches,0.00047,33.29043,5.82493,4.70743,1,TP
+macaroni2,PatchCore,macaroni2/Data/Images/Anomaly/097.JPG,1,small scratches,0.00078,33.32011,5.21305,4.70743,1,TP
+macaroni2,PatchCore,macaroni2/Data/Images/Normal/0013.JPG,0,,0.00000,34.91405,4.67229,4.70743,0,TN
+macaroni2,PatchCore,macaroni2/Data/Images/Normal/0024.JPG,0,,0.00000,33.34706,4.61684,4.70743,0,TN
+macaroni2,PatchCore,macaroni2/Data/Images/Normal/0027.JPG,0,,0.00000,32.10498,4.54822,4.70743,0,TN
+macaroni2,PatchCore,macaroni2/Data/Images/Normal/0046.JPG,0,,0.00000,35.66193,4.38354,4.70743,0,TN
+macaroni2,PatchCore,macaroni2/Data/Images/Normal/0100.JPG,0,,0.00000,33.14783,4.70906,4.70743,1,FP
+macaroni2,PatchCore,macaroni2/Data/Images/Normal/0107.JPG,0,,0.00000,32.18398,5.25162,4.70743,1,FP
+macaroni2,PatchCore,macaroni2/Data/Images/Normal/0159.JPG,0,,0.00000,32.13922,4.56177,4.70743,0,TN
+macaroni2,PatchCore,macaroni2/Data/Images/Normal/0168.JPG,0,,0.00000,32.70382,4.64651,4.70743,0,TN
+macaroni2,PatchCore,macaroni2/Data/Images/Normal/0178.JPG,0,,0.00000,33.47604,4.75659,4.70743,1,FP
+macaroni2,PatchCore,macaroni2/Data/Images/Normal/0187.JPG,0,,0.00000,32.41543,5.62345,4.70743,1,FP
+macaroni2,PatchCore,macaroni2/Data/Images/Normal/0196.JPG,0,,0.00000,33.29530,4.59815,4.70743,0,TN
+macaroni2,PatchCore,macaroni2/Data/Images/Normal/0208.JPG,0,,0.00000,32.19011,4.55187,4.70743,0,TN
+macaroni2,PatchCore,macaroni2/Data/Images/Normal/0261.JPG,0,,0.00000,36.37499,4.72704,4.70743,1,FP
+macaroni2,PatchCore,macaroni2/Data/Images/Normal/0286.JPG,0,,0.00000,33.79991,4.90502,4.70743,1,FP
+macaroni2,PatchCore,macaroni2/Data/Images/Normal/0294.JPG,0,,0.00000,32.08838,4.61024,4.70743,0,TN
+macaroni2,PatchCore,macaroni2/Data/Images/Normal/0394.JPG,0,,0.00000,32.18114,4.68879,4.70743,0,TN
+macaroni2,PatchCore,macaroni2/Data/Images/Normal/0427.JPG,0,,0.00000,32.69653,4.66835,4.70743,0,TN
+macaroni2,PatchCore,macaroni2/Data/Images/Normal/0457.JPG,0,,0.00000,34.03550,4.41894,4.70743,0,TN
+macaroni2,PatchCore,macaroni2/Data/Images/Normal/0469.JPG,0,,0.00000,33.17769,4.73026,4.70743,1,FP
+macaroni2,PatchCore,macaroni2/Data/Images/Normal/0483.JPG,0,,0.00000,37.41952,5.04479,4.70743,1,FP
+macaroni2,PatchCore,macaroni2/Data/Images/Normal/0484.JPG,0,,0.00000,36.63329,5.35615,4.70743,1,FP
+macaroni2,PatchCore,macaroni2/Data/Images/Normal/0490.JPG,0,,0.00000,31.91582,4.53373,4.70743,0,TN
+macaroni2,PatchCore,macaroni2/Data/Images/Normal/0525.JPG,0,,0.00000,32.22187,4.44703,4.70743,0,TN
+macaroni2,PatchCore,macaroni2/Data/Images/Normal/0629.JPG,0,,0.00000,34.70672,4.55896,4.70743,0,TN
+macaroni2,PatchCore,macaroni2/Data/Images/Normal/0631.JPG,0,,0.00000,35.13175,4.56927,4.70743,0,TN
+macaroni2,PatchCore,macaroni2/Data/Images/Normal/0674.JPG,0,,0.00000,35.32676,5.01066,4.70743,1,FP
+macaroni2,PatchCore,macaroni2/Data/Images/Normal/0684.JPG,0,,0.00000,33.07118,8.29615,4.70743,1,FP
+macaroni2,PatchCore,macaroni2/Data/Images/Normal/0685.JPG,0,,0.00000,35.89421,4.67921,4.70743,0,TN
+macaroni2,PatchCore,macaroni2/Data/Images/Normal/0690.JPG,0,,0.00000,32.50990,4.69223,4.70743,0,TN
+macaroni2,PatchCore,macaroni2/Data/Images/Normal/0694.JPG,0,,0.00000,36.45289,4.49242,4.70743,0,TN
+macaroni2,PatchCore,macaroni2/Data/Images/Normal/0725.JPG,0,,0.00000,34.36476,4.61234,4.70743,0,TN
+macaroni2,PatchCore,macaroni2/Data/Images/Normal/0730.JPG,0,,0.00000,35.25938,4.49204,4.70743,0,TN
+macaroni2,PatchCore,macaroni2/Data/Images/Normal/0735.JPG,0,,0.00000,33.27834,4.46474,4.70743,0,TN
+macaroni2,PatchCore,macaroni2/Data/Images/Normal/0739.JPG,0,,0.00000,33.91489,4.43688,4.70743,0,TN
+macaroni2,PatchCore,macaroni2/Data/Images/Normal/0751.JPG,0,,0.00000,32.51175,4.96061,4.70743,1,FP
+macaroni2,PatchCore,macaroni2/Data/Images/Normal/0755.JPG,0,,0.00000,32.86575,6.85602,4.70743,1,FP
+macaroni2,PatchCore,macaroni2/Data/Images/Normal/0768.JPG,0,,0.00000,32.91388,4.54458,4.70743,0,TN
+macaroni2,PatchCore,macaroni2/Data/Images/Normal/0779.JPG,0,,0.00000,33.91374,4.49832,4.70743,0,TN
+macaroni2,PatchCore,macaroni2/Data/Images/Normal/0800.JPG,0,,0.00000,32.23230,4.45086,4.70743,0,TN
+macaroni2,PatchCore,macaroni2/Data/Images/Normal/0804.JPG,0,,0.00000,37.00010,4.68949,4.70743,0,TN
+macaroni2,PatchCore,macaroni2/Data/Images/Normal/0811.JPG,0,,0.00000,35.43434,6.25505,4.70743,1,FP
+macaroni2,PatchCore,macaroni2/Data/Images/Normal/0844.JPG,0,,0.00000,33.12903,4.70046,4.70743,0,TN
+macaroni2,PatchCore,macaroni2/Data/Images/Normal/0871.JPG,0,,0.00000,32.69122,4.74834,4.70743,1,FP
+macaroni2,PatchCore,macaroni2/Data/Images/Normal/0900.JPG,0,,0.00000,33.47183,4.70666,4.70743,0,TN
+macaroni2,PatchCore,macaroni2/Data/Images/Normal/0920.JPG,0,,0.00000,32.81504,4.50547,4.70743,0,TN
+macaroni2,PatchCore,macaroni2/Data/Images/Normal/0923.JPG,0,,0.00000,38.35363,4.81188,4.70743,1,FP
+macaroni2,PatchCore,macaroni2/Data/Images/Normal/0964.JPG,0,,0.00000,33.67509,4.59459,4.70743,0,TN
+macaroni2,PatchCore,macaroni2/Data/Images/Normal/0974.JPG,0,,0.00000,33.08875,4.98510,4.70743,1,FP
+macaroni2,PatchCore,macaroni2/Data/Images/Normal/0985.JPG,0,,0.00000,34.88600,4.81671,4.70743,1,FP
+macaroni2,PatchCore,macaroni2/Data/Images/Normal/0994.JPG,0,,0.00000,32.28834,4.61365,4.70743,0,TN
+capsules,FAE,capsules/Data/Images/Anomaly/000.JPG,1,bubble,0.00053,28.21363,0.38354,0.42130,0,FN
+capsules,FAE,capsules/Data/Images/Anomaly/001.JPG,1,bubble,0.00072,28.67853,0.45168,0.42130,1,TP
+capsules,FAE,capsules/Data/Images/Anomaly/003.JPG,1,bubble,0.00162,27.43995,0.53916,0.42130,1,TP
+capsules,FAE,capsules/Data/Images/Anomaly/005.JPG,1,bubble,0.00058,25.80585,2.27109,0.42130,1,TP
+capsules,FAE,capsules/Data/Images/Anomaly/006.JPG,1,bubble,0.00157,26.99360,0.40372,0.42130,0,FN
+capsules,FAE,capsules/Data/Images/Anomaly/007.JPG,1,bubble,0.00056,27.90695,0.34069,0.42130,0,FN
+capsules,FAE,capsules/Data/Images/Anomaly/008.JPG,1,bubble,0.00064,26.25998,0.55397,0.42130,1,TP
+capsules,FAE,capsules/Data/Images/Anomaly/010.JPG,1,bubble,0.00179,28.35847,0.70080,0.42130,1,TP
+capsules,FAE,capsules/Data/Images/Anomaly/013.JPG,1,bubble,0.00137,26.70329,0.72076,0.42130,1,TP
+capsules,FAE,capsules/Data/Images/Anomaly/014.JPG,1,bubble,0.00111,28.17393,1.42309,0.42130,1,TP
+capsules,FAE,capsules/Data/Images/Anomaly/016.JPG,1,bubble,0.00125,28.48470,0.97955,0.42130,1,TP
+capsules,FAE,capsules/Data/Images/Anomaly/017.JPG,1,bubble,0.00197,29.80210,0.33921,0.42130,0,FN
+capsules,FAE,capsules/Data/Images/Anomaly/023.JPG,1,bubble,0.00049,30.96014,1.14906,0.42130,1,TP
+capsules,FAE,capsules/Data/Images/Anomaly/024.JPG,1,bubble,0.00066,28.44366,1.54991,0.42130,1,TP
+capsules,FAE,capsules/Data/Images/Anomaly/025.JPG,1,bubble,0.00153,26.49450,0.48493,0.42130,1,TP
+capsules,FAE,capsules/Data/Images/Anomaly/028.JPG,1,bubble,0.00154,30.64021,1.87460,0.42130,1,TP
+capsules,FAE,capsules/Data/Images/Anomaly/033.JPG,1,"bubble,discolor",0.00015,28.19518,0.36386,0.42130,0,FN
+capsules,FAE,capsules/Data/Images/Anomaly/034.JPG,1,"bubble,discolor",0.00009,24.53602,0.46237,0.42130,1,TP
+capsules,FAE,capsules/Data/Images/Anomaly/035.JPG,1,"bubble,discolor",0.00011,29.61998,0.39242,0.42130,0,FN
+capsules,FAE,capsules/Data/Images/Anomaly/039.JPG,1,"bubble,discolor",0.00015,27.65669,0.48629,0.42130,1,TP
+capsules,FAE,capsules/Data/Images/Anomaly/040.JPG,1,"bubble,discolor",0.00011,30.43926,0.43770,0.42130,1,TP
+capsules,FAE,capsules/Data/Images/Anomaly/043.JPG,1,"bubble,discolor",0.00017,28.08541,0.53300,0.42130,1,TP
+capsules,FAE,capsules/Data/Images/Anomaly/044.JPG,1,"bubble,discolor",0.00011,28.98494,0.81353,0.42130,1,TP
+capsules,FAE,capsules/Data/Images/Anomaly/046.JPG,1,"bubble,discolor,scratch,leak",0.00432,28.80279,0.91598,0.42130,1,TP
+capsules,FAE,capsules/Data/Images/Anomaly/047.JPG,1,"bubble,discolor,scratch,leak,misshape",0.00658,29.36752,0.66033,0.42130,1,TP
+capsules,FAE,capsules/Data/Images/Anomaly/049.JPG,1,"bubble,discolor,scratch,leak,misshape",0.00876,29.87280,0.98711,0.42130,1,TP
+capsules,FAE,capsules/Data/Images/Anomaly/050.JPG,1,"bubble,discolor,scratch,leak,misshape",0.00389,24.33786,1.02977,0.42130,1,TP
+capsules,FAE,capsules/Data/Images/Anomaly/051.JPG,1,"bubble,discolor,scratch,leak",0.00443,26.01255,0.96978,0.42130,1,TP
+capsules,FAE,capsules/Data/Images/Anomaly/052.JPG,1,"bubble,discolor,scratch,leak",0.00911,28.50503,0.79976,0.42130,1,TP
+capsules,FAE,capsules/Data/Images/Anomaly/053.JPG,1,"bubble,discolor,scratch,leak",0.00504,27.69769,0.43803,0.42130,1,TP
+capsules,FAE,capsules/Data/Images/Anomaly/057.JPG,1,"bubble,discolor,scratch,leak,misshape",0.01909,24.72919,1.17420,0.42130,1,TP
+capsules,FAE,capsules/Data/Images/Anomaly/059.JPG,1,"bubble,discolor,scratch,leak,misshape",0.01790,24.91549,1.12010,0.42130,1,TP
+capsules,FAE,capsules/Data/Images/Anomaly/060.JPG,1,"bubble,discolor,scratch,leak",0.00699,28.47755,0.99599,0.42130,1,TP
+capsules,FAE,capsules/Data/Images/Anomaly/061.JPG,1,"bubble,discolor,scratch,leak",0.00687,26.79818,1.62178,0.42130,1,TP
+capsules,FAE,capsules/Data/Images/Anomaly/062.JPG,1,"bubble,discolor,scratch,leak",0.00911,23.90780,1.13634,0.42130,1,TP
+capsules,FAE,capsules/Data/Images/Anomaly/064.JPG,1,"bubble,discolor,scratch,leak",0.01091,33.05028,1.02030,0.42130,1,TP
+capsules,FAE,capsules/Data/Images/Anomaly/070.JPG,1,"bubble,discolor,scratch,leak,misshape",0.01659,24.37940,0.97283,0.42130,1,TP
+capsules,FAE,capsules/Data/Images/Anomaly/071.JPG,1,"bubble,discolor,scratch,leak,misshape",0.01648,25.73079,2.16405,0.42130,1,TP
+capsules,FAE,capsules/Data/Images/Anomaly/073.JPG,1,"bubble,discolor,scratch,leak,misshape",0.01596,26.77480,2.00317,0.42130,1,TP
+capsules,FAE,capsules/Data/Images/Anomaly/075.JPG,1,"bubble,discolor,scratch,leak,misshape",0.01622,25.83447,1.77251,0.42130,1,TP
+capsules,FAE,capsules/Data/Images/Anomaly/076.JPG,1,"bubble,discolor,scratch,leak,misshape",0.01604,24.74905,1.24339,0.42130,1,TP
+capsules,FAE,capsules/Data/Images/Anomaly/077.JPG,1,"bubble,discolor,scratch,leak,misshape",0.01604,26.48828,1.48785,0.42130,1,TP
+capsules,FAE,capsules/Data/Images/Anomaly/079.JPG,1,"bubble,discolor,scratch,leak,misshape",0.01674,25.93672,1.59434,0.42130,1,TP
+capsules,FAE,capsules/Data/Images/Anomaly/080.JPG,1,"bubble,discolor,scratch,leak,misshape",0.01585,30.95967,0.91391,0.42130,1,TP
+capsules,FAE,capsules/Data/Images/Anomaly/082.JPG,1,"bubble,discolor,scratch,leak,misshape",0.01523,27.43832,0.81635,0.42130,1,TP
+capsules,FAE,capsules/Data/Images/Anomaly/087.JPG,1,"bubble,discolor,scratch",0.00043,26.49547,0.36569,0.42130,0,FN
+capsules,FAE,capsules/Data/Images/Anomaly/090.JPG,1,"bubble,discolor,scratch",0.00041,31.77066,0.38291,0.42130,0,FN
+capsules,FAE,capsules/Data/Images/Anomaly/095.JPG,1,"bubble,discolor,scratch",0.00075,27.16899,0.58714,0.42130,1,TP
+capsules,FAE,capsules/Data/Images/Anomaly/097.JPG,1,"bubble,discolor,scratch",0.00101,28.80374,0.73429,0.42130,1,TP
+capsules,FAE,capsules/Data/Images/Anomaly/098.JPG,1,"bubble,discolor,scratch",0.00092,27.34905,0.47056,0.42130,1,TP
+capsules,FAE,capsules/Data/Images/Normal/011.JPG,0,,0.00000,24.88506,0.41870,0.42130,0,TN
+capsules,FAE,capsules/Data/Images/Normal/013.JPG,0,,0.00000,24.46453,0.59451,0.42130,1,FP
+capsules,FAE,capsules/Data/Images/Normal/046.JPG,0,,0.00000,26.61387,0.42684,0.42130,1,FP
+capsules,FAE,capsules/Data/Images/Normal/100.JPG,0,,0.00000,26.17675,0.49795,0.42130,1,FP
+capsules,FAE,capsules/Data/Images/Normal/107.JPG,0,,0.00000,26.45567,0.39429,0.42130,0,TN
+capsules,FAE,capsules/Data/Images/Normal/159.JPG,0,,0.00000,24.18260,0.47733,0.42130,1,FP
+capsules,FAE,capsules/Data/Images/Normal/168.JPG,0,,0.00000,25.87965,0.62109,0.42130,1,FP
+capsules,FAE,capsules/Data/Images/Normal/170.JPG,0,,0.00000,22.13174,0.34770,0.42130,0,TN
+capsules,FAE,capsules/Data/Images/Normal/172.JPG,0,,0.00000,25.95300,0.42858,0.42130,1,FP
+capsules,FAE,capsules/Data/Images/Normal/178.JPG,0,,0.00000,21.31425,0.40953,0.42130,0,TN
+capsules,FAE,capsules/Data/Images/Normal/179.JPG,0,,0.00000,24.21341,0.34855,0.42130,0,TN
+capsules,FAE,capsules/Data/Images/Normal/187.JPG,0,,0.00000,27.23073,0.64018,0.42130,1,FP
+capsules,FAE,capsules/Data/Images/Normal/237.JPG,0,,0.00000,24.28932,0.62913,0.42130,1,FP
+capsules,FAE,capsules/Data/Images/Normal/240.JPG,0,,0.00000,25.49593,0.42651,0.42130,1,FP
+capsules,FAE,capsules/Data/Images/Normal/261.JPG,0,,0.00000,29.00106,0.38568,0.42130,0,TN
+capsules,FAE,capsules/Data/Images/Normal/320.JPG,0,,0.00000,24.86152,0.51121,0.42130,1,FP
+capsules,FAE,capsules/Data/Images/Normal/333.JPG,0,,0.00000,25.78485,0.34535,0.42130,0,TN
+capsules,FAE,capsules/Data/Images/Normal/363.JPG,0,,0.00000,26.55499,0.41397,0.42130,0,TN
+capsules,FAE,capsules/Data/Images/Normal/377.JPG,0,,0.00000,26.93967,0.39700,0.42130,0,TN
+capsules,FAE,capsules/Data/Images/Normal/394.JPG,0,,0.00000,25.95295,0.49107,0.42130,1,FP
+capsules,FAE,capsules/Data/Images/Normal/400.JPG,0,,0.00000,28.81923,0.37270,0.42130,0,TN
+capsules,FAE,capsules/Data/Images/Normal/402.JPG,0,,0.00000,27.19052,0.36334,0.42130,0,TN
+capsules,FAE,capsules/Data/Images/Normal/417.JPG,0,,0.00000,24.37050,0.55187,0.42130,1,FP
+capsules,FAE,capsules/Data/Images/Normal/423.JPG,0,,0.00000,24.16203,0.49544,0.42130,1,FP
+capsules,FAE,capsules/Data/Images/Normal/427.JPG,0,,0.00000,27.14595,0.43110,0.42130,1,FP
+capsules,FAE,capsules/Data/Images/Normal/457.JPG,0,,0.00000,24.40043,0.60214,0.42130,1,FP
+capsules,FAE,capsules/Data/Images/Normal/518.JPG,0,,0.00000,29.22472,0.36044,0.42130,0,TN
+capsules,FAE,capsules/Data/Images/Normal/525.JPG,0,,0.00000,28.89600,0.45910,0.42130,1,FP
+capsules,FAE,capsules/Data/Images/Normal/552.JPG,0,,0.00000,26.15844,0.46808,0.42130,1,FP
+capsules,FAE,capsules/Data/Images/Normal/569.JPG,0,,0.00000,24.65049,0.37129,0.42130,0,TN
+capsules,PaDiM,capsules/Data/Images/Anomaly/000.JPG,1,bubble,0.00053,28.21363,8.80765,11.49006,0,FN
+capsules,PaDiM,capsules/Data/Images/Anomaly/001.JPG,1,bubble,0.00072,28.67853,10.01169,11.49006,0,FN
+capsules,PaDiM,capsules/Data/Images/Anomaly/003.JPG,1,bubble,0.00162,27.43995,10.63773,11.49006,0,FN
+capsules,PaDiM,capsules/Data/Images/Anomaly/005.JPG,1,bubble,0.00058,25.80585,17.14813,11.49006,1,TP
+capsules,PaDiM,capsules/Data/Images/Anomaly/006.JPG,1,bubble,0.00157,26.99360,11.29787,11.49006,0,FN
+capsules,PaDiM,capsules/Data/Images/Anomaly/007.JPG,1,bubble,0.00056,27.90695,12.64835,11.49006,1,TP
+capsules,PaDiM,capsules/Data/Images/Anomaly/008.JPG,1,bubble,0.00064,26.25998,9.90137,11.49006,0,FN
+capsules,PaDiM,capsules/Data/Images/Anomaly/010.JPG,1,bubble,0.00179,28.35847,16.51496,11.49006,1,TP
+capsules,PaDiM,capsules/Data/Images/Anomaly/013.JPG,1,bubble,0.00137,26.70329,11.32675,11.49006,0,FN
+capsules,PaDiM,capsules/Data/Images/Anomaly/014.JPG,1,bubble,0.00111,28.17393,15.39114,11.49006,1,TP
+capsules,PaDiM,capsules/Data/Images/Anomaly/016.JPG,1,bubble,0.00125,28.48470,17.13404,11.49006,1,TP
+capsules,PaDiM,capsules/Data/Images/Anomaly/017.JPG,1,bubble,0.00197,29.80210,11.54415,11.49006,1,TP
+capsules,PaDiM,capsules/Data/Images/Anomaly/023.JPG,1,bubble,0.00049,30.96014,15.55349,11.49006,1,TP
+capsules,PaDiM,capsules/Data/Images/Anomaly/024.JPG,1,bubble,0.00066,28.44366,13.44575,11.49006,1,TP
+capsules,PaDiM,capsules/Data/Images/Anomaly/025.JPG,1,bubble,0.00153,26.49450,14.05658,11.49006,1,TP
+capsules,PaDiM,capsules/Data/Images/Anomaly/028.JPG,1,bubble,0.00154,30.64021,15.91404,11.49006,1,TP
+capsules,PaDiM,capsules/Data/Images/Anomaly/033.JPG,1,"bubble,discolor",0.00015,28.19518,17.11532,11.49006,1,TP
+capsules,PaDiM,capsules/Data/Images/Anomaly/034.JPG,1,"bubble,discolor",0.00009,24.53602,23.57676,11.49006,1,TP
+capsules,PaDiM,capsules/Data/Images/Anomaly/035.JPG,1,"bubble,discolor",0.00011,29.61998,13.84918,11.49006,1,TP
+capsules,PaDiM,capsules/Data/Images/Anomaly/039.JPG,1,"bubble,discolor",0.00015,27.65669,12.77480,11.49006,1,TP
+capsules,PaDiM,capsules/Data/Images/Anomaly/040.JPG,1,"bubble,discolor",0.00011,30.43926,11.68088,11.49006,1,TP
+capsules,PaDiM,capsules/Data/Images/Anomaly/043.JPG,1,"bubble,discolor",0.00017,28.08541,13.10773,11.49006,1,TP
+capsules,PaDiM,capsules/Data/Images/Anomaly/044.JPG,1,"bubble,discolor",0.00011,28.98494,11.57959,11.49006,1,TP
+capsules,PaDiM,capsules/Data/Images/Anomaly/046.JPG,1,"bubble,discolor,scratch,leak",0.00432,28.80279,11.32543,11.49006,0,FN
+capsules,PaDiM,capsules/Data/Images/Anomaly/047.JPG,1,"bubble,discolor,scratch,leak,misshape",0.00658,29.36752,10.42970,11.49006,0,FN
+capsules,PaDiM,capsules/Data/Images/Anomaly/049.JPG,1,"bubble,discolor,scratch,leak,misshape",0.00876,29.87280,22.92595,11.49006,1,TP
+capsules,PaDiM,capsules/Data/Images/Anomaly/050.JPG,1,"bubble,discolor,scratch,leak,misshape",0.00389,24.33786,14.87684,11.49006,1,TP
+capsules,PaDiM,capsules/Data/Images/Anomaly/051.JPG,1,"bubble,discolor,scratch,leak",0.00443,26.01255,11.78109,11.49006,1,TP
+capsules,PaDiM,capsules/Data/Images/Anomaly/052.JPG,1,"bubble,discolor,scratch,leak",0.00911,28.50503,13.52898,11.49006,1,TP
+capsules,PaDiM,capsules/Data/Images/Anomaly/053.JPG,1,"bubble,discolor,scratch,leak",0.00504,27.69769,11.66991,11.49006,1,TP
+capsules,PaDiM,capsules/Data/Images/Anomaly/057.JPG,1,"bubble,discolor,scratch,leak,misshape",0.01909,24.72919,18.39684,11.49006,1,TP
+capsules,PaDiM,capsules/Data/Images/Anomaly/059.JPG,1,"bubble,discolor,scratch,leak,misshape",0.01790,24.91549,14.15411,11.49006,1,TP
+capsules,PaDiM,capsules/Data/Images/Anomaly/060.JPG,1,"bubble,discolor,scratch,leak",0.00699,28.47755,11.46446,11.49006,0,FN
+capsules,PaDiM,capsules/Data/Images/Anomaly/061.JPG,1,"bubble,discolor,scratch,leak",0.00687,26.79818,13.08384,11.49006,1,TP
+capsules,PaDiM,capsules/Data/Images/Anomaly/062.JPG,1,"bubble,discolor,scratch,leak",0.00911,23.90780,16.29783,11.49006,1,TP
+capsules,PaDiM,capsules/Data/Images/Anomaly/064.JPG,1,"bubble,discolor,scratch,leak",0.01091,33.05028,11.55171,11.49006,1,TP
+capsules,PaDiM,capsules/Data/Images/Anomaly/070.JPG,1,"bubble,discolor,scratch,leak,misshape",0.01659,24.37940,18.39442,11.49006,1,TP
+capsules,PaDiM,capsules/Data/Images/Anomaly/071.JPG,1,"bubble,discolor,scratch,leak,misshape",0.01648,25.73079,18.91200,11.49006,1,TP
+capsules,PaDiM,capsules/Data/Images/Anomaly/073.JPG,1,"bubble,discolor,scratch,leak,misshape",0.01596,26.77480,24.01819,11.49006,1,TP
+capsules,PaDiM,capsules/Data/Images/Anomaly/075.JPG,1,"bubble,discolor,scratch,leak,misshape",0.01622,25.83447,15.42118,11.49006,1,TP
+capsules,PaDiM,capsules/Data/Images/Anomaly/076.JPG,1,"bubble,discolor,scratch,leak,misshape",0.01604,24.74905,13.10018,11.49006,1,TP
+capsules,PaDiM,capsules/Data/Images/Anomaly/077.JPG,1,"bubble,discolor,scratch,leak,misshape",0.01604,26.48828,15.26941,11.49006,1,TP
+capsules,PaDiM,capsules/Data/Images/Anomaly/079.JPG,1,"bubble,discolor,scratch,leak,misshape",0.01674,25.93672,24.23160,11.49006,1,TP
+capsules,PaDiM,capsules/Data/Images/Anomaly/080.JPG,1,"bubble,discolor,scratch,leak,misshape",0.01585,30.95967,22.20959,11.49006,1,TP
+capsules,PaDiM,capsules/Data/Images/Anomaly/082.JPG,1,"bubble,discolor,scratch,leak,misshape",0.01523,27.43832,21.58726,11.49006,1,TP
+capsules,PaDiM,capsules/Data/Images/Anomaly/087.JPG,1,"bubble,discolor,scratch",0.00043,26.49547,9.82207,11.49006,0,FN
+capsules,PaDiM,capsules/Data/Images/Anomaly/090.JPG,1,"bubble,discolor,scratch",0.00041,31.77066,22.94545,11.49006,1,TP
+capsules,PaDiM,capsules/Data/Images/Anomaly/095.JPG,1,"bubble,discolor,scratch",0.00075,27.16899,10.64932,11.49006,0,FN
+capsules,PaDiM,capsules/Data/Images/Anomaly/097.JPG,1,"bubble,discolor,scratch",0.00101,28.80374,12.03391,11.49006,1,TP
+capsules,PaDiM,capsules/Data/Images/Anomaly/098.JPG,1,"bubble,discolor,scratch",0.00092,27.34905,11.72668,11.49006,1,TP
+capsules,PaDiM,capsules/Data/Images/Normal/011.JPG,0,,0.00000,24.88506,13.89197,11.49006,1,FP
+capsules,PaDiM,capsules/Data/Images/Normal/013.JPG,0,,0.00000,24.46453,17.25258,11.49006,1,FP
+capsules,PaDiM,capsules/Data/Images/Normal/046.JPG,0,,0.00000,26.61387,9.85723,11.49006,0,TN
+capsules,PaDiM,capsules/Data/Images/Normal/100.JPG,0,,0.00000,26.17675,10.29385,11.49006,0,TN
+capsules,PaDiM,capsules/Data/Images/Normal/107.JPG,0,,0.00000,26.45567,12.18792,11.49006,1,FP
+capsules,PaDiM,capsules/Data/Images/Normal/159.JPG,0,,0.00000,24.18260,10.23590,11.49006,0,TN
+capsules,PaDiM,capsules/Data/Images/Normal/168.JPG,0,,0.00000,25.87965,13.39549,11.49006,1,FP
+capsules,PaDiM,capsules/Data/Images/Normal/170.JPG,0,,0.00000,22.13174,13.75666,11.49006,1,FP
+capsules,PaDiM,capsules/Data/Images/Normal/172.JPG,0,,0.00000,25.95300,13.22805,11.49006,1,FP
+capsules,PaDiM,capsules/Data/Images/Normal/178.JPG,0,,0.00000,21.31425,12.25981,11.49006,1,FP
+capsules,PaDiM,capsules/Data/Images/Normal/179.JPG,0,,0.00000,24.21341,11.21426,11.49006,0,TN
+capsules,PaDiM,capsules/Data/Images/Normal/187.JPG,0,,0.00000,27.23073,10.78440,11.49006,0,TN
+capsules,PaDiM,capsules/Data/Images/Normal/237.JPG,0,,0.00000,24.28932,11.70165,11.49006,1,FP
+capsules,PaDiM,capsules/Data/Images/Normal/240.JPG,0,,0.00000,25.49593,9.87362,11.49006,0,TN
+capsules,PaDiM,capsules/Data/Images/Normal/261.JPG,0,,0.00000,29.00106,13.30057,11.49006,1,FP
+capsules,PaDiM,capsules/Data/Images/Normal/320.JPG,0,,0.00000,24.86152,18.02535,11.49006,1,FP
+capsules,PaDiM,capsules/Data/Images/Normal/333.JPG,0,,0.00000,25.78485,13.19470,11.49006,1,FP
+capsules,PaDiM,capsules/Data/Images/Normal/363.JPG,0,,0.00000,26.55499,9.84957,11.49006,0,TN
+capsules,PaDiM,capsules/Data/Images/Normal/377.JPG,0,,0.00000,26.93967,14.38245,11.49006,1,FP
+capsules,PaDiM,capsules/Data/Images/Normal/394.JPG,0,,0.00000,25.95295,13.49998,11.49006,1,FP
+capsules,PaDiM,capsules/Data/Images/Normal/400.JPG,0,,0.00000,28.81923,14.43412,11.49006,1,FP
+capsules,PaDiM,capsules/Data/Images/Normal/402.JPG,0,,0.00000,27.19052,15.46566,11.49006,1,FP
+capsules,PaDiM,capsules/Data/Images/Normal/417.JPG,0,,0.00000,24.37050,10.32754,11.49006,0,TN
+capsules,PaDiM,capsules/Data/Images/Normal/423.JPG,0,,0.00000,24.16203,13.24104,11.49006,1,FP
+capsules,PaDiM,capsules/Data/Images/Normal/427.JPG,0,,0.00000,27.14595,11.03118,11.49006,0,TN
+capsules,PaDiM,capsules/Data/Images/Normal/457.JPG,0,,0.00000,24.40043,17.87056,11.49006,1,FP
+capsules,PaDiM,capsules/Data/Images/Normal/518.JPG,0,,0.00000,29.22472,13.44730,11.49006,1,FP
+capsules,PaDiM,capsules/Data/Images/Normal/525.JPG,0,,0.00000,28.89600,16.38733,11.49006,1,FP
+capsules,PaDiM,capsules/Data/Images/Normal/552.JPG,0,,0.00000,26.15844,11.81675,11.49006,1,FP
+capsules,PaDiM,capsules/Data/Images/Normal/569.JPG,0,,0.00000,24.65049,21.76901,11.49006,1,FP
+capsules,PatchCore,capsules/Data/Images/Anomaly/000.JPG,1,bubble,0.00053,28.21363,5.54192,5.57370,0,FN
+capsules,PatchCore,capsules/Data/Images/Anomaly/001.JPG,1,bubble,0.00072,28.67853,5.84562,5.57370,1,TP
+capsules,PatchCore,capsules/Data/Images/Anomaly/003.JPG,1,bubble,0.00162,27.43995,5.85398,5.57370,1,TP
+capsules,PatchCore,capsules/Data/Images/Anomaly/005.JPG,1,bubble,0.00058,25.80585,5.62995,5.57370,1,TP
+capsules,PatchCore,capsules/Data/Images/Anomaly/006.JPG,1,bubble,0.00157,26.99360,5.79307,5.57370,1,TP
+capsules,PatchCore,capsules/Data/Images/Anomaly/007.JPG,1,bubble,0.00056,27.90695,5.47457,5.57370,0,FN
+capsules,PatchCore,capsules/Data/Images/Anomaly/008.JPG,1,bubble,0.00064,26.25998,5.63266,5.57370,1,TP
+capsules,PatchCore,capsules/Data/Images/Anomaly/010.JPG,1,bubble,0.00179,28.35847,6.14538,5.57370,1,TP
+capsules,PatchCore,capsules/Data/Images/Anomaly/013.JPG,1,bubble,0.00137,26.70329,5.69454,5.57370,1,TP
+capsules,PatchCore,capsules/Data/Images/Anomaly/014.JPG,1,bubble,0.00111,28.17393,6.11634,5.57370,1,TP
+capsules,PatchCore,capsules/Data/Images/Anomaly/016.JPG,1,bubble,0.00125,28.48470,6.34334,5.57370,1,TP
+capsules,PatchCore,capsules/Data/Images/Anomaly/017.JPG,1,bubble,0.00197,29.80210,5.82861,5.57370,1,TP
+capsules,PatchCore,capsules/Data/Images/Anomaly/023.JPG,1,bubble,0.00049,30.96014,6.20902,5.57370,1,TP
+capsules,PatchCore,capsules/Data/Images/Anomaly/024.JPG,1,bubble,0.00066,28.44366,5.79420,5.57370,1,TP
+capsules,PatchCore,capsules/Data/Images/Anomaly/025.JPG,1,bubble,0.00153,26.49450,5.83848,5.57370,1,TP
+capsules,PatchCore,capsules/Data/Images/Anomaly/028.JPG,1,bubble,0.00154,30.64021,6.49327,5.57370,1,TP
+capsules,PatchCore,capsules/Data/Images/Anomaly/033.JPG,1,"bubble,discolor",0.00015,28.19518,5.92689,5.57370,1,TP
+capsules,PatchCore,capsules/Data/Images/Anomaly/034.JPG,1,"bubble,discolor",0.00009,24.53602,6.06681,5.57370,1,TP
+capsules,PatchCore,capsules/Data/Images/Anomaly/035.JPG,1,"bubble,discolor",0.00011,29.61998,5.57476,5.57370,1,TP
+capsules,PatchCore,capsules/Data/Images/Anomaly/039.JPG,1,"bubble,discolor",0.00015,27.65669,5.55303,5.57370,0,FN
+capsules,PatchCore,capsules/Data/Images/Anomaly/040.JPG,1,"bubble,discolor",0.00011,30.43926,5.74538,5.57370,1,TP
+capsules,PatchCore,capsules/Data/Images/Anomaly/043.JPG,1,"bubble,discolor",0.00017,28.08541,5.57545,5.57370,1,TP
+capsules,PatchCore,capsules/Data/Images/Anomaly/044.JPG,1,"bubble,discolor",0.00011,28.98494,5.84507,5.57370,1,TP
+capsules,PatchCore,capsules/Data/Images/Anomaly/046.JPG,1,"bubble,discolor,scratch,leak",0.00432,28.80279,6.81908,5.57370,1,TP
+capsules,PatchCore,capsules/Data/Images/Anomaly/047.JPG,1,"bubble,discolor,scratch,leak,misshape",0.00658,29.36752,6.34864,5.57370,1,TP
+capsules,PatchCore,capsules/Data/Images/Anomaly/049.JPG,1,"bubble,discolor,scratch,leak,misshape",0.00876,29.87280,7.03427,5.57370,1,TP
+capsules,PatchCore,capsules/Data/Images/Anomaly/050.JPG,1,"bubble,discolor,scratch,leak,misshape",0.00389,24.33786,6.44960,5.57370,1,TP
+capsules,PatchCore,capsules/Data/Images/Anomaly/051.JPG,1,"bubble,discolor,scratch,leak",0.00443,26.01255,6.95996,5.57370,1,TP
+capsules,PatchCore,capsules/Data/Images/Anomaly/052.JPG,1,"bubble,discolor,scratch,leak",0.00911,28.50503,6.95951,5.57370,1,TP
+capsules,PatchCore,capsules/Data/Images/Anomaly/053.JPG,1,"bubble,discolor,scratch,leak",0.00504,27.69769,5.98460,5.57370,1,TP
+capsules,PatchCore,capsules/Data/Images/Anomaly/057.JPG,1,"bubble,discolor,scratch,leak,misshape",0.01909,24.72919,7.61186,5.57370,1,TP
+capsules,PatchCore,capsules/Data/Images/Anomaly/059.JPG,1,"bubble,discolor,scratch,leak,misshape",0.01790,24.91549,7.12345,5.57370,1,TP
+capsules,PatchCore,capsules/Data/Images/Anomaly/060.JPG,1,"bubble,discolor,scratch,leak",0.00699,28.47755,6.54250,5.57370,1,TP
+capsules,PatchCore,capsules/Data/Images/Anomaly/061.JPG,1,"bubble,discolor,scratch,leak",0.00687,26.79818,7.01660,5.57370,1,TP
+capsules,PatchCore,capsules/Data/Images/Anomaly/062.JPG,1,"bubble,discolor,scratch,leak",0.00911,23.90780,7.12440,5.57370,1,TP
+capsules,PatchCore,capsules/Data/Images/Anomaly/064.JPG,1,"bubble,discolor,scratch,leak",0.01091,33.05028,6.43244,5.57370,1,TP
+capsules,PatchCore,capsules/Data/Images/Anomaly/070.JPG,1,"bubble,discolor,scratch,leak,misshape",0.01659,24.37940,6.56717,5.57370,1,TP
+capsules,PatchCore,capsules/Data/Images/Anomaly/071.JPG,1,"bubble,discolor,scratch,leak,misshape",0.01648,25.73079,7.74001,5.57370,1,TP
+capsules,PatchCore,capsules/Data/Images/Anomaly/073.JPG,1,"bubble,discolor,scratch,leak,misshape",0.01596,26.77480,7.77675,5.57370,1,TP
+capsules,PatchCore,capsules/Data/Images/Anomaly/075.JPG,1,"bubble,discolor,scratch,leak,misshape",0.01622,25.83447,7.43176,5.57370,1,TP
+capsules,PatchCore,capsules/Data/Images/Anomaly/076.JPG,1,"bubble,discolor,scratch,leak,misshape",0.01604,24.74905,6.90736,5.57370,1,TP
+capsules,PatchCore,capsules/Data/Images/Anomaly/077.JPG,1,"bubble,discolor,scratch,leak,misshape",0.01604,26.48828,7.62996,5.57370,1,TP
+capsules,PatchCore,capsules/Data/Images/Anomaly/079.JPG,1,"bubble,discolor,scratch,leak,misshape",0.01674,25.93672,7.11497,5.57370,1,TP
+capsules,PatchCore,capsules/Data/Images/Anomaly/080.JPG,1,"bubble,discolor,scratch,leak,misshape",0.01585,30.95967,6.66364,5.57370,1,TP
+capsules,PatchCore,capsules/Data/Images/Anomaly/082.JPG,1,"bubble,discolor,scratch,leak,misshape",0.01523,27.43832,6.57069,5.57370,1,TP
+capsules,PatchCore,capsules/Data/Images/Anomaly/087.JPG,1,"bubble,discolor,scratch",0.00043,26.49547,5.86150,5.57370,1,TP
+capsules,PatchCore,capsules/Data/Images/Anomaly/090.JPG,1,"bubble,discolor,scratch",0.00041,31.77066,5.90736,5.57370,1,TP
+capsules,PatchCore,capsules/Data/Images/Anomaly/095.JPG,1,"bubble,discolor,scratch",0.00075,27.16899,6.03578,5.57370,1,TP
+capsules,PatchCore,capsules/Data/Images/Anomaly/097.JPG,1,"bubble,discolor,scratch",0.00101,28.80374,6.08507,5.57370,1,TP
+capsules,PatchCore,capsules/Data/Images/Anomaly/098.JPG,1,"bubble,discolor,scratch",0.00092,27.34905,5.63148,5.57370,1,TP
+capsules,PatchCore,capsules/Data/Images/Normal/011.JPG,0,,0.00000,24.88506,5.52142,5.57370,0,TN
+capsules,PatchCore,capsules/Data/Images/Normal/013.JPG,0,,0.00000,24.46453,5.84859,5.57370,1,FP
+capsules,PatchCore,capsules/Data/Images/Normal/046.JPG,0,,0.00000,26.61387,5.66027,5.57370,1,FP
+capsules,PatchCore,capsules/Data/Images/Normal/100.JPG,0,,0.00000,26.17675,5.84341,5.57370,1,FP
+capsules,PatchCore,capsules/Data/Images/Normal/107.JPG,0,,0.00000,26.45567,5.74956,5.57370,1,FP
+capsules,PatchCore,capsules/Data/Images/Normal/159.JPG,0,,0.00000,24.18260,5.63008,5.57370,1,FP
+capsules,PatchCore,capsules/Data/Images/Normal/168.JPG,0,,0.00000,25.87965,5.86353,5.57370,1,FP
+capsules,PatchCore,capsules/Data/Images/Normal/170.JPG,0,,0.00000,22.13174,5.84554,5.57370,1,FP
+capsules,PatchCore,capsules/Data/Images/Normal/172.JPG,0,,0.00000,25.95300,5.75011,5.57370,1,FP
+capsules,PatchCore,capsules/Data/Images/Normal/178.JPG,0,,0.00000,21.31425,5.69511,5.57370,1,FP
+capsules,PatchCore,capsules/Data/Images/Normal/179.JPG,0,,0.00000,24.21341,5.59613,5.57370,1,FP
+capsules,PatchCore,capsules/Data/Images/Normal/187.JPG,0,,0.00000,27.23073,5.68873,5.57370,1,FP
+capsules,PatchCore,capsules/Data/Images/Normal/237.JPG,0,,0.00000,24.28932,5.85617,5.57370,1,FP
+capsules,PatchCore,capsules/Data/Images/Normal/240.JPG,0,,0.00000,25.49593,5.61249,5.57370,1,FP
+capsules,PatchCore,capsules/Data/Images/Normal/261.JPG,0,,0.00000,29.00106,5.83277,5.57370,1,FP
+capsules,PatchCore,capsules/Data/Images/Normal/320.JPG,0,,0.00000,24.86152,5.54308,5.57370,0,TN
+capsules,PatchCore,capsules/Data/Images/Normal/333.JPG,0,,0.00000,25.78485,5.49097,5.57370,0,TN
+capsules,PatchCore,capsules/Data/Images/Normal/363.JPG,0,,0.00000,26.55499,5.54299,5.57370,0,TN
+capsules,PatchCore,capsules/Data/Images/Normal/377.JPG,0,,0.00000,26.93967,5.64637,5.57370,1,FP
+capsules,PatchCore,capsules/Data/Images/Normal/394.JPG,0,,0.00000,25.95295,5.86723,5.57370,1,FP
+capsules,PatchCore,capsules/Data/Images/Normal/400.JPG,0,,0.00000,28.81923,5.47382,5.57370,0,TN
+capsules,PatchCore,capsules/Data/Images/Normal/402.JPG,0,,0.00000,27.19052,5.71866,5.57370,1,FP
+capsules,PatchCore,capsules/Data/Images/Normal/417.JPG,0,,0.00000,24.37050,5.67133,5.57370,1,FP
+capsules,PatchCore,capsules/Data/Images/Normal/423.JPG,0,,0.00000,24.16203,5.80426,5.57370,1,FP
+capsules,PatchCore,capsules/Data/Images/Normal/427.JPG,0,,0.00000,27.14595,5.59912,5.57370,1,FP
+capsules,PatchCore,capsules/Data/Images/Normal/457.JPG,0,,0.00000,24.40043,5.96059,5.57370,1,FP
+capsules,PatchCore,capsules/Data/Images/Normal/518.JPG,0,,0.00000,29.22472,5.62487,5.57370,1,FP
+capsules,PatchCore,capsules/Data/Images/Normal/525.JPG,0,,0.00000,28.89600,5.57662,5.57370,1,FP
+capsules,PatchCore,capsules/Data/Images/Normal/552.JPG,0,,0.00000,26.15844,5.72226,5.57370,1,FP
+capsules,PatchCore,capsules/Data/Images/Normal/569.JPG,0,,0.00000,24.65049,5.72475,5.57370,1,FP
+pcb4,FAE,pcb4/Data/Images/Anomaly/000.JPG,1,"burnt,scratch,dirt",0.02751,28.66251,1.18316,0.57354,1,TP
+pcb4,FAE,pcb4/Data/Images/Anomaly/001.JPG,1,"burnt,dirt",0.02043,29.15341,0.92122,0.57354,1,TP
+pcb4,FAE,pcb4/Data/Images/Anomaly/002.JPG,1,"burnt,dirt",0.02600,30.02072,3.02955,0.57354,1,TP
+pcb4,FAE,pcb4/Data/Images/Anomaly/003.JPG,1,"burnt,dirt",0.00990,31.57791,0.67986,0.57354,1,TP
+pcb4,FAE,pcb4/Data/Images/Anomaly/004.JPG,1,"burnt,dirt",0.02652,30.59744,1.22217,0.57354,1,TP
+pcb4,FAE,pcb4/Data/Images/Anomaly/006.JPG,1,"damage,dirt",0.01733,29.33337,1.64193,0.57354,1,TP
+pcb4,FAE,pcb4/Data/Images/Anomaly/007.JPG,1,"scratch,damage,extra",0.00288,29.19681,1.04280,0.57354,1,TP
+pcb4,FAE,pcb4/Data/Images/Anomaly/008.JPG,1,burnt,0.00436,29.54758,0.82870,0.57354,1,TP
+pcb4,FAE,pcb4/Data/Images/Anomaly/011.JPG,1,damage,0.00677,29.87355,3.60620,0.57354,1,TP
+pcb4,FAE,pcb4/Data/Images/Anomaly/012.JPG,1,damage,0.00349,32.41324,1.09426,0.57354,1,TP
+pcb4,FAE,pcb4/Data/Images/Anomaly/013.JPG,1,"damage,dirt",0.00990,32.72259,0.82851,0.57354,1,TP
+pcb4,FAE,pcb4/Data/Images/Anomaly/014.JPG,1,"damage,dirt",0.01015,34.16970,0.89907,0.57354,1,TP
+pcb4,FAE,pcb4/Data/Images/Anomaly/021.JPG,1,"damage,dirt",0.00331,30.18179,1.65731,0.57354,1,TP
+pcb4,FAE,pcb4/Data/Images/Anomaly/022.JPG,1,"scratch,damage",0.00418,30.24680,1.00771,0.57354,1,TP
+pcb4,FAE,pcb4/Data/Images/Anomaly/026.JPG,1,extra,0.00549,27.43283,0.51942,0.57354,0,FN
+pcb4,FAE,pcb4/Data/Images/Anomaly/027.JPG,1,burnt,0.00702,31.87986,0.91695,0.57354,1,TP
+pcb4,FAE,pcb4/Data/Images/Anomaly/028.JPG,1,extra,0.00587,30.66729,1.29262,0.57354,1,TP
+pcb4,FAE,pcb4/Data/Images/Anomaly/031.JPG,1,"extra,dirt",0.02724,30.94754,0.79776,0.57354,1,TP
+pcb4,FAE,pcb4/Data/Images/Anomaly/032.JPG,1,extra,0.00360,32.00111,2.52633,0.57354,1,TP
+pcb4,FAE,pcb4/Data/Images/Anomaly/033.JPG,1,"extra,dirt",0.00998,32.10308,0.77117,0.57354,1,TP
+pcb4,FAE,pcb4/Data/Images/Anomaly/034.JPG,1,"scratch,extra,dirt",0.02777,32.07938,0.71434,0.57354,1,TP
+pcb4,FAE,pcb4/Data/Images/Anomaly/035.JPG,1,"extra,dirt",0.01575,31.61456,3.74295,0.57354,1,TP
+pcb4,FAE,pcb4/Data/Images/Anomaly/036.JPG,1,"scratch,extra",0.00612,35.95500,5.55723,0.57354,1,TP
+pcb4,FAE,pcb4/Data/Images/Anomaly/038.JPG,1,extra,0.00200,31.79722,1.06088,0.57354,1,TP
+pcb4,FAE,pcb4/Data/Images/Anomaly/040.JPG,1,"extra,dirt",0.02878,30.00829,0.80547,0.57354,1,TP
+pcb4,FAE,pcb4/Data/Images/Anomaly/041.JPG,1,extra,0.00540,32.27182,2.71584,0.57354,1,TP
+pcb4,FAE,pcb4/Data/Images/Anomaly/042.JPG,1,"extra,dirt",0.01765,31.30103,1.25074,0.57354,1,TP
+pcb4,FAE,pcb4/Data/Images/Anomaly/043.JPG,1,"scratch,extra",0.00357,32.94227,1.89056,0.57354,1,TP
+pcb4,FAE,pcb4/Data/Images/Anomaly/044.JPG,1,extra,0.00558,31.51902,0.94635,0.57354,1,TP
+pcb4,FAE,pcb4/Data/Images/Anomaly/046.JPG,1,missing,0.00093,29.83862,0.60517,0.57354,1,TP
+pcb4,FAE,pcb4/Data/Images/Anomaly/047.JPG,1,"scratch,missing,dirt",0.02135,27.82521,0.96896,0.57354,1,TP
+pcb4,FAE,pcb4/Data/Images/Anomaly/050.JPG,1,"missing,dirt",0.02612,30.69396,0.71918,0.57354,1,TP
+pcb4,FAE,pcb4/Data/Images/Anomaly/051.JPG,1,missing,0.00589,29.69545,0.88945,0.57354,1,TP
+pcb4,FAE,pcb4/Data/Images/Anomaly/061.JPG,1,missing,0.00468,31.46286,1.42499,0.57354,1,TP
+pcb4,FAE,pcb4/Data/Images/Anomaly/062.JPG,1,missing,0.03363,25.08288,0.57417,0.57354,1,TP
+pcb4,FAE,pcb4/Data/Images/Anomaly/064.JPG,1,"missing,dirt",0.02293,28.65025,1.29364,0.57354,1,TP
+pcb4,FAE,pcb4/Data/Images/Anomaly/068.JPG,1,missing,0.03046,26.55115,0.76361,0.57354,1,TP
+pcb4,FAE,pcb4/Data/Images/Anomaly/069.JPG,1,missing,0.00841,29.06254,1.47262,0.57354,1,TP
+pcb4,FAE,pcb4/Data/Images/Anomaly/070.JPG,1,"missing,dirt",0.02411,27.12989,0.69192,0.57354,1,TP
+pcb4,FAE,pcb4/Data/Images/Anomaly/071.JPG,1,"scratch,missing",0.01016,28.90024,0.73999,0.57354,1,TP
+pcb4,FAE,pcb4/Data/Images/Anomaly/072.JPG,1,missing,0.00076,30.86080,0.44132,0.57354,0,FN
+pcb4,FAE,pcb4/Data/Images/Anomaly/077.JPG,1,scratch,0.00221,32.22252,1.25638,0.57354,1,TP
+pcb4,FAE,pcb4/Data/Images/Anomaly/080.JPG,1,"wrong place,dirt",0.01402,29.38495,1.26532,0.57354,1,TP
+pcb4,FAE,pcb4/Data/Images/Anomaly/084.JPG,1,"extra,dirt",0.02048,28.20555,1.08285,0.57354,1,TP
+pcb4,FAE,pcb4/Data/Images/Anomaly/091.JPG,1,extra,0.00453,33.20817,0.58650,0.57354,1,TP
+pcb4,FAE,pcb4/Data/Images/Anomaly/092.JPG,1,"wrong place,dirt",0.01936,32.93517,1.19382,0.57354,1,TP
+pcb4,FAE,pcb4/Data/Images/Anomaly/094.JPG,1,extra,0.00392,28.58874,0.56304,0.57354,0,FN
+pcb4,FAE,pcb4/Data/Images/Anomaly/095.JPG,1,"wrong place,dirt",0.01567,32.38757,0.97801,0.57354,1,TP
+pcb4,FAE,pcb4/Data/Images/Anomaly/096.JPG,1,wrong place,0.00356,34.23882,0.55321,0.57354,0,FN
+pcb4,FAE,pcb4/Data/Images/Anomaly/097.JPG,1,"wrong place,dirt",0.02023,31.64257,0.75171,0.57354,1,TP
+pcb4,FAE,pcb4/Data/Images/Normal/0013.JPG,0,,0.00000,32.71501,0.48488,0.57354,0,TN
+pcb4,FAE,pcb4/Data/Images/Normal/0024.JPG,0,,0.00000,34.64804,0.57024,0.57354,0,TN
+pcb4,FAE,pcb4/Data/Images/Normal/0027.JPG,0,,0.00000,36.57008,0.35658,0.57354,0,TN
+pcb4,FAE,pcb4/Data/Images/Normal/0046.JPG,0,,0.00000,34.80467,0.41942,0.57354,0,TN
+pcb4,FAE,pcb4/Data/Images/Normal/0100.JPG,0,,0.00000,30.15359,0.39427,0.57354,0,TN
+pcb4,FAE,pcb4/Data/Images/Normal/0168.JPG,0,,0.00000,31.72927,0.44858,0.57354,0,TN
+pcb4,FAE,pcb4/Data/Images/Normal/0170.JPG,0,,0.00000,33.57469,0.28177,0.57354,0,TN
+pcb4,FAE,pcb4/Data/Images/Normal/0172.JPG,0,,0.00000,32.98067,0.33789,0.57354,0,TN
+pcb4,FAE,pcb4/Data/Images/Normal/0174.JPG,0,,0.00000,36.88139,0.37514,0.57354,0,TN
+pcb4,FAE,pcb4/Data/Images/Normal/0196.JPG,0,,0.00000,34.67440,0.75809,0.57354,1,FP
+pcb4,FAE,pcb4/Data/Images/Normal/0208.JPG,0,,0.00000,38.05574,0.37335,0.57354,0,TN
+pcb4,FAE,pcb4/Data/Images/Normal/0214.JPG,0,,0.00000,37.24351,0.31690,0.57354,0,TN
+pcb4,FAE,pcb4/Data/Images/Normal/0261.JPG,0,,0.00000,36.31732,0.47558,0.57354,0,TN
+pcb4,FAE,pcb4/Data/Images/Normal/0286.JPG,0,,0.00000,36.85441,0.33560,0.57354,0,TN
+pcb4,FAE,pcb4/Data/Images/Normal/0294.JPG,0,,0.00000,36.92250,0.44243,0.57354,0,TN
+pcb4,FAE,pcb4/Data/Images/Normal/0303.JPG,0,,0.00000,36.26411,0.44879,0.57354,0,TN
+pcb4,FAE,pcb4/Data/Images/Normal/0306.JPG,0,,0.00000,37.67230,0.44390,0.57354,0,TN
+pcb4,FAE,pcb4/Data/Images/Normal/0320.JPG,0,,0.00000,37.14226,1.10049,0.57354,1,FP
+pcb4,FAE,pcb4/Data/Images/Normal/0427.JPG,0,,0.00000,36.96367,0.36320,0.57354,0,TN
+pcb4,FAE,pcb4/Data/Images/Normal/0479.JPG,0,,0.00000,33.28738,0.34953,0.57354,0,TN
+pcb4,FAE,pcb4/Data/Images/Normal/0484.JPG,0,,0.00000,31.73982,0.34722,0.57354,0,TN
+pcb4,FAE,pcb4/Data/Images/Normal/0490.JPG,0,,0.00000,38.09313,0.41509,0.57354,0,TN
+pcb4,FAE,pcb4/Data/Images/Normal/0518.JPG,0,,0.00000,35.18809,0.45226,0.57354,0,TN
+pcb4,FAE,pcb4/Data/Images/Normal/0520.JPG,0,,0.00000,38.15324,0.31699,0.57354,0,TN
+pcb4,FAE,pcb4/Data/Images/Normal/0525.JPG,0,,0.00000,38.13306,0.39706,0.57354,0,TN
+pcb4,FAE,pcb4/Data/Images/Normal/0629.JPG,0,,0.00000,31.33282,0.38481,0.57354,0,TN
+pcb4,FAE,pcb4/Data/Images/Normal/0654.JPG,0,,0.00000,33.29236,0.30149,0.57354,0,TN
+pcb4,FAE,pcb4/Data/Images/Normal/0657.JPG,0,,0.00000,32.87435,1.45741,0.57354,1,FP
+pcb4,FAE,pcb4/Data/Images/Normal/0674.JPG,0,,0.00000,32.48193,0.37407,0.57354,0,TN
+pcb4,FAE,pcb4/Data/Images/Normal/0684.JPG,0,,0.00000,32.88565,0.31779,0.57354,0,TN
+pcb4,FAE,pcb4/Data/Images/Normal/0685.JPG,0,,0.00000,35.05322,0.41959,0.57354,0,TN
+pcb4,FAE,pcb4/Data/Images/Normal/0690.JPG,0,,0.00000,31.20189,0.39077,0.57354,0,TN
+pcb4,FAE,pcb4/Data/Images/Normal/0694.JPG,0,,0.00000,37.82384,0.38632,0.57354,0,TN
+pcb4,FAE,pcb4/Data/Images/Normal/0705.JPG,0,,0.00000,37.39143,0.31898,0.57354,0,TN
+pcb4,FAE,pcb4/Data/Images/Normal/0725.JPG,0,,0.00000,32.84253,0.24814,0.57354,0,TN
+pcb4,FAE,pcb4/Data/Images/Normal/0735.JPG,0,,0.00000,32.40952,0.28974,0.57354,0,TN
+pcb4,FAE,pcb4/Data/Images/Normal/0739.JPG,0,,0.00000,32.19725,0.33216,0.57354,0,TN
+pcb4,FAE,pcb4/Data/Images/Normal/0755.JPG,0,,0.00000,34.75770,0.29378,0.57354,0,TN
+pcb4,FAE,pcb4/Data/Images/Normal/0764.JPG,0,,0.00000,33.96426,0.35717,0.57354,0,TN
+pcb4,FAE,pcb4/Data/Images/Normal/0768.JPG,0,,0.00000,31.42607,0.32877,0.57354,0,TN
+pcb4,FAE,pcb4/Data/Images/Normal/0796.JPG,0,,0.00000,31.01535,0.27877,0.57354,0,TN
+pcb4,FAE,pcb4/Data/Images/Normal/0800.JPG,0,,0.00000,33.30288,0.48773,0.57354,0,TN
+pcb4,FAE,pcb4/Data/Images/Normal/0804.JPG,0,,0.00000,31.82417,0.33118,0.57354,0,TN
+pcb4,FAE,pcb4/Data/Images/Normal/0811.JPG,0,,0.00000,33.90590,0.32183,0.57354,0,TN
+pcb4,FAE,pcb4/Data/Images/Normal/0844.JPG,0,,0.00000,31.68100,0.27406,0.57354,0,TN
+pcb4,FAE,pcb4/Data/Images/Normal/0920.JPG,0,,0.00000,29.90007,0.30156,0.57354,0,TN
+pcb4,FAE,pcb4/Data/Images/Normal/0923.JPG,0,,0.00000,28.89539,0.47564,0.57354,0,TN
+pcb4,FAE,pcb4/Data/Images/Normal/0935.JPG,0,,0.00000,32.09358,0.36692,0.57354,0,TN
+pcb4,FAE,pcb4/Data/Images/Normal/0964.JPG,0,,0.00000,29.46071,0.36407,0.57354,0,TN
+pcb4,FAE,pcb4/Data/Images/Normal/0974.JPG,0,,0.00000,26.65778,0.58610,0.57354,1,FP
+pcb4,FAE,pcb4/Data/Images/Normal/0994.JPG,0,,0.00000,31.86844,0.47201,0.57354,0,TN
+pcb4,PaDiM,pcb4/Data/Images/Anomaly/000.JPG,1,"burnt,scratch,dirt",0.02751,28.66251,14.12914,10.06681,1,TP
+pcb4,PaDiM,pcb4/Data/Images/Anomaly/001.JPG,1,"burnt,dirt",0.02043,29.15341,13.92373,10.06681,1,TP
+pcb4,PaDiM,pcb4/Data/Images/Anomaly/002.JPG,1,"burnt,dirt",0.02600,30.02072,13.91349,10.06681,1,TP
+pcb4,PaDiM,pcb4/Data/Images/Anomaly/003.JPG,1,"burnt,dirt",0.00990,31.57791,14.54766,10.06681,1,TP
+pcb4,PaDiM,pcb4/Data/Images/Anomaly/004.JPG,1,"burnt,dirt",0.02652,30.59744,10.10421,10.06681,1,TP
+pcb4,PaDiM,pcb4/Data/Images/Anomaly/006.JPG,1,"damage,dirt",0.01733,29.33337,13.95190,10.06681,1,TP
+pcb4,PaDiM,pcb4/Data/Images/Anomaly/007.JPG,1,"scratch,damage,extra",0.00288,29.19681,12.35274,10.06681,1,TP
+pcb4,PaDiM,pcb4/Data/Images/Anomaly/008.JPG,1,burnt,0.00436,29.54758,9.90761,10.06681,0,FN
+pcb4,PaDiM,pcb4/Data/Images/Anomaly/011.JPG,1,damage,0.00677,29.87355,19.80651,10.06681,1,TP
+pcb4,PaDiM,pcb4/Data/Images/Anomaly/012.JPG,1,damage,0.00349,32.41324,14.72427,10.06681,1,TP
+pcb4,PaDiM,pcb4/Data/Images/Anomaly/013.JPG,1,"damage,dirt",0.00990,32.72259,12.67820,10.06681,1,TP
+pcb4,PaDiM,pcb4/Data/Images/Anomaly/014.JPG,1,"damage,dirt",0.01015,34.16970,12.92513,10.06681,1,TP
+pcb4,PaDiM,pcb4/Data/Images/Anomaly/021.JPG,1,"damage,dirt",0.00331,30.18179,14.93223,10.06681,1,TP
+pcb4,PaDiM,pcb4/Data/Images/Anomaly/022.JPG,1,"scratch,damage",0.00418,30.24680,9.96262,10.06681,0,FN
+pcb4,PaDiM,pcb4/Data/Images/Anomaly/026.JPG,1,extra,0.00549,27.43283,16.08765,10.06681,1,TP
+pcb4,PaDiM,pcb4/Data/Images/Anomaly/027.JPG,1,burnt,0.00702,31.87986,16.57738,10.06681,1,TP
+pcb4,PaDiM,pcb4/Data/Images/Anomaly/028.JPG,1,extra,0.00587,30.66729,14.90541,10.06681,1,TP
+pcb4,PaDiM,pcb4/Data/Images/Anomaly/031.JPG,1,"extra,dirt",0.02724,30.94754,13.86351,10.06681,1,TP
+pcb4,PaDiM,pcb4/Data/Images/Anomaly/032.JPG,1,extra,0.00360,32.00111,22.66724,10.06681,1,TP
+pcb4,PaDiM,pcb4/Data/Images/Anomaly/033.JPG,1,"extra,dirt",0.00998,32.10308,16.29868,10.06681,1,TP
+pcb4,PaDiM,pcb4/Data/Images/Anomaly/034.JPG,1,"scratch,extra,dirt",0.02777,32.07938,15.91385,10.06681,1,TP
+pcb4,PaDiM,pcb4/Data/Images/Anomaly/035.JPG,1,"extra,dirt",0.01575,31.61456,22.14190,10.06681,1,TP
+pcb4,PaDiM,pcb4/Data/Images/Anomaly/036.JPG,1,"scratch,extra",0.00612,35.95500,20.80414,10.06681,1,TP
+pcb4,PaDiM,pcb4/Data/Images/Anomaly/038.JPG,1,extra,0.00200,31.79722,9.73307,10.06681,0,FN
+pcb4,PaDiM,pcb4/Data/Images/Anomaly/040.JPG,1,"extra,dirt",0.02878,30.00829,13.49664,10.06681,1,TP
+pcb4,PaDiM,pcb4/Data/Images/Anomaly/041.JPG,1,extra,0.00540,32.27182,25.31309,10.06681,1,TP
+pcb4,PaDiM,pcb4/Data/Images/Anomaly/042.JPG,1,"extra,dirt",0.01765,31.30103,12.66152,10.06681,1,TP
+pcb4,PaDiM,pcb4/Data/Images/Anomaly/043.JPG,1,"scratch,extra",0.00357,32.94227,17.02868,10.06681,1,TP
+pcb4,PaDiM,pcb4/Data/Images/Anomaly/044.JPG,1,extra,0.00558,31.51902,12.31415,10.06681,1,TP
+pcb4,PaDiM,pcb4/Data/Images/Anomaly/046.JPG,1,missing,0.00093,29.83862,9.09327,10.06681,0,FN
+pcb4,PaDiM,pcb4/Data/Images/Anomaly/047.JPG,1,"scratch,missing,dirt",0.02135,27.82521,10.37076,10.06681,1,TP
+pcb4,PaDiM,pcb4/Data/Images/Anomaly/050.JPG,1,"missing,dirt",0.02612,30.69396,16.16093,10.06681,1,TP
+pcb4,PaDiM,pcb4/Data/Images/Anomaly/051.JPG,1,missing,0.00589,29.69545,12.32490,10.06681,1,TP
+pcb4,PaDiM,pcb4/Data/Images/Anomaly/061.JPG,1,missing,0.00468,31.46286,12.64239,10.06681,1,TP
+pcb4,PaDiM,pcb4/Data/Images/Anomaly/062.JPG,1,missing,0.03363,25.08288,18.79594,10.06681,1,TP
+pcb4,PaDiM,pcb4/Data/Images/Anomaly/064.JPG,1,"missing,dirt",0.02293,28.65025,10.30711,10.06681,1,TP
+pcb4,PaDiM,pcb4/Data/Images/Anomaly/068.JPG,1,missing,0.03046,26.55115,19.35281,10.06681,1,TP
+pcb4,PaDiM,pcb4/Data/Images/Anomaly/069.JPG,1,missing,0.00841,29.06254,11.07600,10.06681,1,TP
+pcb4,PaDiM,pcb4/Data/Images/Anomaly/070.JPG,1,"missing,dirt",0.02411,27.12989,11.31958,10.06681,1,TP
+pcb4,PaDiM,pcb4/Data/Images/Anomaly/071.JPG,1,"scratch,missing",0.01016,28.90024,20.18601,10.06681,1,TP
+pcb4,PaDiM,pcb4/Data/Images/Anomaly/072.JPG,1,missing,0.00076,30.86080,11.21161,10.06681,1,TP
+pcb4,PaDiM,pcb4/Data/Images/Anomaly/077.JPG,1,scratch,0.00221,32.22252,12.86982,10.06681,1,TP
+pcb4,PaDiM,pcb4/Data/Images/Anomaly/080.JPG,1,"wrong place,dirt",0.01402,29.38495,15.06106,10.06681,1,TP
+pcb4,PaDiM,pcb4/Data/Images/Anomaly/084.JPG,1,"extra,dirt",0.02048,28.20555,15.06058,10.06681,1,TP
+pcb4,PaDiM,pcb4/Data/Images/Anomaly/091.JPG,1,extra,0.00453,33.20817,12.67670,10.06681,1,TP
+pcb4,PaDiM,pcb4/Data/Images/Anomaly/092.JPG,1,"wrong place,dirt",0.01936,32.93517,11.47596,10.06681,1,TP
+pcb4,PaDiM,pcb4/Data/Images/Anomaly/094.JPG,1,extra,0.00392,28.58874,9.67719,10.06681,0,FN
+pcb4,PaDiM,pcb4/Data/Images/Anomaly/095.JPG,1,"wrong place,dirt",0.01567,32.38757,15.56399,10.06681,1,TP
+pcb4,PaDiM,pcb4/Data/Images/Anomaly/096.JPG,1,wrong place,0.00356,34.23882,10.00922,10.06681,0,FN
+pcb4,PaDiM,pcb4/Data/Images/Anomaly/097.JPG,1,"wrong place,dirt",0.02023,31.64257,13.61680,10.06681,1,TP
+pcb4,PaDiM,pcb4/Data/Images/Normal/0013.JPG,0,,0.00000,32.71501,8.59090,10.06681,0,TN
+pcb4,PaDiM,pcb4/Data/Images/Normal/0024.JPG,0,,0.00000,34.64804,7.89647,10.06681,0,TN
+pcb4,PaDiM,pcb4/Data/Images/Normal/0027.JPG,0,,0.00000,36.57008,6.12938,10.06681,0,TN
+pcb4,PaDiM,pcb4/Data/Images/Normal/0046.JPG,0,,0.00000,34.80467,7.48558,10.06681,0,TN
+pcb4,PaDiM,pcb4/Data/Images/Normal/0100.JPG,0,,0.00000,30.15359,8.11074,10.06681,0,TN
+pcb4,PaDiM,pcb4/Data/Images/Normal/0168.JPG,0,,0.00000,31.72927,6.38852,10.06681,0,TN
+pcb4,PaDiM,pcb4/Data/Images/Normal/0170.JPG,0,,0.00000,33.57469,9.04478,10.06681,0,TN
+pcb4,PaDiM,pcb4/Data/Images/Normal/0172.JPG,0,,0.00000,32.98067,6.41755,10.06681,0,TN
+pcb4,PaDiM,pcb4/Data/Images/Normal/0174.JPG,0,,0.00000,36.88139,8.35017,10.06681,0,TN
+pcb4,PaDiM,pcb4/Data/Images/Normal/0196.JPG,0,,0.00000,34.67440,8.47951,10.06681,0,TN
+pcb4,PaDiM,pcb4/Data/Images/Normal/0208.JPG,0,,0.00000,38.05574,9.20617,10.06681,0,TN
+pcb4,PaDiM,pcb4/Data/Images/Normal/0214.JPG,0,,0.00000,37.24351,7.35439,10.06681,0,TN
+pcb4,PaDiM,pcb4/Data/Images/Normal/0261.JPG,0,,0.00000,36.31732,8.61237,10.06681,0,TN
+pcb4,PaDiM,pcb4/Data/Images/Normal/0286.JPG,0,,0.00000,36.85441,6.37152,10.06681,0,TN
+pcb4,PaDiM,pcb4/Data/Images/Normal/0294.JPG,0,,0.00000,36.92250,8.04343,10.06681,0,TN
+pcb4,PaDiM,pcb4/Data/Images/Normal/0303.JPG,0,,0.00000,36.26411,9.45834,10.06681,0,TN
+pcb4,PaDiM,pcb4/Data/Images/Normal/0306.JPG,0,,0.00000,37.67230,6.53261,10.06681,0,TN
+pcb4,PaDiM,pcb4/Data/Images/Normal/0320.JPG,0,,0.00000,37.14226,15.84408,10.06681,1,FP
+pcb4,PaDiM,pcb4/Data/Images/Normal/0427.JPG,0,,0.00000,36.96367,7.16114,10.06681,0,TN
+pcb4,PaDiM,pcb4/Data/Images/Normal/0479.JPG,0,,0.00000,33.28738,8.52669,10.06681,0,TN
+pcb4,PaDiM,pcb4/Data/Images/Normal/0484.JPG,0,,0.00000,31.73982,6.45998,10.06681,0,TN
+pcb4,PaDiM,pcb4/Data/Images/Normal/0490.JPG,0,,0.00000,38.09313,11.20726,10.06681,1,FP
+pcb4,PaDiM,pcb4/Data/Images/Normal/0518.JPG,0,,0.00000,35.18809,5.83269,10.06681,0,TN
+pcb4,PaDiM,pcb4/Data/Images/Normal/0520.JPG,0,,0.00000,38.15324,6.20997,10.06681,0,TN
+pcb4,PaDiM,pcb4/Data/Images/Normal/0525.JPG,0,,0.00000,38.13306,6.77743,10.06681,0,TN
+pcb4,PaDiM,pcb4/Data/Images/Normal/0629.JPG,0,,0.00000,31.33282,8.76186,10.06681,0,TN
+pcb4,PaDiM,pcb4/Data/Images/Normal/0654.JPG,0,,0.00000,33.29236,6.65179,10.06681,0,TN
+pcb4,PaDiM,pcb4/Data/Images/Normal/0657.JPG,0,,0.00000,32.87435,20.25032,10.06681,1,FP
+pcb4,PaDiM,pcb4/Data/Images/Normal/0674.JPG,0,,0.00000,32.48193,8.57452,10.06681,0,TN
+pcb4,PaDiM,pcb4/Data/Images/Normal/0684.JPG,0,,0.00000,32.88565,6.48406,10.06681,0,TN
+pcb4,PaDiM,pcb4/Data/Images/Normal/0685.JPG,0,,0.00000,35.05322,6.79503,10.06681,0,TN
+pcb4,PaDiM,pcb4/Data/Images/Normal/0690.JPG,0,,0.00000,31.20189,5.91234,10.06681,0,TN
+pcb4,PaDiM,pcb4/Data/Images/Normal/0694.JPG,0,,0.00000,37.82384,7.57471,10.06681,0,TN
+pcb4,PaDiM,pcb4/Data/Images/Normal/0705.JPG,0,,0.00000,37.39143,8.22786,10.06681,0,TN
+pcb4,PaDiM,pcb4/Data/Images/Normal/0725.JPG,0,,0.00000,32.84253,6.83809,10.06681,0,TN
+pcb4,PaDiM,pcb4/Data/Images/Normal/0735.JPG,0,,0.00000,32.40952,6.23409,10.06681,0,TN
+pcb4,PaDiM,pcb4/Data/Images/Normal/0739.JPG,0,,0.00000,32.19725,8.88805,10.06681,0,TN
+pcb4,PaDiM,pcb4/Data/Images/Normal/0755.JPG,0,,0.00000,34.75770,12.17717,10.06681,1,FP
+pcb4,PaDiM,pcb4/Data/Images/Normal/0764.JPG,0,,0.00000,33.96426,6.64253,10.06681,0,TN
+pcb4,PaDiM,pcb4/Data/Images/Normal/0768.JPG,0,,0.00000,31.42607,8.52529,10.06681,0,TN
+pcb4,PaDiM,pcb4/Data/Images/Normal/0796.JPG,0,,0.00000,31.01535,6.10614,10.06681,0,TN
+pcb4,PaDiM,pcb4/Data/Images/Normal/0800.JPG,0,,0.00000,33.30288,7.93310,10.06681,0,TN
+pcb4,PaDiM,pcb4/Data/Images/Normal/0804.JPG,0,,0.00000,31.82417,5.54737,10.06681,0,TN
+pcb4,PaDiM,pcb4/Data/Images/Normal/0811.JPG,0,,0.00000,33.90590,6.05552,10.06681,0,TN
+pcb4,PaDiM,pcb4/Data/Images/Normal/0844.JPG,0,,0.00000,31.68100,6.40869,10.06681,0,TN
+pcb4,PaDiM,pcb4/Data/Images/Normal/0920.JPG,0,,0.00000,29.90007,6.45605,10.06681,0,TN
+pcb4,PaDiM,pcb4/Data/Images/Normal/0923.JPG,0,,0.00000,28.89539,7.81580,10.06681,0,TN
+pcb4,PaDiM,pcb4/Data/Images/Normal/0935.JPG,0,,0.00000,32.09358,6.13629,10.06681,0,TN
+pcb4,PaDiM,pcb4/Data/Images/Normal/0964.JPG,0,,0.00000,29.46071,7.68560,10.06681,0,TN
+pcb4,PaDiM,pcb4/Data/Images/Normal/0974.JPG,0,,0.00000,26.65778,11.69812,10.06681,1,FP
+pcb4,PaDiM,pcb4/Data/Images/Normal/0994.JPG,0,,0.00000,31.86844,6.05134,10.06681,0,TN
+pcb4,PatchCore,pcb4/Data/Images/Anomaly/000.JPG,1,"burnt,scratch,dirt",0.02751,28.66251,5.74746,4.94057,1,TP
+pcb4,PatchCore,pcb4/Data/Images/Anomaly/001.JPG,1,"burnt,dirt",0.02043,29.15341,6.75132,4.94057,1,TP
+pcb4,PatchCore,pcb4/Data/Images/Anomaly/002.JPG,1,"burnt,dirt",0.02600,30.02072,6.29637,4.94057,1,TP
+pcb4,PatchCore,pcb4/Data/Images/Anomaly/003.JPG,1,"burnt,dirt",0.00990,31.57791,6.08077,4.94057,1,TP
+pcb4,PatchCore,pcb4/Data/Images/Anomaly/004.JPG,1,"burnt,dirt",0.02652,30.59744,5.84624,4.94057,1,TP
+pcb4,PatchCore,pcb4/Data/Images/Anomaly/006.JPG,1,"damage,dirt",0.01733,29.33337,6.24447,4.94057,1,TP
+pcb4,PatchCore,pcb4/Data/Images/Anomaly/007.JPG,1,"scratch,damage,extra",0.00288,29.19681,6.01183,4.94057,1,TP
+pcb4,PatchCore,pcb4/Data/Images/Anomaly/008.JPG,1,burnt,0.00436,29.54758,5.89894,4.94057,1,TP
+pcb4,PatchCore,pcb4/Data/Images/Anomaly/011.JPG,1,damage,0.00677,29.87355,7.79926,4.94057,1,TP
+pcb4,PatchCore,pcb4/Data/Images/Anomaly/012.JPG,1,damage,0.00349,32.41324,5.90046,4.94057,1,TP
+pcb4,PatchCore,pcb4/Data/Images/Anomaly/013.JPG,1,"damage,dirt",0.00990,32.72259,6.03870,4.94057,1,TP
+pcb4,PatchCore,pcb4/Data/Images/Anomaly/014.JPG,1,"damage,dirt",0.01015,34.16970,5.93864,4.94057,1,TP
+pcb4,PatchCore,pcb4/Data/Images/Anomaly/021.JPG,1,"damage,dirt",0.00331,30.18179,6.48224,4.94057,1,TP
+pcb4,PatchCore,pcb4/Data/Images/Anomaly/022.JPG,1,"scratch,damage",0.00418,30.24680,5.74914,4.94057,1,TP
+pcb4,PatchCore,pcb4/Data/Images/Anomaly/026.JPG,1,extra,0.00549,27.43283,5.66587,4.94057,1,TP
+pcb4,PatchCore,pcb4/Data/Images/Anomaly/027.JPG,1,burnt,0.00702,31.87986,6.53268,4.94057,1,TP
+pcb4,PatchCore,pcb4/Data/Images/Anomaly/028.JPG,1,extra,0.00587,30.66729,6.02933,4.94057,1,TP
+pcb4,PatchCore,pcb4/Data/Images/Anomaly/031.JPG,1,"extra,dirt",0.02724,30.94754,6.51565,4.94057,1,TP
+pcb4,PatchCore,pcb4/Data/Images/Anomaly/032.JPG,1,extra,0.00360,32.00111,7.72213,4.94057,1,TP
+pcb4,PatchCore,pcb4/Data/Images/Anomaly/033.JPG,1,"extra,dirt",0.00998,32.10308,5.91628,4.94057,1,TP
+pcb4,PatchCore,pcb4/Data/Images/Anomaly/034.JPG,1,"scratch,extra,dirt",0.02777,32.07938,6.15220,4.94057,1,TP
+pcb4,PatchCore,pcb4/Data/Images/Anomaly/035.JPG,1,"extra,dirt",0.01575,31.61456,8.37276,4.94057,1,TP
+pcb4,PatchCore,pcb4/Data/Images/Anomaly/036.JPG,1,"scratch,extra",0.00612,35.95500,9.35338,4.94057,1,TP
+pcb4,PatchCore,pcb4/Data/Images/Anomaly/038.JPG,1,extra,0.00200,31.79722,5.29687,4.94057,1,TP
+pcb4,PatchCore,pcb4/Data/Images/Anomaly/040.JPG,1,"extra,dirt",0.02878,30.00829,6.53388,4.94057,1,TP
+pcb4,PatchCore,pcb4/Data/Images/Anomaly/041.JPG,1,extra,0.00540,32.27182,7.87937,4.94057,1,TP
+pcb4,PatchCore,pcb4/Data/Images/Anomaly/042.JPG,1,"extra,dirt",0.01765,31.30103,6.02233,4.94057,1,TP
+pcb4,PatchCore,pcb4/Data/Images/Anomaly/043.JPG,1,"scratch,extra",0.00357,32.94227,8.65350,4.94057,1,TP
+pcb4,PatchCore,pcb4/Data/Images/Anomaly/044.JPG,1,extra,0.00558,31.51902,6.08692,4.94057,1,TP
+pcb4,PatchCore,pcb4/Data/Images/Anomaly/046.JPG,1,missing,0.00093,29.83862,5.00861,4.94057,1,TP
+pcb4,PatchCore,pcb4/Data/Images/Anomaly/047.JPG,1,"scratch,missing,dirt",0.02135,27.82521,4.81027,4.94057,0,FN
+pcb4,PatchCore,pcb4/Data/Images/Anomaly/050.JPG,1,"missing,dirt",0.02612,30.69396,5.64111,4.94057,1,TP
+pcb4,PatchCore,pcb4/Data/Images/Anomaly/051.JPG,1,missing,0.00589,29.69545,4.70997,4.94057,0,FN
+pcb4,PatchCore,pcb4/Data/Images/Anomaly/061.JPG,1,missing,0.00468,31.46286,5.71376,4.94057,1,TP
+pcb4,PatchCore,pcb4/Data/Images/Anomaly/062.JPG,1,missing,0.03363,25.08288,5.51210,4.94057,1,TP
+pcb4,PatchCore,pcb4/Data/Images/Anomaly/064.JPG,1,"missing,dirt",0.02293,28.65025,5.26047,4.94057,1,TP
+pcb4,PatchCore,pcb4/Data/Images/Anomaly/068.JPG,1,missing,0.03046,26.55115,5.94431,4.94057,1,TP
+pcb4,PatchCore,pcb4/Data/Images/Anomaly/069.JPG,1,missing,0.00841,29.06254,5.67177,4.94057,1,TP
+pcb4,PatchCore,pcb4/Data/Images/Anomaly/070.JPG,1,"missing,dirt",0.02411,27.12989,5.52959,4.94057,1,TP
+pcb4,PatchCore,pcb4/Data/Images/Anomaly/071.JPG,1,"scratch,missing",0.01016,28.90024,5.60478,4.94057,1,TP
+pcb4,PatchCore,pcb4/Data/Images/Anomaly/072.JPG,1,missing,0.00076,30.86080,4.61130,4.94057,0,FN
+pcb4,PatchCore,pcb4/Data/Images/Anomaly/077.JPG,1,scratch,0.00221,32.22252,6.33023,4.94057,1,TP
+pcb4,PatchCore,pcb4/Data/Images/Anomaly/080.JPG,1,"wrong place,dirt",0.01402,29.38495,5.97458,4.94057,1,TP
+pcb4,PatchCore,pcb4/Data/Images/Anomaly/084.JPG,1,"extra,dirt",0.02048,28.20555,5.54671,4.94057,1,TP
+pcb4,PatchCore,pcb4/Data/Images/Anomaly/091.JPG,1,extra,0.00453,33.20817,5.78333,4.94057,1,TP
+pcb4,PatchCore,pcb4/Data/Images/Anomaly/092.JPG,1,"wrong place,dirt",0.01936,32.93517,5.33343,4.94057,1,TP
+pcb4,PatchCore,pcb4/Data/Images/Anomaly/094.JPG,1,extra,0.00392,28.58874,5.23333,4.94057,1,TP
+pcb4,PatchCore,pcb4/Data/Images/Anomaly/095.JPG,1,"wrong place,dirt",0.01567,32.38757,5.58785,4.94057,1,TP
+pcb4,PatchCore,pcb4/Data/Images/Anomaly/096.JPG,1,wrong place,0.00356,34.23882,5.09063,4.94057,1,TP
+pcb4,PatchCore,pcb4/Data/Images/Anomaly/097.JPG,1,"wrong place,dirt",0.02023,31.64257,5.50262,4.94057,1,TP
+pcb4,PatchCore,pcb4/Data/Images/Normal/0013.JPG,0,,0.00000,32.71501,4.64355,4.94057,0,TN
+pcb4,PatchCore,pcb4/Data/Images/Normal/0024.JPG,0,,0.00000,34.64804,4.33943,4.94057,0,TN
+pcb4,PatchCore,pcb4/Data/Images/Normal/0027.JPG,0,,0.00000,36.57008,4.22435,4.94057,0,TN
+pcb4,PatchCore,pcb4/Data/Images/Normal/0046.JPG,0,,0.00000,34.80467,4.37182,4.94057,0,TN
+pcb4,PatchCore,pcb4/Data/Images/Normal/0100.JPG,0,,0.00000,30.15359,4.29296,4.94057,0,TN
+pcb4,PatchCore,pcb4/Data/Images/Normal/0168.JPG,0,,0.00000,31.72927,4.14916,4.94057,0,TN
+pcb4,PatchCore,pcb4/Data/Images/Normal/0170.JPG,0,,0.00000,33.57469,4.28239,4.94057,0,TN
+pcb4,PatchCore,pcb4/Data/Images/Normal/0172.JPG,0,,0.00000,32.98067,4.22782,4.94057,0,TN
+pcb4,PatchCore,pcb4/Data/Images/Normal/0174.JPG,0,,0.00000,36.88139,4.16274,4.94057,0,TN
+pcb4,PatchCore,pcb4/Data/Images/Normal/0196.JPG,0,,0.00000,34.67440,4.42841,4.94057,0,TN
+pcb4,PatchCore,pcb4/Data/Images/Normal/0208.JPG,0,,0.00000,38.05574,4.34265,4.94057,0,TN
+pcb4,PatchCore,pcb4/Data/Images/Normal/0214.JPG,0,,0.00000,37.24351,4.18107,4.94057,0,TN
+pcb4,PatchCore,pcb4/Data/Images/Normal/0261.JPG,0,,0.00000,36.31732,4.65113,4.94057,0,TN
+pcb4,PatchCore,pcb4/Data/Images/Normal/0286.JPG,0,,0.00000,36.85441,4.23496,4.94057,0,TN
+pcb4,PatchCore,pcb4/Data/Images/Normal/0294.JPG,0,,0.00000,36.92250,4.34723,4.94057,0,TN
+pcb4,PatchCore,pcb4/Data/Images/Normal/0303.JPG,0,,0.00000,36.26411,4.59465,4.94057,0,TN
+pcb4,PatchCore,pcb4/Data/Images/Normal/0306.JPG,0,,0.00000,37.67230,4.27085,4.94057,0,TN
+pcb4,PatchCore,pcb4/Data/Images/Normal/0320.JPG,0,,0.00000,37.14226,4.64151,4.94057,0,TN
+pcb4,PatchCore,pcb4/Data/Images/Normal/0427.JPG,0,,0.00000,36.96367,4.43779,4.94057,0,TN
+pcb4,PatchCore,pcb4/Data/Images/Normal/0479.JPG,0,,0.00000,33.28738,4.25098,4.94057,0,TN
+pcb4,PatchCore,pcb4/Data/Images/Normal/0484.JPG,0,,0.00000,31.73982,4.08719,4.94057,0,TN
+pcb4,PatchCore,pcb4/Data/Images/Normal/0490.JPG,0,,0.00000,38.09313,4.29850,4.94057,0,TN
+pcb4,PatchCore,pcb4/Data/Images/Normal/0518.JPG,0,,0.00000,35.18809,4.26336,4.94057,0,TN
+pcb4,PatchCore,pcb4/Data/Images/Normal/0520.JPG,0,,0.00000,38.15324,4.39395,4.94057,0,TN
+pcb4,PatchCore,pcb4/Data/Images/Normal/0525.JPG,0,,0.00000,38.13306,4.27733,4.94057,0,TN
+pcb4,PatchCore,pcb4/Data/Images/Normal/0629.JPG,0,,0.00000,31.33282,4.23743,4.94057,0,TN
+pcb4,PatchCore,pcb4/Data/Images/Normal/0654.JPG,0,,0.00000,33.29236,4.07334,4.94057,0,TN
+pcb4,PatchCore,pcb4/Data/Images/Normal/0657.JPG,0,,0.00000,32.87435,4.41758,4.94057,0,TN
+pcb4,PatchCore,pcb4/Data/Images/Normal/0674.JPG,0,,0.00000,32.48193,4.22621,4.94057,0,TN
+pcb4,PatchCore,pcb4/Data/Images/Normal/0684.JPG,0,,0.00000,32.88565,4.23433,4.94057,0,TN
+pcb4,PatchCore,pcb4/Data/Images/Normal/0685.JPG,0,,0.00000,35.05322,4.15589,4.94057,0,TN
+pcb4,PatchCore,pcb4/Data/Images/Normal/0690.JPG,0,,0.00000,31.20189,4.24564,4.94057,0,TN
+pcb4,PatchCore,pcb4/Data/Images/Normal/0694.JPG,0,,0.00000,37.82384,4.25595,4.94057,0,TN
+pcb4,PatchCore,pcb4/Data/Images/Normal/0705.JPG,0,,0.00000,37.39143,4.05586,4.94057,0,TN
+pcb4,PatchCore,pcb4/Data/Images/Normal/0725.JPG,0,,0.00000,32.84253,4.08166,4.94057,0,TN
+pcb4,PatchCore,pcb4/Data/Images/Normal/0735.JPG,0,,0.00000,32.40952,4.27310,4.94057,0,TN
+pcb4,PatchCore,pcb4/Data/Images/Normal/0739.JPG,0,,0.00000,32.19725,4.14403,4.94057,0,TN
+pcb4,PatchCore,pcb4/Data/Images/Normal/0755.JPG,0,,0.00000,34.75770,4.19313,4.94057,0,TN
+pcb4,PatchCore,pcb4/Data/Images/Normal/0764.JPG,0,,0.00000,33.96426,4.17206,4.94057,0,TN
+pcb4,PatchCore,pcb4/Data/Images/Normal/0768.JPG,0,,0.00000,31.42607,4.32450,4.94057,0,TN
+pcb4,PatchCore,pcb4/Data/Images/Normal/0796.JPG,0,,0.00000,31.01535,4.13390,4.94057,0,TN
+pcb4,PatchCore,pcb4/Data/Images/Normal/0800.JPG,0,,0.00000,33.30288,4.40950,4.94057,0,TN
+pcb4,PatchCore,pcb4/Data/Images/Normal/0804.JPG,0,,0.00000,31.82417,4.12644,4.94057,0,TN
+pcb4,PatchCore,pcb4/Data/Images/Normal/0811.JPG,0,,0.00000,33.90590,4.11177,4.94057,0,TN
+pcb4,PatchCore,pcb4/Data/Images/Normal/0844.JPG,0,,0.00000,31.68100,4.11059,4.94057,0,TN
+pcb4,PatchCore,pcb4/Data/Images/Normal/0920.JPG,0,,0.00000,29.90007,4.09751,4.94057,0,TN
+pcb4,PatchCore,pcb4/Data/Images/Normal/0923.JPG,0,,0.00000,28.89539,4.52834,4.94057,0,TN
+pcb4,PatchCore,pcb4/Data/Images/Normal/0935.JPG,0,,0.00000,32.09358,4.08775,4.94057,0,TN
+pcb4,PatchCore,pcb4/Data/Images/Normal/0964.JPG,0,,0.00000,29.46071,4.21742,4.94057,0,TN
+pcb4,PatchCore,pcb4/Data/Images/Normal/0974.JPG,0,,0.00000,26.65778,4.64418,4.94057,0,TN
+pcb4,PatchCore,pcb4/Data/Images/Normal/0994.JPG,0,,0.00000,31.86844,4.15382,4.94057,0,TN

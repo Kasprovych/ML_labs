@@ -1,0 +1,10 @@
+Головка,Backbone,Pixel AUROC (val),GFLOPs,"Latency, мс",Парето (latency),Парето (FLOPs)
+FAE,MobileNetV2,0.9753,1.2029,16.5922,True,True
+PaDiM,MobileNetV2,0.9506,0.6159,15.1576,True,True
+PatchCore,MobileNetV2,0.9810,8.8097,30.0524,False,False
+FAE,EfficientNetB0,0.9814,1.3218,20.6435,True,True
+PaDiM,EfficientNetB0,0.9374,0.7347,19.2588,False,False
+PatchCore,EfficientNetB0,0.9791,8.9286,33.7419,False,False
+FAE,ResNet50,0.9783,8.8191,37.9586,False,False
+PaDiM,ResNet50,0.9445,8.2321,36.8630,False,False
+PatchCore,ResNet50,0.9643,16.4260,51.8395,False,False

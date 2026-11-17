@@ -1,0 +1,9 @@
+Шар,Тип,Вихід,Параметри,Призначення
+normalization,Normalization,"(…, 512)",0,z-оцінка каналів (з train)
+input_noise,GaussianNoise,"(…, 512)",0,шум входу (лише навчання)
+encoder_hidden,Dense,"(…, 256)",131328,кодувальник
+dropout,Dropout,"(…, 256)",0,Dropout (лише навчання)
+latent,Dense,"(…, 64)",16448,«пляшкове горло»
+decoder_hidden,Dense,"(…, 256)",16640,декодувальник
+reconstruction,Dense,"(…, 512)",131584,відновлення ознаки
+reconstruction_error,PatchReconstructionError,(…),0,MSE по каналах = оцінка патча

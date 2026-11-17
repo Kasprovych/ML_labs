@@ -1,0 +1,12 @@
+run_id,study,label,category,backbone,patch_size,tile_grid,latent,dropout,l2,input_noise,pixel_auroc,pixel_ap,image_auroc,train_loss,val_loss,loss_gap,epochs,best_epoch,train_seconds
+backbones:macaroni2:MobileNetV2,backbones,MobileNetV2,macaroni2,mobilenet_v2,3,1,64,0.0000,0.0000,0.0000,0.9640,0.0112,0.7940,0.0330,0.0332,0.0002,60,60,75.5452
+backbones:macaroni2:EfficientNetB0,backbones,EfficientNetB0,macaroni2,efficientnet_b0,3,1,64,0.0000,0.0000,0.0000,0.9729,0.0170,0.7372,0.0633,0.0630,-0.0003,60,58,74.6320
+backbones:macaroni2:ResNet50,backbones,ResNet50,macaroni2,resnet50,3,1,64,0.0000,0.0000,0.0000,0.9637,0.0166,0.6856,0.1261,0.1270,0.0009,60,60,74.6227
+patch_size:macaroni2:p = 1,patch_size,p = 1,macaroni2,efficientnet_b0,1,1,64,0.0000,0.0000,0.0000,0.9814,0.0276,0.7544,0.0905,0.0901,-0.0004,60,60,74.3813
+patch_size:macaroni2:p = 5,patch_size,p = 5,macaroni2,efficientnet_b0,5,1,64,0.0000,0.0000,0.0000,0.9598,0.0124,0.6936,0.0514,0.0516,0.0002,60,60,73.4598
+"patch_size:macaroni2:p = 1, тайли 2×2",patch_size,"p = 1, тайли 2×2",macaroni2,efficientnet_b0,1,2,64,0.0000,0.0000,0.0000,0.9797,0.0152,0.6320,0.1033,0.1010,-0.0023,60,60,123.2327
+regularization:macaroni2:латент k = 16,regularization,латент k = 16,macaroni2,efficientnet_b0,1,1,16,0.0000,0.0000,0.0000,0.9799,0.0240,0.7388,0.1699,0.1681,-0.0018,60,60,73.7994
+regularization:macaroni2:латент k = 256,regularization,латент k = 256,macaroni2,efficientnet_b0,1,1,256,0.0000,0.0000,0.0000,0.9820,0.0284,0.7944,0.0344,0.0342,-0.0002,60,60,80.0850
+"regularization:macaroni2:Dropout 0,2",regularization,"Dropout 0,2",macaroni2,efficientnet_b0,1,1,64,0.2000,0.0000,0.0000,0.9793,0.0259,0.7784,0.0989,0.0984,-0.0006,60,60,76.2044
+"regularization:macaroni2:L2 = 0,0001",regularization,"L2 = 0,0001",macaroni2,efficientnet_b0,1,1,64,0.0000,0.0001,0.0000,0.9797,0.0246,0.7540,0.0958,0.0953,-0.0006,60,60,75.1342
+"regularization:macaroni2:шум σ = 0,2",regularization,"шум σ = 0,2",macaroni2,efficientnet_b0,1,1,64,0.0000,0.0000,0.2000,0.9803,0.0253,0.7708,0.0910,0.0905,-0.0005,60,60,76.5397

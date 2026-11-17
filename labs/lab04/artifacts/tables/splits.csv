@@ -1,0 +1,13 @@
+Категорія,Частина,Норма,Аномалії
+capsules,train,460,0
+capsules,val_normal,82,0
+capsules,val,30,50
+capsules,test,30,50
+macaroni2,train,765,0
+macaroni2,val_normal,135,0
+macaroni2,val,50,50
+macaroni2,test,50,50
+pcb4,train,768,0
+pcb4,val_normal,136,0
+pcb4,val,50,50
+pcb4,test,51,50

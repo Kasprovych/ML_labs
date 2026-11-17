@@ -18,6 +18,7 @@ from collections.abc import Sequence
 from sklearn.base import BaseEstimator
 
 from mllabs.core import Lab, LabContext, Step
+from mllabs.core.timing import StepTimer
 from mllabs.data import DatasetSchema, DatasetSplit, ProcessedDatasetRepository
 from mllabs.labs.lab03 import plots, summary
 from mllabs.labs.lab03.baseline import (
@@ -39,7 +40,6 @@ from mllabs.labs.lab03.search import (
     SearchOutcome,
     SearchStrategyFactory,
 )
-from mllabs.labs.lab03.timing import StepTimer
 from mllabs.modeling import CrossValidator, MetricsCalculator, ModelFactory, PairedBootstrap
 from mllabs.preprocessing import (
     MODEL_STEP,

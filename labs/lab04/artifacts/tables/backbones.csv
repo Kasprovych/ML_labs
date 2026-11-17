@@ -1,0 +1,4 @@
+Backbone,Шари (крок 8 + 16),Канали,"Параметри, млн",GFLOPs (256×256)
+MobileNetV2,block_6_expand_relu + block_13_expand_relu,768,0.616,0.595
+EfficientNetB0,block4a_expand_activation + block6a_expand_activation,912,0.946,0.714
+ResNet50,conv3_block4_out + conv4_block6_out,1536,8.589,8.211

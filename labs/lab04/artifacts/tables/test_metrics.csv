@@ -1,0 +1,10 @@
+Категорія,Метод,Image AUROC,Pixel AUROC,Pixel AP,Pixel F1,Image F1
+capsules,FAE,0.799,0.966,0.369,0.460,0.771
+capsules,PaDiM,0.583,0.925,0.054,0.129,0.709
+capsules,PatchCore,0.821,0.984,0.589,0.595,0.770
+macaroni2,FAE,0.763,0.981,0.036,0.079,0.676
+macaroni2,PaDiM,0.553,0.950,0.004,0.011,0.690
+macaroni2,PatchCore,0.826,0.985,0.071,0.110,0.775
+pcb4,FAE,0.960,0.971,0.202,0.289,0.920
+pcb4,PaDiM,0.953,0.972,0.207,0.241,0.889
+pcb4,PatchCore,0.998,0.983,0.317,0.384,0.969

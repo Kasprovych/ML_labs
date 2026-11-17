@@ -22,6 +22,7 @@ dependencies = [
     "jinja2>=3.1",
     "pyyaml>=6.0",
     "latex2mathml>=3.77",
+    "pillow>=13.0.0",
 ]
 
 [project.scripts]
@@ -49,6 +50,8 @@ addopts = "-q"
 line-length = 100
 target-version = "py312"
 src = ["src", "tests"]
+# Markdown (конспекти, звіти) не форматуємо: ruff переписав би приклади коду в них.
+extend-exclude = ["*.md"]
 
 [tool.ruff.lint]
 select = [
