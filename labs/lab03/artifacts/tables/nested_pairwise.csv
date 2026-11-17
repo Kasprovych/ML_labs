@@ -1,0 +1,11 @@
+Метод A,Метод B,Δ = B − A,s,|Δ| > s?
+"Baseline (ЛР2, без пошуку)",Grid Search,0.0104,0.0076,так
+"Baseline (ЛР2, без пошуку)",Random Search (N=20),0.0120,0.0075,так
+"Baseline (ЛР2, без пошуку)",Random Search (N=50),0.0118,0.0071,так
+"Baseline (ЛР2, без пошуку)",Bayesian / Optuna TPE (N=20),0.0110,0.0070,так
+Grid Search,Random Search (N=20),0.0016,0.0024,ні
+Grid Search,Random Search (N=50),0.0013,0.0028,ні
+Grid Search,Bayesian / Optuna TPE (N=20),0.0005,0.0027,ні
+Random Search (N=20),Random Search (N=50),-0.0003,0.0016,ні
+Random Search (N=20),Bayesian / Optuna TPE (N=20),-0.0010,0.0035,ні
+Random Search (N=50),Bayesian / Optuna TPE (N=20),-0.0008,0.0033,ні

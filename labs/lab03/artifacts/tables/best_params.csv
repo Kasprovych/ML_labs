@@ -1,0 +1,6 @@
+Метод,learning_rate,max_leaf_nodes,min_samples_leaf,max_features
+"Baseline (ЛР2, без пошуку)",0.1000,31,20,1.0000
+Grid Search,0.0300,15,20,0.3000
+Random Search (N=20),0.0391,36,34,0.3325
+Random Search (N=50),0.0391,36,34,0.3325
+Bayesian / Optuna TPE (N=20),0.0292,15,36,0.3598

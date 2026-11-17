@@ -1,0 +1,14 @@
+Показник,Значення
+Параметр max_iter,200
+Параметр learning_rate,0.1
+Параметр max_leaf_nodes,31
+Параметр min_samples_leaf,20
+Параметр l2_regularization,0.0
+Параметр early_stopping,False
+Параметр max_features,1.0
+"PR-AUC, 3 внутрішні фолди",0.4571 ± 0.0113
+"PR-AUC, 5 зовнішніх фолдів",0.4638 ± 0.0239
+"ROC-AUC, 5 зовнішніх фолдів",0.7448
+PR-AUC на train-фолдах,0.9872
+Розрив train − CV,0.5234
+Розрив train − CV у ЛР2 (повний train),0.3227
